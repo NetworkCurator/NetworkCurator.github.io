@@ -14,7 +14,9 @@ exclude:
   - LICENSE
 
 include:
-  - interface
-  - server
+  - user
+  - user/*md
+  - developer
+  - developer/*md
   - _includes
   - index.md
