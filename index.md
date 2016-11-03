@@ -1,7 +1,9 @@
 ---
-layout: doc
-title: Home page
+layout: front
+title: Welcome
 permalink: /
 ---
 
-test
+# Welcome to the NetworkCurator
+
+Intro text here

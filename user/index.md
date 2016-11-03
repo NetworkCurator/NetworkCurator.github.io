@@ -1,8 +1,8 @@
 ---
 layout: doc
-title: Client
+title: Overview
 ---
 
-Description of user interface
+## Overview pages
 
 Hello world

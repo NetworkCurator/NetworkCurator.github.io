@@ -1,7 +1,6 @@
 ---
 layout: doc
-title: Server
-permalink: /server/
+title: Developer docs
 ---
 
-Description server-side
+## Developer docs

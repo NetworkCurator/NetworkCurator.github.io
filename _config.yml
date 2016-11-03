@@ -1,13 +1,14 @@
 # Site settings
-title: NetworkCurator
-description: NetworkCurator 
-path: /
+title: NetworkCurator.github.io
+description: NetworkCurator.github.io 
+path: /NetworkCurator.github.io
 url: "" 
 
 # Build settings
 markdown: kramdown
 
 exclude:
+  - localbuild
   - Gemfile
   - Gemfile.lock
   - README.md

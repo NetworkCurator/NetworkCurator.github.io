@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html %}
+    <body id="body">
+        {% include navbar.html %}
+
+         <div class="container">
+            <div class="row">                
+                <div class="col-sm-8">
+                    
+                    {{ content }}           
+                
+                    <table>
+                        <tr><td>
+                                {% include contents.user.html %}
+                            </td>
+                            <td>
+                                {% include contents.developer.html %}
+                            </td>
+                        </tr>
+                    </table>
+                </div>                                                        
+            </div>            
+        </div>
+        
+        
+    </body>
+</html>

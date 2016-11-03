@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html>
-
-    <head>   
-        <title>{{ page.title }} - {{ site.title }}</title>
-        <link rel="stylesheet" href="{{ site.path }}/_includes/bootstrap-3.3.7/css/bootstrap.min.css" >        
-    </head>
-
+    {% include header.html %}
     <body id="body">
+        {% include navbar.html %}
+
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1> {{ page.title }}</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-8" id="maincontent">
+            <div class="row">                
+                <div class="col-sm-8">                   
                     {{ content }}           
-                </div>
-            </div>
 
+                </div>
+                <div class="col-sm-3 pull-right">
+                    <h3> Table of Contents </h3>
+                    {% include contents.user.html %}
+                    {% include contents.developer.html %}
+                </div>
+            </div>            
         </div>
     </body>
 </html>
