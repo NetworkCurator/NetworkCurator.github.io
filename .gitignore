@@ -6,6 +6,8 @@
 nbproject
 */*log
 localbuild
+_config_local.yml
+package.json
 
 ## ignore distribution and jekyll
 _site
