@@ -110,7 +110,7 @@ The following instructions describe a clean installation using a git clone. This
 
   This should open a blank area where you can type-in some text. Enter the following defintions
 
-  ~~~ 
+  ~~~ php
   <?php
   define("DB_ROOT_PASSWD", "curating#networks4science");
   define("DB_ADMIN_PASSWD", "another1001#SCIadventures");
