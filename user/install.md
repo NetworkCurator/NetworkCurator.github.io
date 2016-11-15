@@ -3,6 +3,7 @@ layout: doc
 title: Installation
 ---
 
+# Installation
 
 The NetworkCurator is free software and is available from github. To create an instance of the NetworkCurator and manage your own networks, you will have to download and configure the software on a web server.
 
@@ -19,6 +20,7 @@ The tutorial assumes that you already have a web domain and a hosting account fr
 
 
 <a name="hosting"></a>
+
 ## Web server setup
 
 The first stage of the installation is setting up a database on your web server. The database will be used to store user and network data.

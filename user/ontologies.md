@@ -3,6 +3,7 @@ layout: doc
 title: Ontologies
 ---
 
+# Ontologies
 
 The graph ontology page defines the types of the nodes and links that can be represented in a given network. The page also provides tools to adjust the visual appearance of these objects when displayed on the graph page.
 
