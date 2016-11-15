@@ -110,7 +110,7 @@ The following instructions describe a clean installation using a git clone. This
 
   This should open a blank area where you can type-in some text. Enter the following defintions
 
-  ```php
+  <pre><code>
   <?php
   define("DB_ROOT_PASSWD", "curating#networks4science");
   define("DB_ADMIN_PASSWD", "another1001#SCIadventures");
@@ -120,7 +120,7 @@ The following instructions describe a clean installation using a git clone. This
   define("NC_SITE_NAME", "sitename");
   define("NC_SITE_ADMIN_PASSWORD", "adminpassword");
   ?>
-  ```
+  </code></pre>
 
   Each line consists of a `define` statment, a name in uppercase letters, and a value in quotes. Adjust the values in quotes to suit your local installation. 
   
