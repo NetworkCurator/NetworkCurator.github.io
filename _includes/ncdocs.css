@@ -38,7 +38,9 @@ p {
     padding-bottom: 0.3em;
     padding-top: 0.3em;
 }
-
+img {
+    border: 1px solid #ddd;
+}
 
 
 /**
