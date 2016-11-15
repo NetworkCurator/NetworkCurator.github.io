@@ -53,35 +53,35 @@ The next stage of the installation involves downloading the NetworkCurator softw
 
 The following instructions describe a clean installation using a git clone. This strategy copies the current version of the software onto the web server and also establishes a relationship between the install instance and the github source. We will later use this relationship to update the software in a later section.
 
-1. We start the installation from a shell on your local computer. Connect to the web server via ssh. Enter command
+ 1  We start the installation from a shell on your local computer. Connect to the web server via ssh. Enter command
 
-  ```
-  ssh siteadmin@sitename.org
-  ```
+    ```
+    ssh siteadmin@sitename.org
+    ```
 
-  Provide your password when prompted. 
+    Provide your password when prompted. 
 
-2. The connection to the server likely lands you in your home directory. Navigate to the directory that is dedicated to public (i.e. www) pages. This is often called `public_html`. 
+ 2  The connection to the server likely lands you in your home directory. Navigate to the directory that is dedicated to public (i.e. www) pages. This is often called `public_html`. 
 
   ```
   cd public_html
   ```
 
-3. We now have to choose an installation directory. If the entire site will be dedicated to the NetworkCurator, the current directory (i.e. `public_html`) is the installation directory. If the NetworkCurator is only a part of a larger site, create or navigate to the intended location.
+ 3  We now have to choose an installation directory. If the entire site will be dedicated to the NetworkCurator, the current directory (i.e. `public_html`) is the installation directory. If the NetworkCurator is only a part of a larger site, create or navigate to the intended location.
 
-4.  We will need the installation directory to be empty. To check this, execute 
+ 4  We will need the installation directory to be empty. To check this, execute 
 
-  ```
-  ls
-  ```
+    ```
+    ls
+    ```
  
-  This command should display nothing, or only files that are truly redundant (we will delete them shortly). An `index.html` or `index.php` that comes with a hosting package is redundant. So is a directory `cgi-bin`. Items called `./` or `../` are ok too. If there are any such existing files, we will now delete them
+    This command should display nothing, or only files that are truly redundant (we will delete them shortly). An `index.html` or `index.php` that comes with a hosting package is redundant. So is a directory `cgi-bin`. Items called `./` or `../` are ok too. If there are any such existing files, we will now delete them
 
-  ```
-  rm -r *
-  ```
+    ```
+    rm -r *
+    ```
 
-5. We are now ready to download the NetworkCurator software. We will do this by cloning using the following command (note the dot at the end, it's important!)
+ 5  We are now ready to download the NetworkCurator software. We will do this by cloning using the following command (note the dot at the end, it's important!)
 
   ```
   git clone https://github.com/tkonopka/NetworkCurator.git .
@@ -95,32 +95,32 @@ The following instructions describe a clean installation using a git clone. This
 
   This should list a number of directories and files. In particular, there should be a file `index.php` and several directories starting with the prefix `nc`.
 
-6.  We now have to configure the software, i.e. enable interactions with the database. There is configuration file to do this in the `nc-admin/install` directory. We thus navigate there
+ 6  We now have to configure the software, i.e. enable interactions with the database. There is configuration file to do this in the `nc-admin/install` directory. We thus navigate there
 
   ```
   cd nc-admin/install
   ls
   ```
 
-  The second command should list files `install-settings.php` and `install.php`. These files contain core settings that apply to the software as a whole. But we need to specify settings that are specific to our `sitename` installation. To do this, we need to create a new file called `install-settings-local.php` using a text editor. Execute the following command:
+    The second command should list files `install-settings.php` and `install.php`. These files contain core settings that apply to the software as a whole. But we need to specify settings that are specific to our `sitename` installation. To do this, we need to create a new file called `install-settings-local.php` using a text editor. Execute the following command:
 
-  ```
-  nano install-settings-local.php
-  ```
+    ```
+    nano install-settings-local.php
+    ```
 
-  This should open a blank area where you can type-in some text. Enter the following defintions
+    This should open a blank area where you can type-in some text. Enter the following defintions
 
-  ~~~ php
-  <?php
-  define("DB_ROOT_PASSWD", "curating#networks4science");
-  define("DB_ADMIN_PASSWD", "another1001#SCIadventures");
-  define("NC_APP_ID", "sitename");
-  define("SERVER", "sitename");
-  define("NC_PATH", "");
-  define("NC_SITE_NAME", "sitename");
-  define("NC_SITE_ADMIN_PASSWORD", "adminpassword");
-  ?>
-  ~~~
+    ~~~ php
+    <?php
+    define("DB_ROOT_PASSWD", "curating#networks4science");
+    define("DB_ADMIN_PASSWD", "another1001#SCIadventures");
+    define("NC_APP_ID", "sitename");
+    define("SERVER", "sitename");
+    define("NC_PATH", "");
+    define("NC_SITE_NAME", "sitename");
+    define("NC_SITE_ADMIN_PASSWORD", "adminpassword");
+    ?>
+    ~~~
 
   Each line consists of a `define` statment, a name in uppercase letters, and a value in quotes. Adjust the values in quotes to suit your local installation. 
   
