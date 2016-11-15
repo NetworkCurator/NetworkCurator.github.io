@@ -27,19 +27,19 @@ The first stage of the installation is setting up a database on your web server.
 
 Unfortunately, hosting providers provide different features and interfaces, making it impossible to provide precise step-by-step setup instructions. However, setting up a database requires only a few steps and can be performed through the graphical control panel provided through a hosting package. 
 
- 1  Log in to your hosting control panel. Such control panels often have a  toolbar on the left side and groups of icons on the right side.
+1. Log in to your hosting control panel. Such control panels often have a  toolbar on the left side and groups of icons on the right side.
 
- 2  Find the section of the control panel that refers to databases. Find an icon marked 'MySQL Databases' or that otherwise promises to `create a new database`. Click that icon and you should see a new screen with a form and various options. 
+2. Find the section of the control panel that refers to databases. Find an icon marked 'MySQL Databases' or that otherwise promises to `create a new database`. Click that icon and you should see a new screen with a form and various options. 
 
- 3  Follow the instructions on the `create database` screen. You will need to enter a name for your database. It will be convenient to name the database `networkcurator` (all lowercase, no spaces). Click `OK` or equivalent button to create the database. 
+3. Follow the instructions on the `create database` screen. You will need to enter a name for your database. It will be convenient to name the database `networkcurator` (all lowercase, no spaces). Click `OK` or equivalent button to create the database. 
 
- 4  Next, we will need to create database user accounts. These accounts are needed to enable the NetworkCurator software to access and modify the contents of the database. 
+4. Next, we will need to create database user accounts. These accounts are needed to enable the NetworkCurator software to access and modify the contents of the database. 
 
     Go back to the database page. Find the section that promises to 'add new users'. Create two new accounts named `nc_admin0` and `nc_admin1`. For each, choose a strong password for each account and write it down in a secure place.
 
- 5  We now must connect the user accounts with our database. On the database page, find the section that promises to 'add users to database'. For each account `nc_admin0` and `nc_admin1`, connect the user to the `networkcurator` database. If during this process the page asks about user privileges, you should assign 'ALL PRIVILEGES' to both users.
+5. We now must connect the user accounts with our database. On the database page, find the section that promises to 'add users to database'. For each account `nc_admin0` and `nc_admin1`, connect the user to the `networkcurator` database. If during this process the page asks about user privileges, you should assign 'ALL PRIVILEGES' to both users.
 
- 6  Database user accounts can be configured with various permissions levels. We will need our users to have full access to the `networcurator` database. If the process in the previous step did not already ask about privileges, find the relevant section on the database page and select `Grant all privileges` or equivalent to the two users.
+6. Database user accounts can be configured with various permissions levels. We will need our users to have full access to the `networcurator` database. If the process in the previous step did not already ask about privileges, find the relevant section on the database page and select `Grant all privileges` or equivalent to the two users.
 
 
 The web server and database setup is complete. If you would like to verify your actions, look for an icon in the control panel called `phpmyadmin`. Click that icon and you should see a page providing some information on your databases, which should now include `networkcurator`. 
