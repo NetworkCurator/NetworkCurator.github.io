@@ -15,6 +15,7 @@ This chapter is composed of two parts:
 
 
 <a name="browsing"></a>
+
 ## Ontology class structure
 
 - [ ] To do, describe how to interpret the ontology trees (as a normal user)
@@ -22,6 +23,7 @@ This chapter is composed of two parts:
 
 
 <a name="managing"></a>
+
 ## Managing ontologies 
 
 - [ ] To do: describe how to manipulate the ontology structure as a curator
@@ -41,6 +43,7 @@ Mention adjusting class names. (Avoid it, but if necessary, see section on adjus
 
 
 <a name="styling"></a>
+
 ## Styling ontology classes
 
 **Curators**
@@ -124,7 +127,8 @@ Again, there are a few points to highlight.
 
 <small>Another way of styling involves writing rules directly inside the shape definitions. This works in principle, but causes problems during selections. Therefore, please use the approach using style tags as described above.</small>
 
-<br/>
+
+
 ### Styling links
 
 Links are always rendered using `line` elements. Thus to style a link we do not need to specify a shape, only the css style. 
@@ -158,7 +162,7 @@ line.LINK_Y {
 - The ontology **class name must be specified after `line`**. As for nodes, this name must be updated manually.
 
 
-<br/>
+
 Thus far, the links are rendered as plain lines. However, in some cases it useful to encode directional relationships. For this purpose we can use line markers (e.g. arrowheads). To achieve this the line style should include two things: a definition for a marker, and a CSS instruction for how to apply the marker to the line. 
 
 An example with a simple arrowhead is

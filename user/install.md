@@ -46,6 +46,7 @@ The web server and database setup is complete. If you would like to verify your 
 
 
 <a name="nccore"></a>
+
 ## Installation of the server-side software
 
 The next stage of the installation involves downloading the NetworkCurator software and configuring it on the web server. This software is necessary in order to interact with the database created above. 
@@ -109,7 +110,9 @@ The following instructions describe a clean installation using a git clone. This
 
   This should open a blank area where you can type-in some text. Enter the following defintions
 
+
   ```
+
   <?php
   define("DB_ROOT_PASSWD", "curating#networks4science");
   define("DB_ADMIN_PASSWD", "another1001#SCIadventures");
@@ -145,6 +148,7 @@ The core NetworkCurator software is now ready. Next, we will install the user in
 
 
 <a name="ncui"></a>
+
 ## Installation of a user interface
 
 In the previous section we configured the server-side software. We now have to install a graphical user interface. In this tutorial we will install the default interface, which is found in another github repository called `NetworkCurator-ui`.
@@ -183,6 +187,7 @@ The user interface should now be ready. We're almost done, only one more step.
 
 
 <a name="ncupdates"></a>
+
 ## Updating the software
 
 Open-source software is often a work-in-progress. Some time after you install a version of the software, you might like to update the software to benefit from new features or bug fixes. After a clone-based installation, it is very easy to incorporate such updates into a local NetworkCurator instance. 
@@ -213,6 +218,7 @@ This will replace the software files with the most up-to-date versions from the 
 
 
 <a name="ncappendix"></a>
+
 ## Appendix
 
 This appendix contains miscellaneous comments relating to installation and setup. 
