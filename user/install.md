@@ -71,9 +71,9 @@ The following instructions describe a clean installation using a git clone. This
 
 4. We will need the installation directory to be empty. To check this, execute 
 
-    ~~~
+    ```
     ls
-    ~~~
+    ```
  
     This command should display nothing, or only files that are truly redundant (we will delete them shortly). An `index.html` or `index.php` that comes with a hosting package is redundant. So is a directory `cgi-bin`. Items called `./` or `../` are ok too. If there are any such existing files, we will now delete them
 
