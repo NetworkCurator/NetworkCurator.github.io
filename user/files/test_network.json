@@ -1,0 +1,77 @@
+{
+    "network": [
+        {
+            "name": "test_network",
+            "title": "Simple network for testing",
+            "abstract": "Simple network from the networkcurator documentation."
+        }
+    ],
+    "ontology": [
+        {
+            "name": "NODE_A",
+            "connector": 0,
+            "directional": 0
+        },
+        {
+            "name": "NODE_Z",
+            "connector": 0,
+            "directional": 0
+        },
+        {
+            "name": "LINK_1",
+            "connector": 1,
+            "directional": 0
+        },
+        {
+            "name": "LINK_2",
+            "connector": 1,
+            "directional": 0
+        }
+    ],
+    "nodes": [
+        {
+            "name": "aa",
+            "title": "aa title",
+            "class": "NODE_A"
+        },
+        {
+            "name": "bb",
+            "title": "bb title",
+            "class": "NODE_A"
+        },
+        {
+            "name": "yy",
+            "title": "yy title",
+            "class": "NODE_Z"
+        },
+        {
+            "name": "zz",
+            "title": "zz title",
+            "class": "NODE_Z"
+        }
+    ],
+    "links": [
+        {
+            "name": "aa_yy",
+            "title": "aa_yy title",
+            "class": "LINK_1",
+            "source": "aa",
+            "target": "yy"
+        },
+        {
+            "name": "aa_zz",
+            "title": "aa_zz title",
+            "class": "LINK_1",
+            "source": "aa",
+            "target": "zz"
+        },
+        {
+            "name": "bb_zz",
+            "title": "bb_zz title",
+            "class": "LINK_2",
+            "source": "bb",
+            "target": "zz"
+        }
+    ]
+}
+

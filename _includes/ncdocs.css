@@ -7,10 +7,10 @@
 
 /* Generic componenets */
 body {
-    font-size: 14px;
+    font-size: 16px;
     padding-bottom: 128px;
     padding-top: 32px;
-    line-height: 1.55em;
+    line-height: 1.6em;
     font-family: 'Open Sans', Helvetica, sans-serif;   
 }
 h1, h2, h3, h4 {     

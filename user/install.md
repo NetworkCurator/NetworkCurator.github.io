@@ -9,7 +9,7 @@ The NetworkCurator is free software and is available from github. To create an i
 
 This chapter provides an installation tutorial divided into the following parts
 
-- [Web server setup](#hosting): covers prep of a hosting account for the installation
+- [Web server setup](#hosting): covers prep of a hosting account
 - [Installation of core software](#nccore): covers download and configuration of the server-side software
 - [Installation of the web interface](#ncui): covers download and configuration of the user interface
 - [Updating the software](#ncupdates): covers how to update the software
@@ -27,6 +27,7 @@ The first stage of the installation is setting up a database on your web server.
 
 Unfortunately, hosting providers provide different features and interfaces, making it impossible to provide precise step-by-step setup instructions. However, setting up a database requires only a few steps and can be performed through the graphical control panel provided through a hosting package. 
 
+
 #### 1. Log in to your hosting
 
 Log in to your hosting control panel. Such control panels often have a toolbar on the left side and groups of icons on the right side.
@@ -37,11 +38,15 @@ Find the section of the control panel that refers to databases. Find an icon mar
 
 Follow the instructions on the `create database` screen. You will need to enter a name for your database. It will be convenient to name the database `networkcurator` (all lowercase, no spaces). Click `OK` or equivalent button to create the database. 
 
+
 #### 3. Create database user accounts
 
 We now need to create database user accounts. These accounts enable the NetworkCurator software to access and modify the contents of the database. 
 
 Go back to the database page. Find the section that promises to 'add new users'. Create two new accounts named `nc_admin0` and `nc_admin1`. Choose a strong password for each account and write it down in a secure place.
+
+(Strong passwords are important and you should choose both well. You will not have to remember them, so don't be afraid to use long passwords with special characters.)
+
 
 #### 4. Connect users to the database 
 
@@ -54,6 +59,7 @@ Database user accounts can be configured with various permissions levels. We wil
 
 
 The web server and database setup is complete. If you would like to verify your actions, look for an icon in the control panel called `phpmyadmin`. Click that icon and you should see a page providing some information on your databases, which should now include `networkcurator`. 
+
 
 
 <a name="nccore"></a>
@@ -86,17 +92,33 @@ We now have to choose an installation directory. If the entire site will be dedi
 
 #### 3. Clean the installation directory
 
-We will need the installation directory to be empty. To check this, execute 
+We will need the installation directory to be empty. To check this, execute the list command
 
 ```
 ls
 ```
  
-This command should display nothing, or only files that are truly redundant (we will delete them shortly). An `index.html` or `index.php` that comes with a hosting package is redundant. So is a directory `cgi-bin`. Items called `./` or `../` are ok too. If there are any such existing files, we will now delete them
+This command should display nothing, or only files that are truly redundant (we will delete them shortly). An `index.html` or `index.php` that comes with a hosting package is redundant. So is a directory `cgi-bin`. If there are any such existing files, we will now delete them
 
 ```
 rm -r *
 ```
+
+To check this actually worked as expected, execute the list command again 
+
+```
+ls
+```
+
+This should display nothing. Depending on server settings, items called `./` or `../` may appear, but those are ok. If there are any other items left, we have to remove them one by one. For example, if a file `.htaccess` still exists, remove it using the command
+
+```
+rm .htaccess
+```
+
+Perform similar actions for all files in the directory.
+
+
 
 #### 4. Download the network curator software
 
@@ -135,10 +157,10 @@ This should open a blank area where you can type-in some text. Enter the followi
 
 ``` 
 <?php
-define("DB_ROOT_PASSWD", "curating#networks4science");
-define("DB_ADMIN_PASSWD", "another1001#SCIadventures");
+define("DB_ROOT_PASSWD", "nc_admin0_password");
+define("DB_ADMIN_PASSWD", "nc_admin1_password");
 define("NC_APP_ID", "sitename");
-define("SERVER", "sitename");
+define("SERVER", "sitename.org");
 define("NC_PATH", "");
 define("NC_SITE_NAME", "sitename");
 define("NC_SITE_ADMIN_PASSWORD", "adminpassword");
@@ -147,10 +169,10 @@ define("NC_SITE_ADMIN_PASSWORD", "adminpassword");
 
 Each line consists of a `define` statment, a name in uppercase letters, and a value in quotes. Adjust the values in quotes to suit your local installation. 
   
- *  make sure the two passwords at the top matche what you used during database setup
- *  choose an adequate password for the admin user (last line above)
- *  if your installation directory is `public_html`, you can leave the `NC_PATH` as is; if your installation directory is a subdirectory, adjust `NC_PATH` accordingly
- *  (Remember to change `sitename` placeholder to your actual domain name)
+ - Make sure the two passwords at the top match what you used during database setup for users `nc_admin0` and `nc_admin1`, respectively.
+ - Choose an adequate password for the admin user (last line above)
+ - If your installation directory is `public_html`, you can leave the `NC_PATH` as is; if your installation directory is a subdirectory, adjust `NC_PATH` accordingly
+ - (Remember to change `sitename` placeholder to your actual domain name)
 
 After adjustements, save the file and exit (`Ctrl-X`, then `Y`, then `Enter`).
 
