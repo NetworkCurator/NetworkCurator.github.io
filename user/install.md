@@ -71,9 +71,9 @@ The following instructions describe a clean installation using a git clone. This
 
 4. We will need the installation directory to be empty. To check this, execute 
 
-    ```
+    ~~~
     ls
-    ```
+    ~~~
  
     This command should display nothing, or only files that are truly redundant (we will delete them shortly). An `index.html` or `index.php` that comes with a hosting package is redundant. So is a directory `cgi-bin`. Items called `./` or `../` are ok too. If there are any such existing files, we will now delete them
 
@@ -124,10 +124,10 @@ The following instructions describe a clean installation using a git clone. This
 
     Each line consists of a `define` statment, a name in uppercase letters, and a value in quotes. Adjust the values in quotes to suit your local installation. 
   
-     -  make sure the two passwords at the top matche what you used during database setup
-     -  choose an adequate password for the admin user (last line above)
-     -  if your installation directory is `public_html`, you can leave the `NC_PATH` as is; if your installation directory is a subdirectory, adjust `NC_PATH` accordingly
-     -  (Remember to change `sitename` placeholder to your actual domain name)
+     *  make sure the two passwords at the top matche what you used during database setup
+     *  choose an adequate password for the admin user (last line above)
+     *  if your installation directory is `public_html`, you can leave the `NC_PATH` as is; if your installation directory is a subdirectory, adjust `NC_PATH` accordingly
+     *  (Remember to change `sitename` placeholder to your actual domain name)
 
     After adjustements, save the file and exit (`Ctrl-X`, then `Y`, then `Enter`).
 
@@ -153,31 +153,31 @@ In the previous section we configured the server-side software. We now have to i
 
 1. If you are continuing from the previous steps, you are now at the command prompt in the directory called `nc-admin/install`. Navigate back to the root of the installation directory (we used `public_html). 
 
-  ```
-  cd ../../
-  ls
-  ```
+    ```
+    cd ../../
+    ls
+    ```
 
-  The second command should display the same information as we saw earlier, including an `index.php` file. 
+    The second command should display the same information as we saw earlier, including an `index.php` file. 
 
 2. We now have to create a subdirectory for the user interface. This directory must be called `nc-ui`. Create this folder and navigate inside.
 
-  ```
-  mkdir nc-ui
-  cd nc-ui
-  ```
+    ```
+    mkdir nc-ui
+    cd nc-ui
+    ```
 
 3. We can now download the user-interface, again using cloning from github. The command is (note the dot at the end)
 
-  ```
-  git clone https://github.com/tkonopka/NetworkCurator-ui.git .
-  ```
+    ```
+    git clone https://github.com/tkonopka/NetworkCurator-ui.git .
+    ```
 
-  You should see some progress messages while the files are copied. If you like, you can inspect the contents of the directory using `ls`. Finally, navigate back to the root directory. From the present location, type
+    You should see some progress messages while the files are copied. If you like, you can inspect the contents of the directory using `ls`. Finally, navigate back to the root directory. From the present location, type
 
-  ```
-  cd ..
-  ```
+    ```
+    cd ..
+    ```
 
 
 The user interface should now be ready. We're almost done, only one more step.
