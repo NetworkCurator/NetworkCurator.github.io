@@ -53,7 +53,7 @@ The next stage of the installation involves downloading the NetworkCurator softw
 
 The following instructions describe a clean installation using a git clone. This strategy copies the current version of the software onto the web server and also establishes a relationship between the install instance and the github source. We will later use this relationship to update the software in a later section.
 
- 1  We start the installation from a shell on your local computer. Connect to the web server via ssh. Enter command
+1. We start the installation from a shell on your local computer. Connect to the web server via ssh. Enter command
 
     ```
     ssh siteadmin@sitename.org
@@ -61,15 +61,15 @@ The following instructions describe a clean installation using a git clone. This
 
     Provide your password when prompted. 
 
- 2  The connection to the server likely lands you in your home directory. Navigate to the directory that is dedicated to public (i.e. www) pages. This is often called `public_html`. 
+2. The connection to the server likely lands you in your home directory. Navigate to the directory that is dedicated to public (i.e. www) pages. This is often called `public_html`. 
 
   ```
   cd public_html
   ```
 
- 3  We now have to choose an installation directory. If the entire site will be dedicated to the NetworkCurator, the current directory (i.e. `public_html`) is the installation directory. If the NetworkCurator is only a part of a larger site, create or navigate to the intended location.
+3. We now have to choose an installation directory. If the entire site will be dedicated to the NetworkCurator, the current directory (i.e. `public_html`) is the installation directory. If the NetworkCurator is only a part of a larger site, create or navigate to the intended location.
 
- 4  We will need the installation directory to be empty. To check this, execute 
+4. We will need the installation directory to be empty. To check this, execute 
 
     ```
     ls
@@ -81,7 +81,7 @@ The following instructions describe a clean installation using a git clone. This
     rm -r *
     ```
 
- 5  We are now ready to download the NetworkCurator software. We will do this by cloning using the following command (note the dot at the end, it's important!)
+5. We are now ready to download the NetworkCurator software. We will do this by cloning using the following command (note the dot at the end, it's important!)
 
     ```
     git clone https://github.com/tkonopka/NetworkCurator.git .
@@ -95,7 +95,7 @@ The following instructions describe a clean installation using a git clone. This
 
   This should list a number of directories and files. In particular, there should be a file `index.php` and several directories starting with the prefix `nc`.
 
- 6  We now have to configure the software, i.e. enable interactions with the database. There is configuration file to do this in the `nc-admin/install` directory. We thus navigate there
+6. We now have to configure the software, i.e. enable interactions with the database. There is configuration file to do this in the `nc-admin/install` directory. We thus navigate there
 
     ```
     cd nc-admin/install
@@ -132,7 +132,7 @@ The following instructions describe a clean installation using a git clone. This
   After adjustements, save the file and exit (`Ctrl-X`, then `Y`, then `Enter`).
 
 
- 7  We can now run the installation script. On the command prompt, execute the following command
+7. We can now run the installation script. On the command prompt, execute the following command
 
     ```
     php install.php
