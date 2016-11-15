@@ -63,9 +63,9 @@ The following instructions describe a clean installation using a git clone. This
 
 2. The connection to the server likely lands you in your home directory. Navigate to the directory that is dedicated to public (i.e. www) pages. This is often called `public_html`. 
 
-  ```
-  cd public_html
-  ```
+    ```
+    cd public_html
+    ```
 
 3. We now have to choose an installation directory. If the entire site will be dedicated to the NetworkCurator, the current directory (i.e. `public_html`) is the installation directory. If the NetworkCurator is only a part of a larger site, create or navigate to the intended location.
 
@@ -93,7 +93,7 @@ The following instructions describe a clean installation using a git clone. This
     ls
     ```
 
-  This should list a number of directories and files. In particular, there should be a file `index.php` and several directories starting with the prefix `nc`.
+    This should list a number of directories and files. In particular, there should be a file `index.php` and several directories starting with the prefix `nc`.
 
 6. We now have to configure the software, i.e. enable interactions with the database. There is configuration file to do this in the `nc-admin/install` directory. We thus navigate there
 
@@ -110,7 +110,7 @@ The following instructions describe a clean installation using a git clone. This
 
     This should open a blank area where you can type-in some text. Enter the following defintions
 
-    ~~~ php
+    ``` php
     <?php
     define("DB_ROOT_PASSWD", "curating#networks4science");
     define("DB_ADMIN_PASSWD", "another1001#SCIadventures");
@@ -120,16 +120,16 @@ The following instructions describe a clean installation using a git clone. This
     define("NC_SITE_NAME", "sitename");
     define("NC_SITE_ADMIN_PASSWORD", "adminpassword");
     ?>
-    ~~~
+    ```
 
-  Each line consists of a `define` statment, a name in uppercase letters, and a value in quotes. Adjust the values in quotes to suit your local installation. 
+    Each line consists of a `define` statment, a name in uppercase letters, and a value in quotes. Adjust the values in quotes to suit your local installation. 
   
-  - make sure the two passwords at the top matche what you used during database setup
-  - choose an adequate password for the admin user (last line above)
-  - if your installation directory is `public_html`, you can leave the `NC_PATH` as is; if your installation directory is a subdirectory, adjust `NC_PATH` accordingly
-  - (Remember to change `sitename` placeholder to your actual domain name)
+     -  make sure the two passwords at the top matche what you used during database setup
+     -  choose an adequate password for the admin user (last line above)
+     -  if your installation directory is `public_html`, you can leave the `NC_PATH` as is; if your installation directory is a subdirectory, adjust `NC_PATH` accordingly
+     -  (Remember to change `sitename` placeholder to your actual domain name)
 
-  After adjustements, save the file and exit (`Ctrl-X`, then `Y`, then `Enter`).
+    After adjustements, save the file and exit (`Ctrl-X`, then `Y`, then `Enter`).
 
 
 7. We can now run the installation script. On the command prompt, execute the following command
