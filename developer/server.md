@@ -5,7 +5,15 @@ title: Server code
 
 # Server code file structure
 
-Below are quick summaries of the directories and important files in the root directory of the repository. 
+The main code is located in github repository [NetworkCurator](https://github.com/NetworkCurator/NetworkCurator).
+This section outlines the directories and important files in the root directory of 
+that repository. 
+
+{:.p-note}
+**Note:** [Another repository](https://github.com/NetworkCurator/NetworkCurator-ui) 
+contains code for the user interface. That code is explained [here](themes.html).
+
+
 
 
 ## Directories

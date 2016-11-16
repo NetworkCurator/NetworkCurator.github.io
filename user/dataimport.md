@@ -95,8 +95,10 @@ The JSON array can contain multiple entries. Each entry describes either a node 
 
 The `name` attribute in each entry is **required**. When the named class does not exist in the network, it is created. When the named class already exists, the definitions are used to change its properties. Definitions that match existing values are ignored.
 
+{:.p-note}
 **Note:** Attributes other than `name` are not required. However, they default to the values shown for nodes and links, respectively. Thus, a missing attribute for an existing ontology class can trigger an update. 
 
+{:.p-warning}
 **Warning:** Updating ontology classes is tricky, especially when there is a nontrivial hierarchy structure involved. In most cases it is best to use the import features only to define new root-level classes. Adjustments/updates are more easily made through the web interface. 
 
 

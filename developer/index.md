@@ -7,7 +7,7 @@ title: Developer's guide
 
 The NetworkCurator is open-source software that you are free to use and modify. This chapter describes the organization of the project from a developer's point of view. 
 
-- [File structure](server.html). This section outlines the directories and important files in the github repository. 
+- [Code structure](server.html). This section outlines the directories and important files in the github repository. 
 
 - [API](api.html). This section outlines application programming interface that powers user interactions with the database.
 
