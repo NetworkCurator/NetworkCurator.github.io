@@ -200,13 +200,13 @@ That's it, more or less. Maybe needs some editing.
 ### Examples
 
 <style type="text/css">
-use.STIMULUS {
+use.DRUG {
   fill: #8a8;
   stroke: #242;
   stroke-width: 1;
 }
 </style>
-<g id="STIMULUS" transform="rotate(-30)">
+<g id="DRUG" transform="rotate(-30)">
 <rect x="-16" y="-8" width="32" height="16" rx=8></rect>
 <rect x="-10" y="-5" width="10" height="10" fill="#ffffff" stroke-width=0></rect>
 <circle cx=-8 cy=0 r=5 fill="#fff" stroke-width=0 ></circle>
@@ -246,4 +246,51 @@ use.Pathway {
   </g>
 
 
+
+<style type="text/css">
+use.STIMULUS {
+  fill: #fd0;
+  stroke: #630;
+  stroke-width: 0.3;
+}
+</style>
+<g id="STIMULUS" transform="translate(-18,-18)">
+<path d="m 25.770,0.468 -14.092,13.562 5.837,0 -11.487,11.062 5.837,0 L 0.409,36.156 24.169,22.562 l -7.815,0 13.433,-11.031 -7.815,0 13.464,-11.062 -9.667,0 z" />
+</g>
+
+
+
+<style type="text/css">
+use.LOGIC_AND {
+  fill: #eee;
+  stroke: #222;
+  stroke-width: 1.5;
+}
+</style>
+<g id="LOGIC_AND" transform="translate(-18,-18)">
+    <path d="m 6.846,8.142 0,19.715 13.246,0 c 0.065,0 0.131,0 0.196,0 5.351,-0.105 9.67,-4.495 9.675,-9.871 0,-5.37 -4.323,-9.738 -9.675,-9.843 l -0.196,0 -13.246,0 z"></path>
+    <g transform="matrix(0.9,0,0,0.9,-14.680,-956.572)" id="g3853">
+      <path d="m 16.404,1089.384 7.336,0"></path>
+      <path d="m 16.404,1076.333 7.336,0"></path>
+    </g>
+    <path d="m 29.923,18 6.603,0"></path>
+  </g>
+
+
+<style type="text/css">
+use.LOGIC_OR {
+  fill: #eee;
+  stroke: #222;
+  stroke-width: 1.5;
+}
+</style>
+<g id="LOGIC_OR" transform="translate(-18,-18)">
+    <path d="m 6.410,8.142 c 0,0 3.403,4.549 3.403,9.843 0,5.294 -3.403,9.871 -3.403,9.871 l 13.246,0 c 0.075,0 0.150,0 0.225,0 5.329,-0.110 9.315,-4.168 10.996,-9.871 -2.129,-6.375 -5.679,-9.751 -10.996,-9.843 l -0.225,0 -13.246,0 z" />
+    <g transform="matrix(1.199,0,0,0.9,-19.820,-956.576)" >
+      <path d="m 16.404,1089.384 7.336,0" />
+      <path d="m 16.404,1076.333 7.336,0" />
+    </g>
+    <path d="m 30.433,17.996 5.703,0" />
+  </g>
+ 
 
