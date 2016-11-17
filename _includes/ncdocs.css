@@ -45,22 +45,23 @@ pre {
     border: none;
     border-radius: 0px;
     background-color: #f2f2f2;
+    font-size: 14px;
 }
 
 /* Styling of some special paragraphs */
 p.p-note, p.p-warning {    
-    margin: 4px 0px 2px -3px;    
-    padding: 10px;    
+    margin: 4px 0px 2px -4px;    
+    padding: 12px;    
     font-size: 14px;
-    line-height: 1.45em;
+    line-height: 1.5em;
 }
 p.p-note {
     background-color: rgba(53,34,8,0.1);
-    border-left: 6px solid rgba(53,34,8,1);
+    border-left: 8px solid rgba(53,34,8,0.4);
 }
 p.p-warning {
     background-color: rgba(149,9,82,0.1);
-    border-left: 6px solid rgba(149,9,82,1);
+    border-left: 8px solid rgba(149,9,82,0.4);
 }
 
 
@@ -98,6 +99,10 @@ td {
     vertical-align: top;
 }
 ul {
+    list-style: circle;
+    padding-left: 28px;
+}
+ul.toc {
     list-style: none;
     padding-left: 0px;
 }

@@ -3,6 +3,5 @@ layout: doc
 title: Overview
 ---
 
-## Overview pages
+# User's guide
 
-Hello world

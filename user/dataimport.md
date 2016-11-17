@@ -3,7 +3,7 @@ layout: doc
 title: Data input
 ---
 
-# Network import
+# Data import
 
 
 Whereas the web interface provides tools for creating and editing individual graph objects, it is sometimes useful to make several changes at once. These actions can be performed through data imports. 

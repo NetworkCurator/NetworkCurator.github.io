@@ -3,4 +3,5 @@ layout: doc
 title: Administration
 ---
 
-## Administration page
+# Site Administration
+
