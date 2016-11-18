@@ -8,7 +8,7 @@ title: Permissions
 Permission configurations determine the extent to which individual users can interact with any particular network. The software supports several levels of interaction.
 
 <table class="table">
-<tr><th>Permission level</th><th>Browse</th><th>Comment</th><th>Create content<sup>2</sup></th><th>Adjust content</th><th>Manage network<sup>3</sup></th></tr>
+<tr><th>Permission level</th><th>Browse</th><th>Comment</th><th>Create content<sup>2</sup></th><th>Adjust content<sup>3</sup></th><th>Manage network<sup>4</sup></th></tr>
 <tr><td>View<sup>1</sup></td><td>yes</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>Comment</td><td>yes</td><td>yes</td><td>-</td><td>-</td><td>-</td></tr>
 <tr><td>Edit</td><td>yes</td><td>yes</td><td>yes</td><td>own content only</td><td>-</td></tr>
@@ -18,8 +18,10 @@ Permission configurations determine the extent to which individual users can int
  <sup>1</sup> The 'View' permission level determines whether a network is visible on the front page of the NetworkCurator site. Other permission levels manifest at various stages of interaction with the network.
 
 <sup>2</sup> 'Create content' refers to adding nodes and links to the network graph.
- 
-<sup>3</sup> 'Manage network' includes abilities to adjust the network ontology and user permissions.
+
+<sup>3</sup> 'Adjust content' refers to the ability to modify an existing network component or comment. Users who create an object can always adjust it (to fix typos, provide more details, etc.). Curators are able to adjust content created by themselves as well as by other users.
+
+<sup>4</sup> 'Manage network' includes abilities to adjust the network ontology and user permissions.
 
 
 ## New networks
