@@ -5,7 +5,7 @@ title: Installation
 
 # Installation
 
-The NetworkCurator is software for a web application. To create an instance of the NetworkCurator and manage your own networks, you will have to download and configure the software on a web server.
+The NetworkCurator is a web application. To create an instance of the NetworkCurator and manage your own networks, you will have to download and configure the software on a web server.
 
 This installation tutorial is divided into the following parts:
 

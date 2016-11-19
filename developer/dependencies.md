@@ -5,7 +5,7 @@ title: Dependencies
 
 # Dependencies
 
-NetworkCurator uses a number of technologies, third-party libraries, plugins, and tools. 
+NetworkCurator uses several technologies, third-party libraries, plugins, and tools. 
 Many thanks to all authors. 
 
 <table class="table">
