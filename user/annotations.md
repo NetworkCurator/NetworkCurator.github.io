@@ -13,10 +13,10 @@ Most objects in the NetworkCurator database are associated with at least four an
 
 <table class="table">
 <tr><th>Annotation</th><th>Description</th></tr>
-<tr><td>Name</td><td><p>Short unique identifier, e.g. TP53 in a gene network; restricted to characters [0-9,a-z,A-Z,_,-] </p></td></tr>
-<tr><td>Title</td><td><p>Longer but concise name for the object; appears on graph page during previews</p></td></tr>
-<tr><td>Abstract</td><td><p>Short description; appears on graph page during previews</p></td></tr>
-<tr><td>Content</td><td><p>Complete description for the object; only appears on dedicated content pages.</p></td></tr>
+<tr><td>Name</td><td>Short unique identifier, e.g. TP53 in a gene network; restricted to characters [0-9,a-z,A-Z,_,-]</td></tr>
+<tr><td>Title</td><td>Longer but concise name for the object; appears on graph page during previews</td></tr>
+<tr><td>Abstract</td><td>Short description; appears on graph page during previews</td></tr>
+<tr><td>Content</td><td>Complete description for the object; only appears on dedicated content pages.</td></tr>
 </table>
 
 Each network as a whole carries all these descriptors. As is common in repositories of network data, these descriptors appear on the network summary page.
