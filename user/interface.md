@@ -14,11 +14,17 @@ Clicking on one of the network links displays summary information about the netw
 
 ![Network summary page](img/summary.jpg)
 
-The most prominent object on the page is the network title (here 'Example network'). But there are several noteworthy components. 
+The most prominent object on the page is the network title (here 'Example network'). But there are several other noteworthy components. 
 
- - **Credits** A section below the title acknowledges the users contributing to the network data (above, names blurred). The various authorship categories are determined by [permission levels](permissions.html).
 
- - **Annotations** Below the credits are [annotations](annotations.html) for the network as a whole provided by the network curators. Below the main annotations are [comments](commenting.html) by other network contributors.
+### Credits
 
- - **Toolbar** The toolbar provides access to other important views on the network data. In particular, to network [ontologies](ontologies.html), [graph visualization](graphs.html), data [import](dataimport.html)/[export](dataexport.html), and activity logs.
+A section below the title acknowledges the users contributing to the network data (above, names blurred). The various authorship categories are determined by [permission levels](permissions.html).
 
+### Annotations
+
+ Below the credits are [annotations](annotations.html) for the network as a whole provided by the network curators. Below the main annotations are [comments](commenting.html) by other network contributors.
+
+### Toolbar 
+
+The toolbar provides access to other important views on the network data. In particular, to network [ontologies](ontologies.html), [graph visualization](graphs.html), data [import](dataimport.html)/[export](dataexport.html), and activity logs. The tab linking to [permissions](permissions.html) configurations is only visible to users with curation rights.
