@@ -11,12 +11,12 @@ A defining feature of the NetworkCurator platform is annotation of nodes, links,
 
 Most objects in the NetworkCurator database are associated with at least four annotation types: a name, a title, an abstract, and a content field. 
 
-<table>
-<tr><th>Annotation type</th><th>Description</th></tr>
-<tr><td>Name</td><td><p>A short unique identifier, e.g. TP53 in a gene network; restricted to characters [0-9,a-z,A-Z,_-] </p></td></tr>
-<tr><td>Title</td><td><p>A longer but concise name for the object; appears on graph page during previews</p></td></tr>
-<tr><td>Abstract</td><td><p>A short description; appears on graph page during previews</p></td></tr>
-<tr><td>Content</td><td><p>A complete description; only appears on dedicated content pages.</p></td></tr>
+<table class="table">
+<tr><th>Annotation</th><th>Description</th></tr>
+<tr><td>Name</td><td><p>Short unique identifier, e.g. TP53 in a gene network; restricted to characters [0-9,a-z,A-Z,_,-] </p></td></tr>
+<tr><td>Title</td><td><p>Longer but concise name for the object; appears on graph page during previews</p></td></tr>
+<tr><td>Abstract</td><td><p>Short description; appears on graph page during previews</p></td></tr>
+<tr><td>Content</td><td><p>Complete description for the object; only appears on dedicated content pages.</p></td></tr>
 </table>
 
 Each network as a whole carries all these descriptors. As is common in repositories of network data, these descriptors appear on the network summary page.
@@ -42,7 +42,7 @@ Click on the text in the above box. The representation will change into an edita
 
 ![Editing cues](img/abstract_2.jpg)
 
-Use this text area to modify the contents of the abstract. Use the Preview/Edit buttons to toggle between the editable text and a preview. Use the 'close' link to abandon editing. Or use the 'Submit' button to send the new content to the database.
+Use this text area to modify the contents of the abstract. Use the Preview/Edit buttons to toggle between the editable text and a preview. Use the 'close' link to abandon editing. Or use the 'Submit' button to save the new content in the database.
 
 
 ## Editing techniques
@@ -80,7 +80,7 @@ Supported makealive functions include those to generate
  - scatter plots
  - venn diagrams
 
-To include a makealive component as part of a graph annotation, just prepare the relevant makealive code snippet and paste it into the annotation text area. See the [sandbox] pages for help with creating makealive code snippets.
+To include a makealive component as part of a graph annotation, just prepare the relevant makealive code snippet and paste it into the annotation text area. See the [sandbox pages](sandboxes.html) for help with creating makealive code snippets.
 
 
 
