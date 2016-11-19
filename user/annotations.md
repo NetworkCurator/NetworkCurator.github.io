@@ -32,7 +32,7 @@ Let's look annotation editing through an example. Suppose we navigate to a page 
 
 Let's change this. Click on the editing pen icon near the top-right corner of the page.
 
-![Editing button](editing.jpg)
+![Editing button](img/editing.jpg)
 
 If you have editing or curation [permissions](permissions.html), the page should indicate the elements that are editable through a change of color and border. 
 

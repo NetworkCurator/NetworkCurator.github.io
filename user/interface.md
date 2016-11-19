@@ -12,7 +12,7 @@ The root level of the web interface is a welcome page. The main purpose of the f
 
 Clicking on one of the network links displays summary information about the network. 
 
-![Network summary page](summary.jpg)
+![Network summary page](img/summary.jpg)
 
 The most prominent object on the page is the network title (here 'Example network'). But there are several noteworthy components. 
 

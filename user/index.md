@@ -7,5 +7,3 @@ title: Overview
 
 
 
-
-![Network summary page](summary.jpg)

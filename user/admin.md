@@ -9,11 +9,11 @@ After installation, the site is empty: there are no networks. However, the insta
 
 The role of the administrator is to monitor user accounts and networks. To perform these tasks, navigate to the administrator account page by clicking on the username in the top-right corner of a page.
 
-![Admin user account](admin.jpg)
+![Admin user account](img/admin.jpg)
 
 On the admin account page, you will see a section with site management options.
 
-![Admin user account](admincreate.jpg)
+![Admin user account](img/admincreate.jpg)
 
 
 ## User accounts
