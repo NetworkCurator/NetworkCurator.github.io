@@ -7,8 +7,7 @@
 
 /* Generic componenets */
 body {
-    font-size: 16px;
-    padding-bottom: 128px;
+    font-size: 16px;    
     padding-top: 32px;
     line-height: 1.6em;
     font-family: 'Open Sans', Helvetica, sans-serif;   
@@ -84,6 +83,19 @@ p.p-warning {
     padding: 0px 15px 0px 0px;
     margin: 0px 15px;
     line-height: 32px; 
+}
+
+
+/**
+ * footer
+ */
+.footer {
+    position: relative;
+    bottom: 0;     
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    /** height: 50px;**/
+    margin-top: 5em;
 }
 
 
