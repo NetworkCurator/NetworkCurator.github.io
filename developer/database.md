@@ -9,9 +9,9 @@ The MySQL database is organized into tables that start with a prefix (default is
 
 <table class="table">
   <tr><th>Table<sup>1</sup></th><th>Description</th></tr>
-  <tr>	<td>nc_activity</td>
+  <tr>	<td><code>nc_activity</code></td>
 	<td>Tracks change events in networks performed by registered users. Contains entries for the log page (networks navigation bar)</td></tr>
-  <tr>	<td>nc_anno_text</td>
+  <tr>	<td><code>nc_anno_text</code></td>
 	<td>Holds text-based annotations for networks, nodes, links, ontology classes, and associated comments. Annotation versions are preserved as dated rows with a status field.</td></tr>
   <tr>	<td>nc_classes</td>
 	<td>Holds all ontology classes and their hierarchy. </td></tr>
