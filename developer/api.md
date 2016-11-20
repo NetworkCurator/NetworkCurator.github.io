@@ -15,6 +15,7 @@ Transactions with a MySQL database are managed through an application programmin
 The file `nc-api.php` is the main gateway to the NetworkCurator API. This script
 receives request, decrypts it, determines how to forward the request to the individual controllers (see below), collects and sends back the output. 
 
+{:.p-note}
 **Note:** The script is set up to decrypt requests using a fixed key that is generated during installation. This means that the API only accepts requests from a single source. That source is the `networkcurator.php` file (the script that processes AJAX calls from a user's browser). 
 
 The API expects to receive a request with several fields 
@@ -54,7 +55,7 @@ Directory `helpers` contains miscellaneous classes and functions that are used w
 
 ## Tests
 
-The `tests` directory contains some test scripts that can be run on the command line. These tests make changes to the local database - drop tables, create new users and network objects - so should not be run on a production system.
+The `tests` directory contains some test scripts that can be run on the command line. These tests make changes to the local database - drop tables, create new users and network objects. They should not be run on a production system.
 
 
 
