@@ -20,7 +20,7 @@ receives request, decrypts it, determines how to forward the request to the indi
 
 The API expects to receive a request with several fields 
 
-<table>
+<table class="table">
 <tr><th>Field</th><th>Description</th></tr>
 <tr><td>user_id</td><td> the id of the requesting user</td></tr>
 <tr><td>controller</td><td> the controller handling the request (see below)</td></tr>
@@ -35,7 +35,7 @@ The output of this script should be an object with a field `success` and one of 
 
 The directory `controllers` contains php classes that support parts of the API. 
 
-<table>
+<table class="table">
 <tr><th>Controller</th><th>Description</th></tr>
 <tr><td>NCAnnotations</td><td>management of annotations such as title, abstracts, comments, etc.</td></tr>
 <tr><td>NCData</td><td>data imports and exports</td></tr>
