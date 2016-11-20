@@ -129,6 +129,8 @@ ul.toc {
 */
 td code {
     font-size: 100%;
+    color: #111;
+    background-color: #f8f8f8;
 }
 
 

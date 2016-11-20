@@ -36,7 +36,7 @@ The main code is located in github repository [NetworkCurator](https://github.co
 ## Files
 
 <table class="table">
-<tr><th>Directory</th><th>Description</th></tr>
+<tr><th>File</th><th>Description</th></tr>
 <tr><td><code>.gitignore</code></td>
     <td>Standard git configuration file that determines files tracked in version control. In the NetworkCurator, this file is set up to that repository clones can manage private files (e.g. urls and passwords for a local installation) while maintaing an unbroken connection with the parent repo.</td>
 </tr>
@@ -53,6 +53,7 @@ The main code is located in github repository [NetworkCurator](https://github.co
     <td>The code is licensed under the MIT License.</td>
 </tr>
 </table>
+
 
 
 
