@@ -5,20 +5,20 @@ title: Ontologies
 
 # Ontologies
 
-The graph ontology page defines the types of the nodes and links that can be represented in a given network. The page also provides tools to adjust the visual appearance of these objects when displayed on the graph page.
+The graph ontology determines the types of the nodes and links that can be represented in a given network. The ontology page is editable by users with [curator priviledges](permissions.html) and  provides tools to adjust the hierarchy of the ontology classes and their visual appearance on the graph page.
 
-This chapter is composed of two parts:
+ - [Ontology class structure](#browsing) 
+ - [Managing an ontology](#managing) 
+ - [Styling ontology classes](#styling) 
 
-- [Ontology class structure](#browsing) one-line description
-- [Managing an ontology](#managing) one-line description
-- [Styling ontology classes](#styling) one-line description
 
 
 <a name="browsing"></a>
 
 ## Ontology class structure
 
-- [ ] To do, describe how to interpret the ontology trees (as a normal user)
+The graph ontology is split into components describing nodes and links. Each type of node and link is associated with a visual representation, which should be visible next to the class name.
+
 
 
 
@@ -26,18 +26,20 @@ This chapter is composed of two parts:
 
 ## Managing ontologies 
 
-- [ ] To do: describe how to manipulate the ontology structure as a curator
+Users with [curator priviledges](permissions.html) can adjust the network ontology.
 
+![Ontology](ontology.jpg)
 
-### Adding new ontology classes
+ - Use the small form to create a new ontology type.
+ - To update a class name, click the 'Edit' button, adjust the class name, and then 'Update'.
+ - Use the 'Remove' button to delete/inactivate an existing class name.
+ - Click on the ontology icon (green circle above) and drag to arrange the classes into a hierarchy.
 
-### Ajusting ontology classes
+{:.p-note}
+You will have to *update* the ontology classes after re-arranging them in a hierarchy. To do this, click on the 'Edit' button and then 'Update'.
 
-Moving. Hierarchies. 
-
-Mention adjusting class names. (Avoid it, but if necessary, see section on adjusting styling as well)
-
-### Activating and inactivating classes
+{:.p-note}
+The 'remove' action deletes an ontology class completely only if it has not yet been applied to any graph element. If it has, the action results in inactivation of the class. This means the class will persist in the database but will not appear by default on the graph page.
 
 
 
@@ -46,24 +48,20 @@ Mention adjusting class names. (Avoid it, but if necessary, see section on adjus
 
 ## Styling ontology classes
 
-**Curators**
-
-The ontology page allows curators determine how objects are displayed on a graph. This is a powerful feature as visual styling can provides users immediate cues as to how to interpret various nodes and links.
-
 Styling of ontology classes is achieved through a combination of scalable vector graphics (SVG) and cascading style sheets (CSS). Defining these styles can be fiddly. However, styles usually do not require frequent adjustments and the examples below provide code snippets that are ready for cut-and-paste.
 
 
 ### Background
 
-Networks in the NetworkCurator are rendered using scalable vector graphics objects (SVG). Each svg object is set up with a leading set of `defs` followed by data. Styling of nodes and links is achieved by placing custom definitions in the `defs` component.
+Networks on the [graph](graphs.html) page rendered using scalable vector graphics (SVG). Each svg object is set up with a leading set of `defs` followed by data. Styling of nodes and links is achieved by placing custom definitions in the `defs` component.
 
-To adjust style definitions on the ontology page, click on the `Edit` button next to a class name. This should display a form where you can change the class name in a text box and adjust styling in a larger text area. The preview on the left should provide immediate feedback as to how a style definition is actually rendered.
+To adjust style definitions for an ontology class, click on the `Edit` button next to the class name. This should display a form where you can change the class name in a text box and adjust styling in a larger text area. The preview on the left should provide immediate feedback as to how a style definition is actually rendered.
 
 
 
 ### Styling nodes
 
-Nodes are positioned in the network with `use` tags that refer to shapes. In the styling text area for each node we thus have to input a definition for a shape. 
+Nodes are positioned in the network with `use` tags that refer to shapes. In the styling text area we thus have to input a shape definition with an id. 
 
 Let's assume that our node class is callled `NODE_X`. A minimal declaration for a circular shape is 
 
@@ -77,20 +75,13 @@ A similar declaration for a rectangular node with round corners is
 <rect id="NODE_X" x=-9 y=-9 width=18 height=18 rx=3 ry=3></rect>
 ```
 
-There are a few points to take note of.
+{:.p-note}
+The shape definition **must contain an `id` tag that matches the ontology class name**. This tag is required because network elements use it to determine their shape. If you update the name of the class, you will have to manually adjust the `id` tag to match. 
 
-- The shape definition **must contain an `id` tag that matches the ontology class name**. This tag is required because network elements use the id to determine their shape. If the id is miss-specified, node elements will not display.
+{:.p-note}
+The shape should be **centered around the origin, `(0, 0)`**. For circular shapes, this is easy to achieve by setting `cx=0 cy=0`. For rectangles, it is necessary to manually adjust the position of the top-left corner and the height/width properties. If the shape center is miss-specified, node elements can become invisible in the preview and appear offset on the network page. 
 
-  Unfortunately, the `id` tag must be set and updated manually. If you update the name of the class, you will have to manually adjust the `id` tag to match. 
-
-- The shape should be **centered around the origin, `(0, 0)`**. For circular shapes, this is easy to achieve by setting `cx=0 cy=0`. For rectangles, it is necessary to manually adjust the position of the top-left corner and the height/width properties. If the shape center is miss-specified, node elements can become invisible in the preview and appear offset on the network page. 
-
-- It is also possible to define more complex shapes using `path` elements.
-
-<br/>
-Thus far, both the circle and the rectangle appear in the default style and color. The recommended approach is to define custom CSS rules to match each class. 
-
-A complete definition for a circular node with a slight border might be
+Both the circle and the rectangle shapes above appear in the default style and color. To fine-tune the appearance, you can add custom cascading style sheet (CSS) rules for [SVG elements](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/SVG_and_CSS).
 
 ```
 <style type="text/css">
@@ -103,29 +94,17 @@ use.NODE_X {
 <circle id="NODE_X" cx=0 cy=0 r=10></circle>
 ```
 
-For a rectangular shape, we would instead enter
+{:.p-note}
+The CSS definitions must be within a `use` block decorated by a dot and the ontology class name (here `NODE_X`).
 
-```
-<style type="text/css">
-use.Pathway {
-  fill: #eee;
-  stroke: #00d;
-  stroke-width: 2;
-}
-</style>
-<rect id="Pathway" x=-9 y=-9 width=18 height=18></rect>
-```
+{:.p-note}
+The CSS block must be enclosed in a `<style>` tag.
 
-Again, there are a few points to highlight.
+{:.p-note}
+The class name must match the `id` as well as `use` elements. 
 
-- The CSS definitions must be within a `use` block decorated by a dot and the ontology class name (here `NODE_X`).
-
-- The CSS block must be enclosed in a `<style>` tag.
-
-- The class name must match the `id` as well as `use` elements. 
-
-
-<small>Another way of styling involves writing rules directly inside the shape definitions. This works in principle, but causes problems during selections. Therefore, please use the approach using style tags as described above.</small>
+{:.p-warning}
+It is also possible to write style rules directly inside the shape definitions. This works in principle, but causes problems during selections on the graph page. 
 
 
 
