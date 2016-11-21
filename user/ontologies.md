@@ -28,7 +28,7 @@ The graph ontology is split into components describing nodes and links. Each typ
 
 Users with [curator priviledges](permissions.html) can adjust the network ontology.
 
-![Ontology](ontology.jpg)
+![Ontology](img/ontology.jpg)
 
  - Use the small form to create a new ontology type.
  - To update a class name, click the 'Edit' button, adjust the class name, and then 'Update'.
