@@ -123,28 +123,11 @@ line.LINK_Y {
 </style>
 ```
 
-Another example with a dashed line
-
-```
-<style type="text/css">
-line.LINK_Y {
-  stroke: #d9d;
-  stroke-width: 5;
-  stroke-dasharray: 5 4;
-}
-</style>
-```
+{:.p-note}
+The CSS definitions must be within a `line` bock decorated by a dot and the name of the ontology class. If you update the name of the class, you will have to manually adjust the ontology class associated with the `line` block to match. 
 
 
-- The CSS definitions must be **within a `line` bock** decorated by a dot and the name of the ontology class**. The block should be enclosed in a `<style>` tag.
-
-- The ontology **class name must be specified after `line`**. As for nodes, this name must be updated manually.
-
-
-
-Thus far, the links are rendered as plain lines. However, in some cases it useful to encode directional relationships. For this purpose we can use line markers (e.g. arrowheads). To achieve this the line style should include two things: a definition for a marker, and a CSS instruction for how to apply the marker to the line. 
-
-An example with a simple arrowhead is
+In some cases it useful to encode directional relationships. For this purpose we can use line markers such as arrowheads. To achieve this, the line style box should hold definition for a marker in addition to CSS instructions for how to apply the marker to the line. 
 
 ```
 <marker id="mLINK_Y" 
@@ -161,22 +144,22 @@ line.LINK_Y {
 </style>
 ```
 
-Again, a few points to note
+{:.p-note}
+The marker object must have an `id` tag. This `id` must be referenced from the CSS block. The `id` must be a unique identifier; a simple way to achieve this is to use the ontology class name with a prefix or postfix.
 
-- The marker object **must have an `id` tag**. This `id` must be referenced from the CSS block. The `id` must be a unique identifier but can otherwise be chosen freely. A simple way to chose an id is to use the ontology class name with a prefix or postfix.
+{:.p-note}
+Markers in CSS are styled separately from lines. Color matching between marker and line must be applied manually. 
 
-- Markers in CSS are styled separately from lines. Color matching between marker and line must be applied manually. 
-
-- The **position of the marker** along the line might appear strange in the preview diagram. In particular, the marker might appear near the middle of the line and not at the end. This is because the marker is offset slightly from the terminus. This is a trick so that the arrowhead is not hidden by a large node on the graph page. 
-
-
-
-That's it, more or less. Maybe needs some editing.
+{:.p-note}
+The position of the marker along the line might appear strange in the preview diagram. In particular, the marker might appear near the middle of the line and not at the end. This is a trick to avoid having the arrowhead hidden by a large node on the graph page. 
 
 
 
 
 ### Examples
+
+Styling nodes and links can be fun, but it can be tricky. Starting with a set of examples.
+
 
 <style type="text/css">
 use.DRUG {
