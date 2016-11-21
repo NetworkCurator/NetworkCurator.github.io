@@ -16,7 +16,7 @@ To change any of the settings before installation, define a file `nc-admin/insta
 
 After installation, settings are written out into a file `nc-admin/config/nc-config-local.php`. This file is not tracked in version control, so does not appear in the github repo. It only appears after running the install script and is read by run-time php scripts. To change any settings after installation, edit this file. 
 
-{:.p-note}
+{:.p-warning}
 **Note:** Changing the settings after installation is not likely to destroy the database, but can cause problems nonetheless. So, be careful!
 
 
