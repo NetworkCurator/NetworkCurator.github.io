@@ -10,13 +10,9 @@ The NetworkCurator is a web application. To create an instance of the NetworkCur
 This installation tutorial is divided into the following parts:
 
 - [Web server setup](#hosting)
-
 - [Installation of core software](#nccore)
-
 - [Installation of the web interface](#ncui)
-
 - [Updating the software](#ncupdates)
-
 - [Appendix](#ncappendix)
 
 The tutorial assumes that you already have a web domain and a hosting account from a commercial provider. Code snippets assume that your domain is `sitename.org`, the administrator account for the site is `siteadmin`, and that you are using linux-based environment.
