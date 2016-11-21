@@ -36,7 +36,7 @@ Users with [curator priviledges](permissions.html) can adjust the network ontolo
  - Click on the ontology icon (green circle above) and drag to arrange the classes into a hierarchy.
 
 {:.p-note}
-You will have to *update* the ontology classes after re-arranging them in a hierarchy. To do this, click on the 'Edit' button and then 'Update'.
+You will have to **update** the ontology classes after re-arranging them in a hierarchy. To do this, click on the 'Edit' button and then 'Update'.
 
 {:.p-note}
 The 'remove' action deletes an ontology class completely only if it has not yet been applied to any graph element. If it has, the action results in inactivation of the class. This means the class will persist in the database but will not appear by default on the graph page.
@@ -104,7 +104,7 @@ The CSS block must be enclosed in a `<style>` tag.
 The class name must match the `id` as well as `use` elements. 
 
 {:.p-warning}
-It is also possible to write style rules directly inside the shape definitions. This works in principle, but causes problems during selections on the graph page. 
+It is also possible to write style rules directly inside the shape definitions. This works in principle, but can cause problems during selections on the graph page. 
 
 
 
@@ -169,9 +169,9 @@ use.DRUG {
 }
 </style>
 <g id="DRUG" transform="rotate(-30)">
-<rect x="-16" y="-8" width="32" height="16" rx=8></rect>
-<rect x="-10" y="-5" width="10" height="10" fill="#ffffff" stroke-width=0></rect>
-<circle cx=-8 cy=0 r=5 fill="#fff" stroke-width=0 ></circle>
+<rect x="-16" y="-8" width="32" height="16" rx="8"></rect>
+<rect x="-10" y="-5" width="10" height="10" fill="#ffffff" stroke-width="0"></rect>
+<circle cx="-8" cy="0" r="5" fill="#fff" stroke-width="0" ></circle>
 </g>
 
 
@@ -200,10 +200,10 @@ use.Pathway {
 <g id="Pathway" transform=translate(-10,-18)>
     <path d="m 11.992,0.989 c -6.208,0 -11.244,4.601 -11.244,10.273 0,1.660 0.452,3.226 1.218,4.614 0.215,0.389 0.444,0.776 0.710,1.136 l 5.178,8.53 0.304,0 7.640,0 0.329,0 5.178,-8.534 c 0.103,-0.139 0.183,-0.296 0.279,-0.440 l 0.279,-0.417 c 0.054,-0.091 0.100,-0.184 0.152,-0.278 0.765,-1.387 1.218,-2.954 1.218,-4.614 0,-5.672 -5.036,-10.273 -11.244,-10.273 z"  />
     <g>
-      <path d="m 8.0361,27.893 8.1355,0" stroke-width=1.4/>
-      <path d="m 8.0361,30.036 8.1355,0" stroke-width=1.4/>
-      <path d="m 8.0361,32.180 8.1355,0" stroke-width=1.4/>
-      <path d="m 9.2386,34.324 5.7304,0" stroke-width=1.4/>
+      <path d="m 8.0361,27.893 8.1355,0" stroke-width="1.4"/>
+      <path d="m 8.0361,30.036 8.1355,0" stroke-width="1.4"/>
+      <path d="m 8.0361,32.180 8.1355,0" stroke-width="1.4"/>
+      <path d="m 9.2386,34.324 5.7304,0" stroke-width="1.4"/>
     </g>
   </g>
 
