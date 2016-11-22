@@ -160,7 +160,25 @@ The position of the marker along the line might appear strange in the preview di
 
 Styling nodes and links can be fun, but it can be tricky. Starting with a set of examples.
 
+<!-- Spans with examples of node styling -->
 
+<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
+<defs><style type="text/css">
+use.GENE {
+  stroke-width: 0.7;
+  stroke: #555;
+  fill: #8ce;
+}
+</style>
+<circle id="GENE" cx="0" cy="0" r="8"></circle></defs>
+<g transform="translate(18,18)">
+<use href="#GENE" class="GENE"></use>
+</g>
+</svg></span>
+
+
+<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
+<defs>
 <style type="text/css">
 use.DRUG {
   fill: #8a8;
@@ -173,9 +191,15 @@ use.DRUG {
 <rect x="-10" y="-5" width="10" height="10" fill="#ffffff" stroke-width="0"></rect>
 <circle cx="-8" cy="0" r="5" fill="#fff" stroke-width="0" ></circle>
 </g>
+</defs>
+<g transform="translate(18,18)"><use href="#GENE" class="GENE"></use></g>
+</svg>
 
 
 
+
+<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
+<defs>
 
 <style type="text/css">
 use.CELL {
@@ -188,8 +212,14 @@ use.CELL {
     <path d="m 30.215521,24.283492 c -2.87712,5.01705 -8.564919,8.18014 -14.298109,8.35704 -3.38356,-0.10338 -6.7045503,-1.57121 -9.1959803,-3.83069 -2.38147,-2.45266 -4.2370304,-5.43965 -5.4487704,-8.62961 -0.85646002,-2.92501 -0.73355002,-6.06951 -0.18194,-9.0369 0.80104,-2.7994201 2.62221,-5.1660201 4.4070004,-7.4110697 1.59682,-1.83048 3.96391,-2.98401002 6.4167903,-2.85764002 3.36197,-0.0232 6.88335,-0.23323 10.03578,1.15361002 3.110239,1.3451 5.967609,3.4651796 7.917359,6.2559696 1.5752,2.3371301 1.94325,5.2249001 1.74046,7.9784501 -0.0208,2.71371 -0.0206,5.58623 -1.39259,8.02084 z"></path>
     <circle cx="19" cy="18" r="8.5" fill="#777" stroke-width="0.5"></circle>
   </g>
+</defs>
+<g transform="translate(18,18)"><use href="#CELL" class="CELL"></use></g>
+</svg>
 
 
+
+<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
+<defs>
 <style type="text/css">
 use.Pathway {
   fill: #f4f408;
@@ -206,9 +236,14 @@ use.Pathway {
       <path d="m 9.2386,34.324 5.7304,0" stroke-width="1.4"/>
     </g>
   </g>
+</defs>
+<g transform="translate(18,18)"><use href="#Pathway" class="Pathway"></use></g>
+</svg>
 
 
 
+<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
+<defs>
 <style type="text/css">
 use.STIMULUS {
   fill: #fd0;
@@ -219,9 +254,14 @@ use.STIMULUS {
 <g id="STIMULUS" transform="translate(-18,-18)">
 <path d="m 25.770,0.468 -14.092,13.562 5.837,0 -11.487,11.062 5.837,0 L 0.409,36.156 24.169,22.562 l -7.815,0 13.433,-11.031 -7.815,0 13.464,-11.062 -9.667,0 z" />
 </g>
+</defs>
+<g transform="translate(18,18)"><use href="#STIMULUS" class="STIMULUS"></use></g>
+</svg>
 
 
 
+<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
+<defs>
 <style type="text/css">
 use.LOGIC_AND {
   fill: #eee;
@@ -237,8 +277,14 @@ use.LOGIC_AND {
     </g>
     <path d="m 29.923,18 6.603,0"></path>
   </g>
+</defs>
+<g transform="translate(18,18)"><use href="#LOGIC_AND" class="LOGIC_AND"></use></g>
+</svg>
 
 
+
+<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
+<defs>
 <style type="text/css">
 use.LOGIC_OR {
   fill: #eee;
@@ -254,5 +300,27 @@ use.LOGIC_OR {
     </g>
     <path d="m 30.433,17.996 5.703,0" />
   </g>
- 
+ </defs>
+<g transform="translate(18,18)"><use href="#LOGIC_OR" class="LOGIC_OR"></use></g>
+</svg>
+
+
+
+
+
+
+<div id="eg-node-code">
+  <pre><code id="eg-node-code">
+  </code></pre>
+</div>
+<br/>
+<script>
+var allegnodes = document.getElementsByClassName("eg-node")
+document.addEventListener('click', function(e) {
+    e = e || window.event;
+    var target = e.target || e.srcElement,
+        text = target.textContent || text.innerText;   
+}, false);
+</script>
+
 
