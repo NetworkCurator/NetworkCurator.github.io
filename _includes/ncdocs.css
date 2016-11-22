@@ -55,12 +55,12 @@ p.p-note, p.p-warning {
     line-height: 1.5em;
 }
 p.p-note {
-    background-color: rgba(53,34,8,0.08);
-    border-left: 8px solid rgba(53,34,8,0.3);
+    background-color: rgba(53,34,8,0.06);
+    border-left: 8px solid rgba(53,34,8,0.24);
 }
 p.p-warning {
-    background-color: rgba(149,9,82,0.08);
-    border-left: 8px solid rgba(149,9,82,0.3);
+    background-color: rgba(149,9,82,0.06);
+    border-left: 8px solid rgba(149,9,82,0.24);
 }
 
 
