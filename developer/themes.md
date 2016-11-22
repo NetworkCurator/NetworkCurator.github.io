@@ -45,11 +45,11 @@ Some scripts also create html objects with `nc` as a prefix for class names. In 
 
 ## Designing a custom interface
 
-The default user interface is intended as a template. You can clone or fork the repo and edit it to suit particular needs. 
+The default user interface is intended as a template. You can clone or fork the repo from github, then and edit it to suit your needs. 
 
-As a general rule, components labeled with a 'nc' prefix are required. This is particularly important for components where the prefix appears in an `id`. Therefore, modify these components with care.
+In general, components labeled with a 'nc' prefix are required. This is particularly important for components where the prefix appears in an `id`. Therefore, modify these components with care (javascript functions may refer to these objects and certain function may break if they are not present).
 
-A particularly powerful approach to customize the user interface might be to define additional cascading style sheets. To achieve this, modify or add css definitions in the `nc-ui/css/nc-ui.css` file. Changing fonts, text sizes, and colors can make a strong impression.
+A powerful approach to customize the user interface might be to modify cascading style sheets in the `nc-ui/css/nc-ui.css` file. Changing fonts, text sizes, and colors can make a strong impression.
 
 
 

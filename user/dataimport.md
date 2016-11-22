@@ -5,10 +5,9 @@ title: Data input
 
 # Data import
 
-
 Whereas the web interface provides tools for creating and editing individual graph objects, it is sometimes useful to make several changes at once. These actions can be performed through data imports. 
 
-On the navigation bar, select the \'Data\' tab and look for the \'import data\' section. 
+On the navigation bar, select the 'Data' tab and look for the 'import data' section. 
 
 ![Data import](img/import.jpg)
 
