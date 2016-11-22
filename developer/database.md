@@ -11,6 +11,8 @@ The MySQL database is organized into tables that start with a prefix (default is
   <tr><th>Table<sup>1</sup></th><th>Description</th></tr>
   <tr>	<td><code>nc_activity</code></td>
 	<td>Tracks change events in networks performed by registered users. Contains entries for the log page (networks navigation bar)</td></tr>
+  <tr>	<td><code>nc_anno_numeric</code><sup>2</sup></td>
+	<td>Numeric annotations.</td></tr>
   <tr>	<td><code>nc_anno_text</code></td>
 	<td>Holds text-based annotations for networks, nodes, links, ontology classes, and associated comments. Annotation versions are preserved as dated rows with a status field.</td></tr>
   <tr>	<td><code>nc_classes</code></td>
@@ -32,6 +34,8 @@ The MySQL database is organized into tables that start with a prefix (default is
 </table>
 
 <sup>1</sup> Each table is indexed on one or more columns. 
+
+<sup>2</sup> This table is created during installation, but its support still work-in-progress.
 
 It is noteworthy that in addition to identifiers set by user (e.g. network name, node name, link name), the database creates internal ids for all network elements. These consist of one letter prefix (e.g. 'W' for networks and 'N' for nodes) followed by a few random characters. Matching across tables is often performed using these internal identifiers.
 
