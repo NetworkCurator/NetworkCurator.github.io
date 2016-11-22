@@ -160,9 +160,8 @@ The position of the marker along the line might appear strange in the preview di
 
 Styling nodes and links can be fun, but it can be tricky. Starting with a set of examples.
 
-<!-- Spans with examples of node styling -->
-
-<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
+<div class="eg-node">
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
 <defs><style type="text/css">
 use.GENE {
   stroke-width: 0.7;
@@ -174,7 +173,11 @@ use.GENE {
 <g transform="translate(18,18)">
 <use href="#GENE" class="GENE"></use>
 </g>
-</svg></span>
+</svg>
+</div>
+
+
+hello
 
 
 <span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">

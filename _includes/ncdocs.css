@@ -144,5 +144,9 @@ span.eg-node, span.eg-link {
   width: 36px;
   height: 36px;
 }
+span.eg-node svg {
+    width: 36px;
+    height: 36px;
+}
 
 
