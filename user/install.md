@@ -130,7 +130,7 @@ Perform similar actions for all files in the directory.
 We are now ready to download the NetworkCurator software. We will do this by cloning using the following command (note the dot at the end, it's important!)
 
 ```
-git clone https://github.com/tkonopka/NetworkCurator.git .
+git clone https://github.com/NetworkCurator/NetworkCurator.git .
 ```
 
 You should see some progress messages while the files are copied. Once the process is complete, we can inspect the new contents of the directory
@@ -226,7 +226,7 @@ cd nc-ui
 We can now download the user-interface, again using cloning from github. The command is (note the dot at the end)
 
 ```
-git clone https://github.com/tkonopka/NetworkCurator-ui.git .
+git clone https://github.com/NetworkCurator/NetworkCurator-ui.git .
 ```
 
 You should see some progress messages while the files are copied. If you like, you can inspect the contents of the directory using `ls`. 
