@@ -7,6 +7,10 @@ title: Web interface
 
 The root level of the web interface is a welcome page. The main purpose of the front page is to list the networks defined on the website. Because networks can be defined as public or private, the list can vary depending on the user log-in status. 
 
+{:.p-note}
+The NetworkCurator has been tested in the following browsers: Chrome, Firefox, Safari. 
+Some SVG-related features may not visible in Internet Explorer/Edge.
+
 
 ## Network pages
 

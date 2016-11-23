@@ -75,13 +75,9 @@ A similar declaration for a rectangular node with round corners is
 <rect id="NODE_X" x=-9 y=-9 width=18 height=18 rx=3 ry=3></rect>
 ```
 
-{:.p-note}
-The shape definition **must contain an `id` tag that matches the ontology class name**. This tag is required because network elements use it to determine their shape. If you update the name of the class, you will have to manually adjust the `id` tag to match. 
-
-{:.p-note}
-The shape should be **centered around the origin, `(0, 0)`**. For circular shapes, this is easy to achieve by setting `cx=0 cy=0`. For rectangles, it is necessary to manually adjust the position of the top-left corner and the height/width properties. If the shape center is miss-specified, node elements can become invisible in the preview and appear offset on the network page. 
-
-Both the circle and the rectangle shapes above appear in the default style and color. To fine-tune the appearance, you can add custom cascading style sheet (CSS) rules for [SVG elements](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/SVG_and_CSS).
+ - The shape definition **must contain an `id` tag that matches the ontology class name**. This tag is required because network elements use it to determine their shape. If you update the name of the class, you will have to manually adjust the `id` tag to match. 
+ - The shape should be **centered around the origin, `(0, 0)`**. For circular shapes, this is easy to achieve by setting `cx=0 cy=0`. For rectangles, it is necessary to manually adjust the position of the top-left corner and the height/width properties. If the shape center is miss-specified, node elements can become invisible in the preview and appear offset on the network page. 
+ - Both the circle and the rectangle shapes above appear in the default style and color. To fine-tune the appearance, you can add custom cascading style sheet (CSS) rules for [SVG elements](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/SVG_and_CSS).
 
 ```
 <style type="text/css">
@@ -94,18 +90,13 @@ use.NODE_X {
 <circle id="NODE_X" cx=0 cy=0 r=10></circle>
 ```
 
-{:.p-note}
-The CSS definitions must be within a `use` block decorated by a dot and the ontology class name (here `NODE_X`).
+ - The CSS definitions must be within a `use` block decorated by a dot and the ontology class name (here `NODE_X`).
+ - The ontology class name **must** appear in `id` for the shape as well as the class for `use` elements. 
 
 {:.p-note}
-The CSS block must be enclosed in a `<style>` tag.
-
-{:.p-note}
-The class name must match the `id` as well as `use` elements. 
-
-{:.p-warning}
-It is also possible to write style rules directly inside the shape definitions. This works in principle, but can cause problems during selections on the graph page. 
-
+It is also possible to write style rules directly inside the shape definitions. 
+This can be useful for compound shape, but note that it can cause problems during 
+selections on the graph page. 
 
 
 ### Styling links
@@ -144,25 +135,20 @@ line.LINK_Y {
 </style>
 ```
 
-{:.p-note}
-The marker object must have an `id` tag. This `id` must be referenced from the CSS block. The `id` must be a unique identifier; a simple way to achieve this is to use the ontology class name with a prefix or postfix.
-
-{:.p-note}
-Markers in CSS are styled separately from lines. Color matching between marker and line must be applied manually. 
-
-{:.p-note}
-The position of the marker along the line might appear strange in the preview diagram. In particular, the marker might appear near the middle of the line and not at the end. This is a trick to avoid having the arrowhead hidden by a large node on the graph page. 
+ - The marker object must have an `id` tag. This `id` must be referenced from the CSS block. The `id` must be a unique identifier; a simple way to achieve this is to use the ontology class name with a prefix or postfix.
+ - Markers in CSS are styled separately from lines. Color matching between marker and line must be applied manually. 
+ - The position of the marker along the line might appear strange in the preview diagram. In particular, the marker might appear near the middle of the line and not at the end. This is a trick to avoid having the arrowhead hidden by a large node on the graph page. 
 
 
 
 
 ### Examples
 
-Styling nodes and links can be fun, but it can be tricky. Starting with a set of examples.
+Styling nodes and links can be fun, but it can be tricky. Here are a few examples.
 
-<div class="eg-node">
+<div class="eg-node" onclick="javascript:showEg('SIMPLE')">
 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
-<defs><style type="text/css">
+<defs id="eg-defs-SIMPLE"><style type="text/css">
 use.GENE {
   stroke-width: 0.7;
   stroke: #555;
@@ -177,33 +163,31 @@ use.GENE {
 </div>
 
 
-hello
-
-
-<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
-<defs>
+<div class="eg-node" onclick="javascript:showEg('DRUG')">
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+<defs id="eg-defs-DRUG">
 <style type="text/css">
 use.DRUG {
-  fill: #8a8;
-  stroke: #242;
+  fill: #88aa89;
+  stroke: #224422;
   stroke-width: 1;
 }
 </style>
 <g id="DRUG" transform="rotate(-30)">
 <rect x="-16" y="-8" width="32" height="16" rx="8"></rect>
 <rect x="-10" y="-5" width="10" height="10" fill="#ffffff" stroke-width="0"></rect>
-<circle cx="-8" cy="0" r="5" fill="#fff" stroke-width="0" ></circle>
+<circle cx="-8" cy="0" r="5" fill="#ffffff" stroke-width="0" ></circle>
 </g>
 </defs>
-<g transform="translate(18,18)"><use href="#GENE" class="GENE"></use></g>
+<g transform="translate(18,18)"><use href="#DRUG" class="DRUG"></use></g>
 </svg>
+</div>
 
 
 
-
-<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
-<defs>
-
+<div class="eg-node" onclick="javascript:showEg('CELL')">
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+<defs id="eg-defs-CELL>
 <style type="text/css">
 use.CELL {
   fill: #eee;
@@ -218,11 +202,12 @@ use.CELL {
 </defs>
 <g transform="translate(18,18)"><use href="#CELL" class="CELL"></use></g>
 </svg>
+</div>
 
 
-
-<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
-<defs>
+<div class="eg-node" onclick="javascript:showEg('Pathway')">
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+<defs id="eg-defs-Pathway">
 <style type="text/css">
 use.Pathway {
   fill: #f4f408;
@@ -242,29 +227,11 @@ use.Pathway {
 </defs>
 <g transform="translate(18,18)"><use href="#Pathway" class="Pathway"></use></g>
 </svg>
+</div>
 
-
-
-<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
-<defs>
-<style type="text/css">
-use.STIMULUS {
-  fill: #fd0;
-  stroke: #630;
-  stroke-width: 0.3;
-}
-</style>
-<g id="STIMULUS" transform="translate(-18,-18)">
-<path d="m 25.770,0.468 -14.092,13.562 5.837,0 -11.487,11.062 5.837,0 L 0.409,36.156 24.169,22.562 l -7.815,0 13.433,-11.031 -7.815,0 13.464,-11.062 -9.667,0 z" />
-</g>
-</defs>
-<g transform="translate(18,18)"><use href="#STIMULUS" class="STIMULUS"></use></g>
-</svg>
-
-
-
-<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
-<defs>
+<div class="eg-node" onclick="javascript:showEg('LOGIC-AND')">
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+<defs id="eg-defs-LOGIC-AND">
 <style type="text/css">
 use.LOGIC_AND {
   fill: #eee;
@@ -283,11 +250,13 @@ use.LOGIC_AND {
 </defs>
 <g transform="translate(18,18)"><use href="#LOGIC_AND" class="LOGIC_AND"></use></g>
 </svg>
+</div>
 
 
 
-<span class="eg-node"><svg xmlns="http://www.w3.org/2000/svg">
-<defs>
+<div class="eg-node" onclick="javascript:showEg('LOGIC-OR')">
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+<defs id="eg-defs-LOGIC">
 <style type="text/css">
 use.LOGIC_OR {
   fill: #eee;
@@ -306,24 +275,28 @@ use.LOGIC_OR {
  </defs>
 <g transform="translate(18,18)"><use href="#LOGIC_OR" class="LOGIC_OR"></use></g>
 </svg>
+</div>
 
 
 
 
 
-
-<div id="eg-node-code">
+<div>
   <pre><code id="eg-node-code">
   </code></pre>
 </div>
+
 <br/>
+
 <script>
-var allegnodes = document.getElementsByClassName("eg-node")
-document.addEventListener('click', function(e) {
-    e = e || window.event;
-    var target = e.target || e.srcElement,
-        text = target.textContent || text.innerText;   
-}, false);
+//alert("aa");
+showEg = function(x) {
+    //    alert(x);
+    var xdef = document.getElementById("eg-defs-"+x);
+    //alert("A: "+xdef.innerHTML+" -- "+xdef.textContent);
+    var nodecode = document.getElementById("eg-node-code");
+    nodecode.text = xdef.innerHTML;
+}
 </script>
 
 
