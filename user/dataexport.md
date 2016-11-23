@@ -28,4 +28,4 @@ The output from the data export is a file in json format. The first option provi
 The network data export includes some fields (e.g. `class_id`, `node_id`) that are used internally by the database. These fields are not used during a re-import. 
 
 {:.p-warning}
-The NetworkCurator database keeps track of object ownership, and the output files contain fields to convey this information. Note, however, that object ownership is not preserved when a network is re-imported.
+The NetworkCurator database keeps track of object ownership. The complete annotation history format contains this information. Note, however, that ownership is not preserved when a network is re-imported. 
