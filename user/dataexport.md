@@ -11,23 +11,21 @@ On the navigation tab, select the 'Data' tab. The export section should be at th
 
 ![Data export](img/export.jpg)
 
-There are several download options which provide different detail of the data.
+There are different download options
 
 <table class="table">
 <tr><th>Download type</th><th>Description</th></tr>
 <tr><td>Network data</td><td>Current state<sup>1</sup> of the network; includes network summary, ontology, nodes, and links</td></tr>
-<tr><td>Complete<sup>2</sup> annotation history</td><td>Complete export of all network database records</td></tr>
+<tr><td>Complete annotation history</td><td>Complete export of all network database records</td></tr>
 </table>
 
  <sup>1</sup> The current state of the network includes objects with active and inactive status.
 
- <sup>1</sup> The current state of the network includes objects with active and inactive status.
 
+The output from the data export is a file in json format. The first option provides a file that can be re-[imported](dataimport.html) into a NetworkCurator instance. The second option creates a file is meant for archiving.
 
-The output from the data export is a file in json format. The first option provides a file that can be re-[imported](dataimport.html) into a NetworkCurator instance. The second file is meant for archiving or manual processing.
-
-{:.p-warning}
-The network data export includes some fields that are not strictly required for data import. 
+{:.p-note}
+The network data export includes some fields (e.g. `class_id`, `node_id`) that are used internally by the database. These fields are not used during a re-import. 
 
 {:.p-warning}
 The NetworkCurator database keeps track of object ownership, and the output files contain fields to convey this information. Note, however, that object ownership is not preserved when a network is re-imported.
