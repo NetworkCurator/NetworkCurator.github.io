@@ -9,7 +9,7 @@ Each network, node, link, and ontology page has a comment area. All users are ab
 
 ![Commenting interface](img/comments.jpg)
 
-Comments are subject to updates and history previews in the same manner as all other [annotations](annotations.html)
+Comments are subject to updates and history previews in the same manner as all other [annotations](annotations.html).
 
 
 
