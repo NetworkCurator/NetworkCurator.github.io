@@ -15,10 +15,10 @@ Select a data file on your local computer, write in a short description for the 
 
 You will have to prepare a network definition file in JSON format. The rest of this section explains the required format and describes some tools to help prepare such files. 
 
-- [Network definition file format]("#netjson")
-- [Preparing network definitions with R]("#netr")
-- [Preparing network definitions with a sandbox]("#netsandbox")
-- [Importing network definitions]("#netimport")
+- [Network definition file format](#netjson)
+- [Preparing network definitions with R](#netr)
+- [Preparing network definitions with a sandbox](#netsandbox)
+- [Importing network definitions](#netimport)
 
 
 <a name="netjson"></a>
