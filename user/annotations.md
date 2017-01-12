@@ -27,9 +27,9 @@ Most objects in the NetworkCurator database are associated with at least four an
 <tr><td>Content</td><td>Complete description for the object; only appears on dedicated content pages.</td></tr>
 </table>
 
-Each network as a whole carries all these descriptors. As is common in repositories of network data, these descriptors appear on the network summary page.
+Each network as a whole carries all these descriptors. The title and abstract descriptors appear on the network summary page.
 
-On the NetworkCurator platform, these descriptors are also associated with nodes, links, and ontology classes. These can be reached from the [graph page](graphs.html).
+On the NetworkCurator platform, these descriptors are also associated with individual nodes, links, and ontology classes. These can be reached from the [graph page](graphs.html).
 
 
 <a name="editing"></a>
@@ -57,9 +57,9 @@ You can now modify the contents of the abstract. Use the Preview/Edit buttons to
 
 <a name="techniques"></a>
 
-## Editing techniques
+## Types of content
 
-Each annotation is encoded in plain text in the database. However, there are means to add styling to create rich, even dynamic, content.
+Each annotation is encoded in plain text in the NetworkCurator database. However, there are means to add styling to create rich, even dynamic, content.
 
 ### HTML
 
@@ -71,7 +71,7 @@ Content fields can be styled with standard HTML tags. For example, you can empha
 
 ### Markdown
 
-Markdown is a markup language designed to augment plain-text documents with simple styling, for example headers or web-links. The implementation used in NetworkCurator is based on [showdown](https://github.com/showdownjs/showdown) and provides several features
+Markdown is a markup language that augments plain-text documents with simple styling, for example headers or web-links. The implementation used in NetworkCurator is based on [showdown](https://github.com/showdownjs/showdown) and provides several features:
 
 - paragraph structure
 - text styling (bold, italic, strikethrough text)
@@ -87,13 +87,13 @@ See the showdown [documentation](https://github.com/showdownjs/showdown/wiki/Sho
 
 ### Makealive
 
-Annotation boxes also support data-driven content through the [makealive](https://tkonopka.github.io/makealive/) manager. You can use this technology to transform plain-text data into dynamic visualizations through a library of ready-made conversion functions. 
+Annotation boxes also support data-driven content through the [makealive](https://tkonopka.github.io/makealive/) manager. You can use this technology to transform plain-text data into dynamic visualizations through a library of ready-made conversion functions:
 
  - bar plots (vertical and horizontal)
  - scatter plots
  - venn diagrams
 
-To include a makealive component as part of a graph annotation, prepare a makealive code snippet and paste it into the annotation text area. See the [sandbox pages](sandboxes.html) for help with creating these snippets.
+To include a makealive component as part of a graph annotation, prepare a makealive code snippet and paste it into the annotation text area. The [sandbox pages](sandboxes.html) can help with creating these snippets.
 
 
 <a name="history"></a>
@@ -108,7 +108,7 @@ The page should indicate where the annotation boxes are through a change of back
 
 ![Editing button](img/history.jpg)
 
-Click on the 'history' link to navigate onto a new page with details on all the updates to that annotation. 
+Click on the 'history' link to navigate onto a new page with details on all the recorded updates. 
 
 
 

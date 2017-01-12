@@ -35,10 +35,10 @@ Many thanks to all authors.
     </tr>
     <tr>
         <td><a href="https://d3js.org">D3</a></td>
-        <td>'Data-driven documents' javascript toolkit</td></tr>
+        <td>Javascript toolkit</td></tr>
     <tr>
         <td><a href="https://github.com/showdownjs/showdown">showdown</a></td>
-        <td>Markdown to html converter</td>
+        <td>Markdown to HTML converter</td>
     </tr>    
     <tr>
         <td><a href="https://github.com/punkave/sanitize-html">sanitize-html</a></td>

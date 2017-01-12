@@ -27,8 +27,8 @@ A section below the title acknowledges the users contributing to the network dat
 
 ### Annotations
 
- Below the credits are [annotations](annotations.html) for the network as a whole provided by the network curators. Below the main annotations are [comments](commenting.html) by other network contributors.
+Below the credits are [annotations](annotations.html) for the network as a whole. This text is managed by the network curators. Below the main annotations is a [comments](commenting.html) that is accessible to other network contributors.
 
 ### Toolbar 
 
-The toolbar provides access to other important views on the network data. In particular, to network [ontologies](ontologies.html), [graph visualization](graphs.html), data [import](dataimport.html)/[export](dataexport.html), and activity logs. The tab linking to [permissions](permissions.html) configurations is only visible to users with curation rights.
+The toolbar provides access to other views on the network data. In particular, to network [ontologies](ontologies.html), [graph visualization](graphs.html), data [import](dataimport.html)/[export](dataexport.html), and activity logs. The tab linking to [permissions](permissions.html) configurations is only visible to users with curation rights.

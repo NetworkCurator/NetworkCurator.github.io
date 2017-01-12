@@ -1,11 +1,39 @@
 ---
-layout: front
+layout: doc
 title: Welcome
 permalink: /
 ---
 
-# Welcome!
+# Welcome to NetworkCurator!
 
-The NetworkCurator is an open-source web application. It is designed to help build, annotate, and curate data using graph structures in a collaborative manner. 
+NetworkCurator is an open-source web application. It helps you manage and annotate data
+through graph structures in a collaborative manner. 
 
-Whether you want to learn how to use the app or to read about how it works under the hood, this documentation covers a wide range of topics. Don't miss the [examples](user/examples.html) of NetworkCurator networks.
+<div class="row nc-thumbrow">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+       <div class="imgcontainer"><img src="_includes/misc/nc-g1.png" ></div>
+      <div class="caption">
+        <h4>Build a custom network</h4>        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <div class="imgcontainer"><img src="_includes/misc/nc-g2.png" ></div>
+      <div class="caption">
+        <h4>Annotate network components</h4>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <div class="imgcontainer"><img src="_includes/misc/nc-g3.png" ></div>
+      <div class="caption">
+        <h4>Collaborate with team members to expand the network</h4>        
+      </div>
+    </div>
+  </div>
+</div>
+
+Whether you want to learn how to use the app or how it works under the hood, this documentation covers a wide range of topics. Don't miss the [examples](user/examples.html) of NetworkCurator networks.

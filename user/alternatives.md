@@ -5,7 +5,7 @@ title: Software for network analysis
 
 # Software for network analysis 
 
-Networks are universal and generic data structures that are applied in all areas of research. There are several great applications for network data and there are several powerful tools for working with them. 
+Networks are universal and generic data structures that are used in all areas of research. There are several great applications for network data and there are several powerful tools for working with them. 
 
 <table class="table">
     <tr><th>Tool</th><th>Description</th></tr>

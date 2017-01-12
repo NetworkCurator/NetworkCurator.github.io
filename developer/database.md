@@ -38,6 +38,6 @@ The MySQL database is organized into tables that start with a prefix (default is
 <sup>2</sup> This table is created during installation, but its support still work-in-progress.
 
 {:.p-note}
-In addition to identifiers set by user (e.g. network name, node name, link name), the database creates internal ids for all network elements. These consist of one letter prefix (e.g. 'W' for networks and 'N' for nodes) followed by a few random characters. Table joins are often performed using these internal identifiers.
+In addition to identifiers set by user (e.g. network name, node name, link name), the database creates internal ids for all network elements. These consist of a one-letter prefix (e.g. 'W' for networks and 'N' for nodes) followed by a few random characters. Table joins are often performed using these internal identifiers.
 
 

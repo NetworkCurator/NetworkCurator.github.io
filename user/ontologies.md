@@ -5,7 +5,7 @@ title: Ontologies
 
 # Ontologies
 
-The graph ontology determines the types of the nodes and links that can be represented in a given network. The ontology page is editable by users with [curator priviledges](permissions.html) and  provides tools to adjust the hierarchy of the ontology classes and their visual appearance on the graph page.
+The graph ontology determines the types of the nodes and links that can be represented in a given network. The ontology page is editable by users with [curator privileges](permissions.html) and  provides tools to adjust the hierarchy of the ontology classes and their visual appearance on the graph page.
 
  - [Ontology class structure](#browsing) 
  - [Managing an ontology](#managing) 
@@ -17,7 +17,8 @@ The graph ontology determines the types of the nodes and links that can be repre
 
 ## Ontology class structure
 
-The graph ontology is split into components describing nodes and links. Each type of node and link is associated with a visual representation, which should be visible next to the class name.
+The ontology page has sections describing nodes and links. 
+Each type of node and link is associated with a visual representation, which should be visible next to the class name.
 
 
 
@@ -26,17 +27,17 @@ The graph ontology is split into components describing nodes and links. Each typ
 
 ## Managing ontologies 
 
-Users with [curator priviledges](permissions.html) can adjust the network ontology.
+Users with [curator privileges](permissions.html) can adjust the network ontology.
 
 ![Ontology](img/ontology.jpg)
 
  - Use the small form to create a new ontology type.
  - To update a class name, click the 'Edit' button, adjust the class name, and then 'Update'.
  - Use the 'Remove' button to delete/inactivate an existing class name.
- - Click on the ontology icon (green circle above) and drag to arrange the classes into a hierarchy.
+ - Click on the class icon (green circle above) and drag to arrange the ontology hierarchy.
 
 {:.p-note}
-You will have to **update** the ontology classes after re-arranging them in a hierarchy. To do this, click on the 'Edit' button and then 'Update'.
+You will have to **update** the ontology classes after re-arranging their hierarchy. To do this, click on the 'Edit' button and then 'Update'.
 
 {:.p-note}
 The 'remove' action deletes an ontology class completely only if it has not yet been applied to any graph element. If it has, the action results in inactivation of the class. This means the class will persist in the database but will not appear by default on the graph page.

@@ -44,7 +44,7 @@ pre {
     border: none;
     border-radius: 0px;
     color: #222;
-    background-color: #fafafa;
+    background-color: #f4f4f4;
     font-size: 14px;
 }
 
@@ -91,7 +91,7 @@ p.p-warning {
 
 /**
  * footer
- */
+*/
 .footer {
     position: relative;
     bottom: 0;     
@@ -131,18 +131,18 @@ ul.toc {
 td code, p code {
     font-size: 100%;
     color: #111;
-    background-color: #f6f6f6;
+    background-color: #f4f4f4;
 }
 
 
 /**
  * Previewing ontology examples
- */
+*/
 
 span.eg-node, span.eg-link {
-  margin-right: 18px;
-  width: 36px;
-  height: 36px;
+    margin-right: 18px;
+    width: 36px;
+    height: 36px;
 }
 span.eg-node svg {
     width: 36px;
@@ -150,3 +150,27 @@ span.eg-node svg {
 }
 
 
+/**
+ * Thumbnails on front page
+*/
+.nc-thumbrow {
+    margin-top: 1.0em;
+}
+
+.thumbnail img {     
+    border: none;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.thumbnail {        
+    border: none;
+}
+.thumbnail .imgcontainer {
+    min-height: 190px;
+    position: relative;
+}
+.thumbnail h4 {
+    margin-top: 6px;
+}

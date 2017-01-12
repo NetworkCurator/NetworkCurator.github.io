@@ -39,10 +39,11 @@ On the permissions page, a form at the bottom provides a means to grant 'View' a
 
 To change the permission level associated to a user, click the appropriate level and then click the 'Update' button. 
 
-{:.p-important}
-**Curator status.** The `admin` account should be reserved only to initiate the network and to assign one or more users as curators of the network. Users with curator status can then determine permission levels for all other participants in the network. 
+Normally, the administrator should assign at least one user a curator permission level. Following this, 
+this designated curator can manage user permissions for all other users.
 
-{:.p-important}
-**Public vs. private.** The permissions page can be used to make a particular network public, i.e. viewable by all users. 
+{:.p-note}
+The `admin` account should be reserved only to initiate the network and to assign one or more users as curators of the network. Users with curator status can then determine permission levels for all other participants in the network. 
 
-
+{:.p-note}
+Permissions for the `guest` user determine whether a network is private or public, i.e. viewable by all users. 

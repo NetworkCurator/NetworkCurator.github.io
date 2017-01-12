@@ -1,0 +1,6002 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="230.16721"
+   height="151.75111"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="nc-summary-parts.svg"
+   inkscape:export-filename="/scripts/NetworkCurator.github.io/misc/nc-g1.png"
+   inkscape:export-xdpi="115.31277"
+   inkscape:export-ydpi="115.31277">
+  <metadata
+     id="metadata694">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1321"
+     inkscape:window-height="744"
+     id="namedview692"
+     showgrid="false"
+     inkscape:zoom="0.683749"
+     inkscape:cx="474.27511"
+     inkscape:cy="-149.45638"
+     inkscape:window-x="45"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="6"
+     fit-margin-right="60"
+     fit-margin-bottom="6"
+     fit-margin-left="60" />
+  <defs
+     id="defs4">
+    <circle
+       id="COUNTRY"
+       cx="0"
+       cy="0"
+       r="9"
+       sodipodi:cx="0"
+       sodipodi:cy="0"
+       sodipodi:rx="9"
+       sodipodi:ry="9" />
+    <circle
+       id="LANGUAGE"
+       cx="0"
+       cy="0"
+       r="9"
+       sodipodi:cx="0"
+       sodipodi:cy="0"
+       sodipodi:rx="9"
+       sodipodi:ry="9" />
+    <circle
+       id="REGION"
+       cx="0"
+       cy="0"
+       r="20"
+       sodipodi:cx="0"
+       sodipodi:cy="0"
+       sodipodi:rx="20"
+       sodipodi:ry="20" />
+    <circle
+       id="SUBREGION"
+       cx="0"
+       cy="0"
+       r="11"
+       sodipodi:cx="0"
+       sodipodi:cy="0"
+       sodipodi:rx="11"
+       sodipodi:ry="11" />
+    <circle
+       id="nc-newnode"
+       cx="0"
+       cy="0"
+       r="9"
+       sodipodi:cx="0"
+       sodipodi:cy="0"
+       sodipodi:rx="9"
+       sodipodi:ry="9" />
+  </defs>
+  <defs
+     id="defs11">
+    <style
+       type="text/css"
+       id="style13">use.nc-default-node { fill: #449944; }
+line.nc-default-link { stroke: #999999; stroke-width: 5; }
+use.nc-newnode { stroke: #000000; stroke-width: 2; stroke-dasharray: 3 3; fill: #dddddd; }
+line.nc-newlink, line.nc-draggedlink { stroke: #aaaaaa; stroke-width: 6; stroke-dasharray: 7 5; }
+text { text-anchor: middle; }
+text.tooltip { text-anchor: start; }
+
+use.COUNTRY {  
+  fill:#f2f2f2;
+  stroke: #222;
+  stroke-width: 1.1;
+}
+
+use.LANGUAGE {
+  fill:#9d6381;
+  stroke: #222;
+  stroke-width: 0.6;
+}
+
+use.REGION {
+  fill:#c8963e;
+  stroke: #222;
+  stroke-width: 0.6;
+}
+
+use.SUBREGION {
+  fill:#573d1c;
+  stroke: #222;
+  stroke-width: 0.6;
+}
+
+line.BORDER {
+  stroke: #222;
+  opacity: 0.3;
+  stroke-width: 4;
+}
+line.GEO {
+  stroke: #673d1c;
+  stroke-width: 6;
+  opacity: 0.3;
+}
+line.LANG {
+  stroke:#ad6391;
+  stroke-width: 4;
+  opacity: 0.3;
+}use.nc-inactive { stroke: #777777; stroke-width: 5;  stroke-dasharray: 3 3; }
+line.nc-inactive { stroke: #777777; stroke-width: 5;  stroke-dasharray: 3 3; }
+line.nc-link-highlight { stroke: #000000; stroke-width: 4; }
+use.nc-node-highlight { stroke: #000000; stroke-width: 4; }
+use.nc-node-center { stroke: #000000; stroke-width: 4;  stroke-dasharray: 5 3; }
+</style>
+  </defs>
+  <path
+     style="fill:#aaaaaa;fill-opacity:1;stroke:#555555;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:5.72000044"
+     d="m 522.5619,-11.602516 c 6.1542,-2.562 93.07759,-2.74208 98.26948,0 5.19192,2.7421004 3.8291,31.34424 0,34.13114 -3.82907,2.78688 -93.35193,3.73414 -98.26948,0 -4.91756,-3.73415 -6.15421,-31.5690996 0,-34.13114 z"
+     id="rect11408"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="zzzzz" />
+  <rect
+     class="nc-svg-background"
+     width="812"
+     height="480"
+     style="fill:none"
+     id="rect15"
+     x="361.54019"
+     y="-143.53217" />
+  <g
+     class="nc-svg-content"
+     transform="matrix(0.30274488,0.16954902,-0.16954902,0.30274488,8.969821,212.48763)"
+     cursor="default"
+     id="g17"
+     inkscape:export-filename="/scripts/NetworkCurator.github.io/misc/nc-g3.png"
+     inkscape:export-xdpi="92.250221"
+     inkscape:export-ydpi="92.250221">
+    <g
+       class="links"
+       cursor="default"
+       id="g19">
+      <line
+         class="nc-default-link BORDER"
+         id="L03zn2ylb"
+         x1="680.47424"
+         y1="-205.9713"
+         x2="617.09021"
+         y2="-207.2213"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L04nbqx5f"
+         x1="680.47424"
+         y1="-205.9713"
+         x2="613.19598"
+         y2="-104.4453"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L05ssbmy8"
+         x1="680.47424"
+         y1="-205.9713"
+         x2="680.41449"
+         y2="-149.46924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L0bcqknxq"
+         x1="127.75015"
+         y1="392.40649"
+         x2="248.64034"
+         y2="540.08575"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L0cpzz0qx"
+         x1="127.75015"
+         y1="392.40649"
+         x2="158.11501"
+         y2="481.10535"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L0f1jth30"
+         x1="127.75015"
+         y1="392.40649"
+         x2="141.01865"
+         y2="298.10223"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L0g6mvrqf"
+         x1="127.75015"
+         y1="392.40649"
+         x2="137.77663"
+         y2="236.14603"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L0l4f4hdf"
+         x1="375.73489"
+         y1="212.85516"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L1j5jnqy5"
+         x1="382.98438"
+         y1="133.77284"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L1jjys21b"
+         x1="382.98438"
+         y1="133.77284"
+         x2="371.49673"
+         y2="24.160177"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L1r1w798k"
+         x1="484.88358"
+         y1="240.40109"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L1s4n5jdz"
+         x1="360.52026"
+         y1="228.05762"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L28mflvyq"
+         x1="238.71608"
+         y1="483.59799"
+         x2="158.11501"
+         y2="481.10535"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L28p456f8"
+         x1="238.71608"
+         y1="483.59799"
+         x2="260.25015"
+         y2="431.71924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L29lwqn7y"
+         x1="238.71608"
+         y1="483.59799"
+         x2="175.75276"
+         y2="364.71359"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L2b1z90fg"
+         x1="238.71608"
+         y1="483.59799"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L2pwcypn6"
+         x1="435.71341"
+         y1="689.18488"
+         x2="495.76959"
+         y2="692.35327"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L2qpsd4rx"
+         x1="435.71341"
+         y1="689.18488"
+         x2="364.64542"
+         y2="686.18372"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L2srxkgcc"
+         x1="435.71341"
+         y1="689.18488"
+         x2="384.01389"
+         y2="579.61176"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L2t504kr2"
+         x1="435.71341"
+         y1="689.18488"
+         x2="514.76031"
+         y2="653.59583"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L2tnqhvtv"
+         x1="435.71341"
+         y1="689.18488"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L2xxqxvsc"
+         x1="495.76959"
+         y1="692.35327"
+         x2="435.71341"
+         y2="689.18488"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L2z61pv6c"
+         x1="495.76959"
+         y1="692.35327"
+         x2="560.10956"
+         y2="627.37042"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L2zmtlm0l"
+         x1="495.76959"
+         y1="692.35327"
+         x2="533.40198"
+         y2="562.02795"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L31wwhz65"
+         x1="495.76959"
+         y1="692.35327"
+         x2="364.64542"
+         y2="686.18372"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L372xvg85"
+         x1="495.76959"
+         y1="692.35327"
+         x2="514.76031"
+         y2="653.59583"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L374nlx4z"
+         x1="495.76959"
+         y1="692.35327"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L37l8n87z"
+         x1="720.86401"
+         y1="-199.95828"
+         x2="650.29889"
+         y2="-218.36766"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L37ny4pt5"
+         x1="720.86401"
+         y1="-199.95828"
+         x2="697.39935"
+         y2="-110.16399"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L3jlwv220"
+         x1="481.4563"
+         y1="299.60828"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L40gs2rp0"
+         x1="742.86853"
+         y1="270.34625"
+         x2="831.96149"
+         y2="294.95743"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L41z8fcxq"
+         x1="742.86853"
+         y1="270.34625"
+         x2="789.82123"
+         y2="330.2821"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L42dmrxfk"
+         x1="742.86853"
+         y1="270.34625"
+         x2="815.96747"
+         y2="233.22064"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L42mlrx1l"
+         x1="742.86853"
+         y1="270.34625"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L42ntdvr7"
+         x1="742.86853"
+         y1="270.34625"
+         x2="728.45367"
+         y2="396.99414"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L466tvfyg"
+         x1="376.19812"
+         y1="325.05637"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L4lb6jn63"
+         x1="874.48279"
+         y1="426.22845"
+         x2="757.54706"
+         y2="376.35864"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L4nkkgt4r"
+         x1="874.48279"
+         y1="426.22845"
+         x2="809.70624"
+         y2="437.43597"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L4nvbwwpc"
+         x1="874.48279"
+         y1="426.22845"
+         x2="839.24933"
+         y2="381.79987"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L4r3ddg64"
+         x1="483.93021"
+         y1="220.53183"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L4sjgm8p6"
+         x1="425.77908"
+         y1="-208.56241"
+         x2="429.27658"
+         y2="-114.59279"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L4svtj13m"
+         x1="425.77908"
+         y1="-208.56241"
+         x2="499.64722"
+         y2="-155.34579"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L4w73r3rh"
+         x1="746.79266"
+         y1="-183.26459"
+         x2="680.41449"
+         y2="-149.46924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L4wkvqg44"
+         x1="746.79266"
+         y1="-183.26459"
+         x2="697.39935"
+         y2="-110.16399"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L51bg9kzc"
+         x1="176.31143"
+         y1="178.48389"
+         x2="137.77663"
+         y2="236.14603"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L51ym5qj3"
+         x1="176.31143"
+         y1="178.48389"
+         x2="163.14706"
+         y2="85.170174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L52wmxwr4"
+         x1="176.31143"
+         y1="178.48389"
+         x2="141.01865"
+         y2="298.10223"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L53ltvjpr"
+         x1="176.31143"
+         y1="178.48389"
+         x2="78.595604"
+         y2="132.02037"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L55byzzs0"
+         x1="176.31143"
+         y1="178.48389"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L55fdszwg"
+         x1="176.31143"
+         y1="178.48389"
+         x2="119.55118"
+         y2="122.75558"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L57nzt93v"
+         x1="238.93439"
+         y1="585.83795"
+         x2="334.34735"
+         y2="563.72345"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L57x8vvv9"
+         x1="238.93439"
+         y1="585.83795"
+         x2="288.26849"
+         y2="630.31586"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L58z5mbfr"
+         x1="238.93439"
+         y1="585.83795"
+         x2="158.11501"
+         y2="481.10535"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L59fxw7bn"
+         x1="238.93439"
+         y1="585.83795"
+         x2="248.64034"
+         y2="540.08575"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L5bvlq0vv"
+         x1="238.93439"
+         y1="585.83795"
+         x2="210.27371"
+         y2="487.63824"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L5c8n7cgw"
+         x1="238.93439"
+         y1="585.83795"
+         x2="209.63168"
+         y2="541.9043"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L5h55trcb"
+         x1="238.93439"
+         y1="585.83795"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L5mg12vl3"
+         x1="516.94415"
+         y1="409.08264"
+         x2="634.43298"
+         y2="352.90747"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L5mqyc2xw"
+         x1="516.94415"
+         y1="409.08264"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L5n4fbngp"
+         x1="516.94415"
+         y1="409.08264"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L5ndpb1lz"
+         x1="345.83994"
+         y1="263.08356"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L61fflmxw"
+         x1="680.41449"
+         y1="-149.46924"
+         x2="680.47424"
+         y2="-205.9713"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L61nh5mfz"
+         x1="680.41449"
+         y1="-149.46924"
+         x2="746.79266"
+         y2="-183.26459"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L625qskw8"
+         x1="680.41449"
+         y1="-149.46924"
+         x2="650.29889"
+         y2="-218.36766"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L62n78sj5"
+         x1="680.41449"
+         y1="-149.46924"
+         x2="601.74976"
+         y2="-7.4156961"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L63cjb4st"
+         x1="680.41449"
+         y1="-149.46924"
+         x2="697.39935"
+         y2="-110.16399"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L66bvdwmd"
+         x1="680.41449"
+         y1="-149.46924"
+         x2="613.19598"
+         y2="-104.4453"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L68tzfd8p"
+         x1="680.41449"
+         y1="-149.46924"
+         x2="647.04169"
+         y2="-81.221115"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6f21yvyv"
+         x1="560.10956"
+         y1="627.37042"
+         x2="495.76959"
+         y2="692.35327"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6g18f2ql"
+         x1="560.10956"
+         y1="627.37042"
+         x2="533.40198"
+         y2="562.02795"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6h269r4y"
+         x1="560.10956"
+         y1="627.37042"
+         x2="584.01654"
+         y2="570.28082"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6h4lz6fs"
+         x1="560.10956"
+         y1="627.37042"
+         x2="571.15643"
+         y2="505.93243"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L6k2cx0tc"
+         x1="560.10956"
+         y1="627.37042"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6m5pqxpy"
+         x1="334.34735"
+         y1="563.72345"
+         x2="238.93439"
+         y2="585.83795"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6mwbb3h3"
+         x1="334.34735"
+         y1="563.72345"
+         x2="288.26849"
+         y2="630.31586"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6ngs6xsz"
+         x1="334.34735"
+         y1="563.72345"
+         x2="248.64034"
+         y2="540.08575"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6pm6gjfv"
+         x1="334.34735"
+         y1="563.72345"
+         x2="461.89438"
+         y2="576.29065"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6qgf4thx"
+         x1="334.34735"
+         y1="563.72345"
+         x2="350.82965"
+         y2="619.69702"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6qk55sjq"
+         x1="334.34735"
+         y1="563.72345"
+         x2="384.01389"
+         y2="579.61176"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L6r1wbrfb"
+         x1="334.34735"
+         y1="563.72345"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L6r4zf9xf"
+         x1="334.34735"
+         y1="563.72345"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6t6gng5g"
+         x1="158.11501"
+         y1="481.10535"
+         x2="127.75015"
+         y2="392.40649"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6tm84n0f"
+         x1="158.11501"
+         y1="481.10535"
+         x2="238.71608"
+         y2="483.59799"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6txps8kf"
+         x1="158.11501"
+         y1="481.10535"
+         x2="238.93439"
+         y2="585.83795"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6vyvntj4"
+         x1="158.11501"
+         y1="481.10535"
+         x2="248.64034"
+         y2="540.08575"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6wc3k0r3"
+         x1="158.11501"
+         y1="481.10535"
+         x2="260.25015"
+         y2="431.71924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6x4ng1c4"
+         x1="158.11501"
+         y1="481.10535"
+         x2="210.27371"
+         y2="487.63824"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6xyzb7cb"
+         x1="158.11501"
+         y1="481.10535"
+         x2="175.75276"
+         y2="364.71359"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6z2p1wsw"
+         x1="158.11501"
+         y1="481.10535"
+         x2="207.06046"
+         y2="402.94543"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L6z2y8phs"
+         x1="158.11501"
+         y1="481.10535"
+         x2="141.01865"
+         y2="298.10223"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L6zthbjn0"
+         x1="158.11501"
+         y1="481.10535"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L73csxbhw"
+         x1="158.11501"
+         y1="481.10535"
+         x2="99.159599"
+         y2="417.76917"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L74bgd6g4"
+         x1="248.64034"
+         y1="540.08575"
+         x2="127.75015"
+         y2="392.40649"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L74qyvw1w"
+         x1="248.64034"
+         y1="540.08575"
+         x2="334.34735"
+         y2="563.72345"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L74wwtk34"
+         x1="248.64034"
+         y1="540.08575"
+         x2="238.93439"
+         y2="585.83795"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L75w483gt"
+         x1="248.64034"
+         y1="540.08575"
+         x2="158.11501"
+         y2="481.10535"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L784zp334"
+         x1="248.64034"
+         y1="540.08575"
+         x2="350.82965"
+         y2="619.69702"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L7c0fnkzc"
+         x1="248.64034"
+         y1="540.08575"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L7dqgwg2n"
+         x1="316.18762"
+         y1="233.27959"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L7fjlzx2r"
+         x1="316.18762"
+         y1="233.27959"
+         x2="245.80908"
+         y2="202.65762"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L7s5qrbwp"
+         x1="588.98853"
+         y1="328.44162"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L7t079g8q"
+         x1="588.98853"
+         y1="328.44162"
+         x2="687.07043"
+         y2="444.50876"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L7t8lpjh0"
+         x1="588.98853"
+         y1="328.44162"
+         x2="678.24713"
+         y2="313.164"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L7w4tyzvl"
+         x1="417.97745"
+         y1="195.36284"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L7wr637y8"
+         x1="448.92566"
+         y1="340.29453"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L7y3nlhg1"
+         x1="592.96503"
+         y1="56.936951"
+         x2="530.77875"
+         y2="126.23708"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L8824vdbb"
+         x1="170.83589"
+         y1="546.69061"
+         x2="193.17442"
+         y2="466.29449"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L88jxn3s1"
+         x1="170.83589"
+         y1="546.69061"
+         x2="113.005"
+         y2="535.3548"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L88k3fvxp"
+         x1="170.83589"
+         y1="546.69061"
+         x2="63.448563"
+         y2="533.08978"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L88wwyv1g"
+         x1="170.83589"
+         y1="546.69061"
+         x2="148.13602"
+         y2="596.18103"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L898vtjh3"
+         x1="170.83589"
+         y1="546.69061"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L8f6lcvlj"
+         x1="464.90088"
+         y1="317.84152"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L8zvqybf1"
+         x1="167.08601"
+         y1="635.6026"
+         x2="231.09595"
+         y2="664.94427"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L90g7qwqj"
+         x1="167.08601"
+         y1="635.6026"
+         x2="209.63168"
+         y2="541.9043"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L91v2nyc6"
+         x1="167.08601"
+         y1="635.6026"
+         x2="148.13602"
+         y2="596.18103"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L94nr81h2"
+         x1="193.17442"
+         y1="466.29449"
+         x2="170.83589"
+         y2="546.69061"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L95tgjxjq"
+         x1="193.17442"
+         y1="466.29449"
+         x2="113.005"
+         y2="535.3548"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L95y8qf6g"
+         x1="193.17442"
+         y1="466.29449"
+         x2="209.63168"
+         y2="541.9043"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L96mm6xb1"
+         x1="193.17442"
+         y1="466.29449"
+         x2="148.13602"
+         y2="596.18103"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L98jqxchw"
+         x1="193.17442"
+         y1="466.29449"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L98ypvlph"
+         x1="193.17442"
+         y1="466.29449"
+         x2="118.04269"
+         y2="479.39008"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L9l9mskxs"
+         x1="711.3089"
+         y1="334.16965"
+         x2="591.79993"
+         y2="300.13065"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="L9s3pqw8g"
+         x1="711.3089"
+         y1="334.16965"
+         x2="728.45367"
+         y2="396.99414"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L9xy4pr65"
+         x1="113.005"
+         y1="535.3548"
+         x2="170.83589"
+         y2="546.69061"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L9y1nfnvs"
+         x1="113.005"
+         y1="535.3548"
+         x2="193.17442"
+         y2="466.29449"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L9ylx3ng3"
+         x1="113.005"
+         y1="535.3548"
+         x2="146.92746"
+         y2="440.34174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L9ztw44kb"
+         x1="113.005"
+         y1="535.3548"
+         x2="63.448563"
+         y2="533.08978"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="L9zw6crsc"
+         x1="113.005"
+         y1="535.3548"
+         x2="210.27371"
+         y2="487.63824"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lb0v527h8"
+         x1="113.005"
+         y1="535.3548"
+         x2="209.63168"
+         y2="541.9043"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lbcz3xq9v"
+         x1="343.75787"
+         y1="105.71236"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lbds69wh5"
+         x1="343.75787"
+         y1="105.71236"
+         x2="297.07394"
+         y2="23.713545"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lbdt8534h"
+         x1="343.75787"
+         y1="105.71236"
+         x2="318.50339"
+         y2="11.897827"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lbfg67b9f"
+         x1="455.31503"
+         y1="328.35654"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lbv3pdld1"
+         x1="455.10101"
+         y1="205.64922"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lbwrq38tv"
+         x1="350.82965"
+         y1="619.69702"
+         x2="334.34735"
+         y2="563.72345"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lbyxqj43d"
+         x1="350.82965"
+         y1="619.69702"
+         x2="248.64034"
+         y2="540.08575"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lbzmj4sbs"
+         x1="350.82965"
+         y1="619.69702"
+         x2="461.89438"
+         y2="576.29065"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lbzy1pk2x"
+         x1="350.82965"
+         y1="619.69702"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lc0hl9sy8"
+         x1="530.77875"
+         y1="126.23708"
+         x2="576.80048"
+         y2="168.67421"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lc15nsztj"
+         x1="530.77875"
+         y1="126.23708"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lcb8h4wls"
+         x1="406.64441"
+         y1="441.00424"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lcc3pcwtm"
+         x1="406.64441"
+         y1="441.00424"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lccl0p2b8"
+         x1="406.64441"
+         y1="441.00424"
+         x2="405.79984"
+         y2="519.86627"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lcdd03mxd"
+         x1="533.40198"
+         y1="562.02795"
+         x2="495.76959"
+         y2="692.35327"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lcf5p4md0"
+         x1="533.40198"
+         y1="562.02795"
+         x2="560.10956"
+         y2="627.37042"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lcf65ytq7"
+         x1="533.40198"
+         y1="562.02795"
+         x2="514.76031"
+         y2="653.59583"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lcflzrvv2"
+         x1="533.40198"
+         y1="562.02795"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lcgq399s7"
+         x1="591.79993"
+         y1="300.13065"
+         x2="711.3089"
+         y2="334.16965"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lchpgfr7l"
+         x1="591.79993"
+         y1="300.13065"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lcj6vlh56"
+         x1="584.01654"
+         y1="570.28082"
+         x2="560.10956"
+         y2="627.37042"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lck1w2tgv"
+         x1="584.01654"
+         y1="570.28082"
+         x2="571.15643"
+         y2="505.93243"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lcm1x3171"
+         x1="584.01654"
+         y1="570.28082"
+         x2="509.42108"
+         y2="568.33887"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lcmjtr1vj"
+         x1="584.01654"
+         y1="570.28082"
+         x2="567.36267"
+         y2="449.29398"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lcp66lnk3"
+         x1="584.01654"
+         y1="570.28082"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lcr4t7z9n"
+         x1="487.1123"
+         y1="441.57211"
+         x2="509.42108"
+         y2="568.33887"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lcrwbr1fc"
+         x1="487.1123"
+         y1="441.57211"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ld0f6cfhc"
+         x1="461.89438"
+         y1="576.29065"
+         x2="334.34735"
+         y2="563.72345"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ld0fcyclz"
+         x1="461.89438"
+         y1="576.29065"
+         x2="350.82965"
+         y2="619.69702"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ld0lhx137"
+         x1="461.89438"
+         y1="576.29065"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ld0wydyzl"
+         x1="461.89438"
+         y1="576.29065"
+         x2="728.45367"
+         y2="396.99414"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ld6rdnxjw"
+         x1="487.03833"
+         y1="271.4826"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ld8brpt45"
+         x1="831.96149"
+         y1="294.95743"
+         x2="742.86853"
+         y2="270.34625"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ld9tbtqw8"
+         x1="831.96149"
+         y1="294.95743"
+         x2="789.82123"
+         y2="330.2821"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ldbpq9bcs"
+         x1="831.96149"
+         y1="294.95743"
+         x2="728.45367"
+         y2="396.99414"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ldhhn77f1"
+         x1="619.01825"
+         y1="314.97781"
+         x2="704.57916"
+         y2="266.78314"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ldk5n55fc"
+         x1="619.01825"
+         y1="314.97781"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ldkr3qsq7"
+         x1="619.01825"
+         y1="314.97781"
+         x2="728.45367"
+         y2="396.99414"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ldl8zt6kz"
+         x1="757.54706"
+         y1="376.35864"
+         x2="874.48279"
+         y2="426.22845"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ldlmj8b7q"
+         x1="757.54706"
+         y1="376.35864"
+         x2="809.70624"
+         y2="437.43597"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ldm9lhzgp"
+         x1="757.54706"
+         y1="376.35864"
+         x2="839.24933"
+         y2="381.79987"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ldn9grd4q"
+         x1="757.54706"
+         y1="376.35864"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ldqryjxnw"
+         x1="601.74976"
+         y1="-7.4156961"
+         x2="680.41449"
+         y2="-149.46924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ldqxy9sb7"
+         x1="601.74976"
+         y1="-7.4156961"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ldr97rnfy"
+         x1="601.74976"
+         y1="-7.4156961"
+         x2="647.04169"
+         y2="-81.221115"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ldsn5pcpp"
+         x1="438.61877"
+         y1="196.89656"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lfhflvprp"
+         x1="454.71509"
+         y1="-165.83505"
+         x2="429.27658"
+         y2="-114.59279"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lfhl3tvz2"
+         x1="454.71509"
+         y1="-165.83505"
+         x2="458.38571"
+         y2="-30.187344"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lfmstck7b"
+         x1="480.48804"
+         y1="168.7933"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lfpngwtvs"
+         x1="480.48804"
+         y1="168.7933"
+         x2="511.77289"
+         y2="83.445892"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lfqq2sdwx"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="680.47424"
+         y2="-205.9713"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lfqvy8k5l"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="720.86401"
+         y2="-199.95828"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lfr08jy0w"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="746.79266"
+         y2="-183.26459"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lfrfrcqjp"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="650.29889"
+         y2="-218.36766"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lftkq3cxk"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="680.41449"
+         y2="-149.46924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lfttbrph4"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="758.55267"
+         y2="-163.42229"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lfttsznpz"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="613.19598"
+         y2="-104.4453"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lfwpshgtl"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="775.84711"
+         y2="-103.43228"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lfwv2vg20"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lfx8yy3p4"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="768.29059"
+         y2="-137.15717"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lfxbfpqst"
+         x1="697.39935"
+         y1="-110.16399"
+         x2="707.50336"
+         y2="-52.695793"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lfy6jhj0n"
+         x1="354.52972"
+         y1="279.66779"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lg1ql61ry"
+         x1="576.80048"
+         y1="168.67421"
+         x2="530.77875"
+         y2="126.23708"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lg1sgv841"
+         x1="576.80048"
+         y1="168.67421"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lg22wxylt"
+         x1="576.80048"
+         y1="168.67421"
+         x2="658.80487"
+         y2="119.41593"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lg3kkh7j1"
+         x1="617.09021"
+         y1="-207.2213"
+         x2="680.47424"
+         y2="-205.9713"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lg50768k6"
+         x1="617.09021"
+         y1="-207.2213"
+         x2="613.19598"
+         y2="-104.4453"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lgrv39z8v"
+         x1="544.03845"
+         y1="275.71429"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lgsjzv426"
+         x1="544.03845"
+         y1="275.71429"
+         x2="638.82147"
+         y2="263.25269"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lgv3n88p2"
+         x1="441.35168"
+         y1="437.4194"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lgw2tv60t"
+         x1="441.35168"
+         y1="437.4194"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lgw64jthh"
+         x1="441.35168"
+         y1="437.4194"
+         x2="490.09418"
+         y2="503.46561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lh6cy2nh9"
+         x1="146.92746"
+         y1="440.34174"
+         x2="113.005"
+         y2="535.3548"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lh6l6mkcg"
+         x1="146.92746"
+         y1="440.34174"
+         x2="63.448563"
+         y2="533.08978"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lh6q167zk"
+         x1="146.92746"
+         y1="440.34174"
+         x2="210.27371"
+         y2="487.63824"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lh6r2j6js"
+         x1="146.92746"
+         y1="440.34174"
+         x2="175.75276"
+         y2="364.71359"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lh8jj4g97"
+         x1="146.92746"
+         y1="440.34174"
+         x2="207.06046"
+         y2="402.94543"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lhc3qr22n"
+         x1="146.92746"
+         y1="440.34174"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lhcdprvlw"
+         x1="146.92746"
+         y1="440.34174"
+         x2="99.159599"
+         y2="417.76917"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lhlnybzt4"
+         x1="507.77731"
+         y1="181.58754"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lhlswqjtd"
+         x1="507.77731"
+         y1="181.58754"
+         x2="576.3941"
+         y2="114.03573"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lhm2657jd"
+         x1="393.98639"
+         y1="331.19324"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ljd1sr7hz"
+         x1="571.15643"
+         y1="505.93243"
+         x2="584.01654"
+         y2="570.28082"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ljds7g4cq"
+         x1="571.15643"
+         y1="505.93243"
+         x2="560.10956"
+         y2="627.37042"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ljgyzc65y"
+         x1="571.15643"
+         y1="505.93243"
+         x2="567.36267"
+         y2="449.29398"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ljjsgjm3g"
+         x1="571.15643"
+         y1="505.93243"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ljlgf8tws"
+         x1="231.09595"
+         y1="664.94427"
+         x2="288.26849"
+         y2="630.31586"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ljmkgl50p"
+         x1="231.09595"
+         y1="664.94427"
+         x2="167.08601"
+         y2="635.6026"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ljn049dp9"
+         x1="231.09595"
+         y1="664.94427"
+         x2="364.64542"
+         y2="686.18372"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ljpxf3q9h"
+         x1="231.09595"
+         y1="664.94427"
+         x2="209.63168"
+         y2="541.9043"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ljqm2g4fx"
+         x1="231.09595"
+         y1="664.94427"
+         x2="148.13602"
+         y2="596.18103"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ljrs0qnsm"
+         x1="485.42331"
+         y1="318.23099"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ljxxjkq1m"
+         x1="775.84711"
+         y1="-103.43228"
+         x2="697.39935"
+         y2="-110.16399"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ljyzd5b3f"
+         x1="775.84711"
+         y1="-103.43228"
+         x2="707.50336"
+         y2="-52.695793"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lk1g0pydl"
+         x1="247.79449"
+         y1="119.07309"
+         x2="163.14706"
+         y2="85.170174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lk1n4zbsb"
+         x1="247.79449"
+         y1="119.07309"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lk2f191pl"
+         x1="247.79449"
+         y1="119.07309"
+         x2="131.36375"
+         y2="54.523098"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lkr75jc0d"
+         x1="501.62012"
+         y1="555.16339"
+         x2="523.65631"
+         y2="466.07864"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lkrr0mcpd"
+         x1="501.62012"
+         y1="555.16339"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ll3h4jzgz"
+         x1="789.82123"
+         y1="330.2821"
+         x2="742.86853"
+         y2="270.34625"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ll4615nhn"
+         x1="789.82123"
+         y1="330.2821"
+         x2="831.96149"
+         y2="294.95743"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ll59ny25v"
+         x1="789.82123"
+         y1="330.2821"
+         x2="634.43298"
+         y2="352.90747"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ll5gj99w7"
+         x1="789.82123"
+         y1="330.2821"
+         x2="728.45367"
+         y2="396.99414"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ll7t6c9dr"
+         x1="542.67529"
+         y1="223.10231"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ll83nf1xv"
+         x1="542.67529"
+         y1="223.10231"
+         x2="633.44489"
+         y2="184.54845"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Llslb1m9t"
+         x1="529.7453"
+         y1="197.80595"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Llt7mjqsb"
+         x1="529.7453"
+         y1="197.80595"
+         x2="612.67719"
+         y2="144.32314"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Llv2zxzw4"
+         x1="650.29889"
+         y1="-218.36766"
+         x2="720.86401"
+         y2="-199.95828"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Llv9jgthl"
+         x1="650.29889"
+         y1="-218.36766"
+         x2="680.41449"
+         y2="-149.46924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Llvz43tss"
+         x1="650.29889"
+         y1="-218.36766"
+         x2="697.39935"
+         y2="-110.16399"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Llxrqblm4"
+         x1="650.29889"
+         y1="-218.36766"
+         x2="533.80902"
+         y2="-204.86729"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lm564zwwq"
+         x1="599.72711"
+         y1="257.13721"
+         x2="692.19501"
+         y2="231.56508"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lm5thzp0m"
+         x1="599.72711"
+         y1="257.13721"
+         x2="704.57916"
+         y2="266.78314"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lm5vfzcpk"
+         x1="599.72711"
+         y1="257.13721"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lm80264bf"
+         x1="137.34355"
+         y1="206.06721"
+         x2="203.90248"
+         y2="271.79068"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lm9ftqjt3"
+         x1="137.34355"
+         y1="206.06721"
+         x2="163.14706"
+         y2="85.170174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lm9mznxch"
+         x1="137.34355"
+         y1="206.06721"
+         x2="220.96898"
+         y2="145.48662"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmbb5m391"
+         x1="137.34355"
+         y1="206.06721"
+         x2="175.75276"
+         y2="364.71359"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmcfrd8b5"
+         x1="137.34355"
+         y1="206.06721"
+         x2="141.01865"
+         y2="298.10223"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmcvdyr7t"
+         x1="137.34355"
+         y1="206.06721"
+         x2="78.595604"
+         y2="132.02037"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lmmt6b6xq"
+         x1="500.34656"
+         y1="257.94672"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lmp858wqg"
+         x1="377.53406"
+         y1="433.20425"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lmplcgg72"
+         x1="377.53406"
+         y1="433.20425"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lmpxk9ppr"
+         x1="377.53406"
+         y1="433.20425"
+         x2="351.34875"
+         y2="502.51471"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmqbbdyvv"
+         x1="203.90248"
+         y1="271.79068"
+         x2="137.34355"
+         y2="206.06721"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmqx489sb"
+         x1="203.90248"
+         y1="271.79068"
+         x2="175.75276"
+         y2="364.71359"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmqxdlj98"
+         x1="203.90248"
+         y1="271.79068"
+         x2="141.01865"
+         y2="298.10223"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lmrh1sgw7"
+         x1="203.90248"
+         y1="271.79068"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lmrl9vd09"
+         x1="203.90248"
+         y1="271.79068"
+         x2="111.78918"
+         y2="209.55876"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmskftsqp"
+         x1="429.27658"
+         y1="-114.59279"
+         x2="425.77908"
+         y2="-208.56241"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmsxfc1zw"
+         x1="429.27658"
+         y1="-114.59279"
+         x2="454.71509"
+         y2="-165.83505"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmv5d3pvr"
+         x1="429.27658"
+         y1="-114.59279"
+         x2="533.80902"
+         y2="-204.86729"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lmvbmnbjm"
+         x1="429.27658"
+         y1="-114.59279"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lmvdbdg99"
+         x1="429.27658"
+         y1="-114.59279"
+         x2="499.64722"
+         y2="-155.34579"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmyjpz62d"
+         x1="137.77663"
+         y1="236.14603"
+         x2="127.75015"
+         y2="392.40649"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmzk3w7l5"
+         x1="137.77663"
+         y1="236.14603"
+         x2="176.31143"
+         y2="178.48389"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmzs0txgw"
+         x1="137.77663"
+         y1="236.14603"
+         x2="163.14706"
+         y2="85.170174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lmzzn51sk"
+         x1="137.77663"
+         y1="236.14603"
+         x2="141.01865"
+         y2="298.10223"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ln0vns4qq"
+         x1="137.77663"
+         y1="236.14603"
+         x2="110.7887"
+         y2="147.67758"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ln153zks0"
+         x1="137.77663"
+         y1="236.14603"
+         x2="75.909065"
+         y2="191.7186"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ln2dt25rz"
+         x1="137.77663"
+         y1="236.14603"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ln38htf5z"
+         x1="137.77663"
+         y1="236.14603"
+         x2="62.24329"
+         y2="264.3255"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ln4l0nxys"
+         x1="137.77663"
+         y1="236.14603"
+         x2="56.349419"
+         y2="229.62885"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ln5ns70bt"
+         x1="137.77663"
+         y1="236.14603"
+         x2="74.482269"
+         y2="280.74893"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ln5r4ywwn"
+         x1="137.77663"
+         y1="236.14603"
+         x2="56.836678"
+         y2="247.11937"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ln7nxsm8t"
+         x1="137.77663"
+         y1="236.14603"
+         x2="61.96043"
+         y2="211.29366"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ln7tf8py5"
+         x1="137.77663"
+         y1="236.14603"
+         x2="119.55118"
+         y2="122.75558"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lnclc17sq"
+         x1="364.64542"
+         y1="686.18372"
+         x2="435.71341"
+         y2="689.18488"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lnd2qtnjs"
+         x1="364.64542"
+         y1="686.18372"
+         x2="495.76959"
+         y2="692.35327"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lnfj3y1k9"
+         x1="364.64542"
+         y1="686.18372"
+         x2="288.26849"
+         y2="630.31586"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lng384mbq"
+         x1="364.64542"
+         y1="686.18372"
+         x2="231.09595"
+         y2="664.94427"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lnj9gmlqy"
+         x1="364.64542"
+         y1="686.18372"
+         x2="384.01389"
+         y2="579.61176"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lnjd66gny"
+         x1="364.64542"
+         y1="686.18372"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lnk22l70s"
+         x1="464.32471"
+         y1="147.00197"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lnkltgyvq"
+         x1="464.32471"
+         y1="147.00197"
+         x2="488.84601"
+         y2="54.058399"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lnlr50h36"
+         x1="384.01389"
+         y1="579.61176"
+         x2="435.71341"
+         y2="689.18488"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lnlt54nxl"
+         x1="384.01389"
+         y1="579.61176"
+         x2="334.34735"
+         y2="563.72345"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lnp28j7xz"
+         x1="384.01389"
+         y1="579.61176"
+         x2="288.26849"
+         y2="630.31586"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lnp485b96"
+         x1="384.01389"
+         y1="579.61176"
+         x2="364.64542"
+         y2="686.18372"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lnpmsf4h1"
+         x1="384.01389"
+         y1="579.61176"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lnwf6s7k8"
+         x1="337.50397"
+         y1="190.35748"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lnww4qdp0"
+         x1="337.50397"
+         y1="190.35748"
+         x2="291.52594"
+         y2="118.03316"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lp9yrrwbb"
+         x1="758.55267"
+         y1="-163.42229"
+         x2="680.41449"
+         y2="-149.46924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lpb7l9mjg"
+         x1="758.55267"
+         y1="-163.42229"
+         x2="697.39935"
+         y2="-110.16399"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lpd79pllq"
+         x1="547.66156"
+         y1="246.59584"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lpg0sghts"
+         x1="547.66156"
+         y1="246.59584"
+         x2="639.79425"
+         y2="222.02536"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lphlsg1yl"
+         x1="457.09232"
+         y1="93.755859"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lpjs9rkjj"
+         x1="457.09232"
+         y1="93.755859"
+         x2="477.29251"
+         y2="8.1152859"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lpk86wyfy"
+         x1="457.09232"
+         y1="93.755859"
+         x2="457.772"
+         y2="1.3957816"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lpp7nxnk6"
+         x1="613.19598"
+         y1="-104.4453"
+         x2="680.47424"
+         y2="-205.9713"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lppnn71pg"
+         x1="613.19598"
+         y1="-104.4453"
+         x2="680.41449"
+         y2="-149.46924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lpq069mdr"
+         x1="613.19598"
+         y1="-104.4453"
+         x2="697.39935"
+         y2="-110.16399"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lpqvqt56x"
+         x1="613.19598"
+         y1="-104.4453"
+         x2="617.09021"
+         y2="-207.2213"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lpr78j2l3"
+         x1="613.19598"
+         y1="-104.4453"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lprrqx1xs"
+         x1="613.19598"
+         y1="-104.4453"
+         x2="613.51074"
+         y2="-174.45044"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lpvp8sc41"
+         x1="395.52213"
+         y1="204.53957"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lq4zwt9rv"
+         x1="356.89609"
+         y1="164.89723"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lq6q9j524"
+         x1="356.89609"
+         y1="164.89723"
+         x2="315.85355"
+         y2="81.871582"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lq7pq9bb3"
+         x1="499.3302"
+         y1="156.34302"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lq7xk3rtx"
+         x1="499.3302"
+         y1="156.34302"
+         x2="548.26892"
+         y2="73.569809"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lq91pr5g9"
+         x1="458.38571"
+         y1="-30.187344"
+         x2="454.71509"
+         y2="-165.83505"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lqbn2181d"
+         x1="458.38571"
+         y1="-30.187344"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lqc46tzw8"
+         x1="458.38571"
+         y1="-30.187344"
+         x2="475.98102"
+         y2="-106.46427"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lqc4kczsx"
+         x1="458.38571"
+         y1="-30.187344"
+         x2="442.50903"
+         y2="-105.04186"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lqmx9hzgz"
+         x1="579.42786"
+         y1="344.72385"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lqn38nprt"
+         x1="579.42786"
+         y1="344.72385"
+         x2="728.45367"
+         y2="396.99414"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lryl7s4lw"
+         x1="260.25015"
+         y1="431.71924"
+         x2="238.71608"
+         y2="483.59799"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lrz1djq4v"
+         x1="260.25015"
+         y1="431.71924"
+         x2="158.11501"
+         y2="481.10535"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ls0vzjcw7"
+         x1="260.25015"
+         y1="431.71924"
+         x2="175.75276"
+         y2="364.71359"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ls1n3gxbn"
+         x1="260.25015"
+         y1="431.71924"
+         x2="207.06046"
+         y2="402.94543"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ls2rmcz9p"
+         x1="260.25015"
+         y1="431.71924"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ls2zrklpx"
+         x1="260.25015"
+         y1="431.71924"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ls35dk9cb"
+         x1="260.25015"
+         y1="431.71924"
+         x2="229.17157"
+         y2="501.49857"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ls66c67wm"
+         x1="209.63168"
+         y1="541.9043"
+         x2="238.93439"
+         y2="585.83795"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ls6vr8jv1"
+         x1="209.63168"
+         y1="541.9043"
+         x2="288.26849"
+         y2="630.31586"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ls6w5dtxn"
+         x1="209.63168"
+         y1="541.9043"
+         x2="167.08601"
+         y2="635.6026"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ls8c1dc88"
+         x1="209.63168"
+         y1="541.9043"
+         x2="193.17442"
+         y2="466.29449"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ls8nklj9n"
+         x1="209.63168"
+         y1="541.9043"
+         x2="113.005"
+         y2="535.3548"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lsb22152f"
+         x1="209.63168"
+         y1="541.9043"
+         x2="231.09595"
+         y2="664.94427"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lsby0tssy"
+         x1="209.63168"
+         y1="541.9043"
+         x2="210.27371"
+         y2="487.63824"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lsbydkk7q"
+         x1="209.63168"
+         y1="541.9043"
+         x2="148.13602"
+         y2="596.18103"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lscwsk688"
+         x1="209.63168"
+         y1="541.9043"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lsd3c7517"
+         x1="509.42108"
+         y1="568.33887"
+         x2="487.1123"
+         y2="441.57211"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lsdxzvsrm"
+         x1="509.42108"
+         y1="568.33887"
+         x2="584.01654"
+         y2="570.28082"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lsgq6ycpj"
+         x1="509.42108"
+         y1="568.33887"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lskf4z2by"
+         x1="553.42419"
+         y1="12.193947"
+         x2="647.04169"
+         y2="-81.221115"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lsmf8bsvb"
+         x1="553.42419"
+         y1="12.193947"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lsqkbvmr9"
+         x1="553.42419"
+         y1="12.193947"
+         x2="499.64722"
+         y2="-155.34579"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lsqz3jdxd"
+         x1="553.42419"
+         y1="12.193947"
+         x2="707.50336"
+         y2="-52.695793"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lssy9p6np"
+         x1="498.69781"
+         y1="288.40125"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lswcr9yqj"
+         x1="357.04086"
+         y1="248.08237"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lsxl8rjq3"
+         x1="567.36267"
+         y1="449.29398"
+         x2="584.01654"
+         y2="570.28082"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lsym4my1z"
+         x1="567.36267"
+         y1="449.29398"
+         x2="571.15643"
+         y2="505.93243"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lszp0vppl"
+         x1="567.36267"
+         y1="449.29398"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lt3r6stmc"
+         x1="63.448563"
+         y1="533.08978"
+         x2="170.83589"
+         y2="546.69061"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lt426qp95"
+         x1="63.448563"
+         y1="533.08978"
+         x2="113.005"
+         y2="535.3548"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lt47nrjr6"
+         x1="63.448563"
+         y1="533.08978"
+         x2="146.92746"
+         y2="440.34174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lt4w1kt6q"
+         x1="63.448563"
+         y1="533.08978"
+         x2="148.13602"
+         y2="596.18103"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ltg0whywc"
+         x1="210.27371"
+         y1="487.63824"
+         x2="238.93439"
+         y2="585.83795"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ltg262mzc"
+         x1="210.27371"
+         y1="487.63824"
+         x2="158.11501"
+         y2="481.10535"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ltjs4h56t"
+         x1="210.27371"
+         y1="487.63824"
+         x2="113.005"
+         y2="535.3548"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ltk93y9sj"
+         x1="210.27371"
+         y1="487.63824"
+         x2="146.92746"
+         y2="440.34174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ltmpk782c"
+         x1="210.27371"
+         y1="487.63824"
+         x2="209.63168"
+         y2="541.9043"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ltmyysc66"
+         x1="210.27371"
+         y1="487.63824"
+         x2="207.06046"
+         y2="402.94543"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ltnh0z4hw"
+         x1="210.27371"
+         y1="487.63824"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ltsbz0qvn"
+         x1="809.70624"
+         y1="437.43597"
+         x2="874.48279"
+         y2="426.22845"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ltthl6ysz"
+         x1="809.70624"
+         y1="437.43597"
+         x2="757.54706"
+         y2="376.35864"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lttkn3yb1"
+         x1="809.70624"
+         y1="437.43597"
+         x2="687.07043"
+         y2="444.50876"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lvbg6yffh"
+         x1="220.96898"
+         y1="145.48662"
+         x2="137.34355"
+         y2="206.06721"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lvbnvc4my"
+         x1="220.96898"
+         y1="145.48662"
+         x2="163.14706"
+         y2="85.170174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvc7ppdp9"
+         x1="220.96898"
+         y1="145.48662"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvcgwvnl8"
+         x1="220.96898"
+         y1="145.48662"
+         x2="210.94327"
+         y2="47.108952"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lvd9vt792"
+         x1="523.65631"
+         y1="466.07864"
+         x2="501.62012"
+         y2="555.16339"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvdyxggvp"
+         x1="523.65631"
+         y1="466.07864"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvfrbq82d"
+         x1="523.65631"
+         y1="466.07864"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvgl9fh3v"
+         x1="523.65631"
+         y1="466.07864"
+         x2="687.07043"
+         y2="444.50876"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvhcrg8w1"
+         x1="389.75241"
+         y1="420.86685"
+         x2="331.21213"
+         y2="471.69098"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvl6631nz"
+         x1="389.75241"
+         y1="420.86685"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvl6fd6sb"
+         x1="389.75241"
+         y1="420.86685"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvt24hkwp"
+         x1="430.71756"
+         y1="337.27502"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lvv59q6n3"
+         x1="288.26849"
+         y1="630.31586"
+         x2="334.34735"
+         y2="563.72345"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lvvd7mlrh"
+         x1="288.26849"
+         y1="630.31586"
+         x2="238.93439"
+         y2="585.83795"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lvvr4m09w"
+         x1="288.26849"
+         y1="630.31586"
+         x2="231.09595"
+         y2="664.94427"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lvwhpnqh1"
+         x1="288.26849"
+         y1="630.31586"
+         x2="364.64542"
+         y2="686.18372"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lvwvl00pq"
+         x1="288.26849"
+         y1="630.31586"
+         x2="384.01389"
+         y2="579.61176"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lvx3w25by"
+         x1="288.26849"
+         y1="630.31586"
+         x2="210.27371"
+         y2="487.63824"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvxbbr4t5"
+         x1="288.26849"
+         y1="630.31586"
+         x2="148.13602"
+         y2="596.18103"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lvzzl7gkn"
+         x1="288.26849"
+         y1="630.31586"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lw08hp8dv"
+         x1="514.76031"
+         y1="653.59583"
+         x2="435.71341"
+         y2="689.18488"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lw1h9q8qm"
+         x1="514.76031"
+         y1="653.59583"
+         x2="495.76959"
+         y2="692.35327"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lw1t27tqt"
+         x1="514.76031"
+         y1="653.59583"
+         x2="533.40198"
+         y2="562.02795"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lw2xr3z2g"
+         x1="514.76031"
+         y1="653.59583"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lw445wl0n"
+         x1="533.80902"
+         y1="-204.86729"
+         x2="650.29889"
+         y2="-218.36766"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lw6lw3csm"
+         x1="533.80902"
+         y1="-204.86729"
+         x2="429.27658"
+         y2="-114.59279"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lwgv65zp8"
+         x1="403.06146"
+         y1="98.156265"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lwk99vmq8"
+         x1="403.06146"
+         y1="98.156265"
+         x2="371.49673"
+         y2="24.160177"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lwlz8kr56"
+         x1="403.06146"
+         y1="98.156265"
+         x2="394.73349"
+         y2="2.2012596"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lwrmyq2xb"
+         x1="434.01337"
+         y1="147.17516"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lws5wt179"
+         x1="434.01337"
+         y1="147.17516"
+         x2="438.66"
+         y2="51.297802"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lwvr81w7b"
+         x1="494.63617"
+         y1="234.16483"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lx257w3fx"
+         x1="388.82709"
+         y1="160.22394"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lx2kv8tsz"
+         x1="388.82709"
+         y1="160.22394"
+         x2="363.69183"
+         y2="71.915382"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lx4zr85nv"
+         x1="175.75276"
+         y1="364.71359"
+         x2="238.71608"
+         y2="483.59799"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lx5gljqht"
+         x1="175.75276"
+         y1="364.71359"
+         x2="158.11501"
+         y2="481.10535"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lx6drtrfy"
+         x1="175.75276"
+         y1="364.71359"
+         x2="146.92746"
+         y2="440.34174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lx6gjwr7j"
+         x1="175.75276"
+         y1="364.71359"
+         x2="203.90248"
+         y2="271.79068"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lx6j5ktd0"
+         x1="175.75276"
+         y1="364.71359"
+         x2="137.34355"
+         y2="206.06721"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lx6lfr52m"
+         x1="175.75276"
+         y1="364.71359"
+         x2="260.25015"
+         y2="431.71924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lx8pbb5vw"
+         x1="175.75276"
+         y1="364.71359"
+         x2="207.06046"
+         y2="402.94543"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lxb5wbmsb"
+         x1="175.75276"
+         y1="364.71359"
+         x2="141.01865"
+         y2="298.10223"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lxbdbyjpv"
+         x1="175.75276"
+         y1="364.71359"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lxbk0p94s"
+         x1="175.75276"
+         y1="364.71359"
+         x2="99.159599"
+         y2="417.76917"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lxbqzl0pw"
+         x1="207.06046"
+         y1="402.94543"
+         x2="158.11501"
+         y2="481.10535"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lxfq289rx"
+         x1="207.06046"
+         y1="402.94543"
+         x2="146.92746"
+         y2="440.34174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lxfvk9cp2"
+         x1="207.06046"
+         y1="402.94543"
+         x2="260.25015"
+         y2="431.71924"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lxgc7jz86"
+         x1="207.06046"
+         y1="402.94543"
+         x2="210.27371"
+         y2="487.63824"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lxgd2xpsl"
+         x1="207.06046"
+         y1="402.94543"
+         x2="175.75276"
+         y2="364.71359"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lxhhpjmn0"
+         x1="207.06046"
+         y1="402.94543"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lxhm5z7jg"
+         x1="207.06046"
+         y1="402.94543"
+         x2="99.159599"
+         y2="417.76917"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lxsr93q6q"
+         x1="411.69278"
+         y1="337.17432"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lxxgtx4dp"
+         x1="634.43298"
+         y1="352.90747"
+         x2="516.94415"
+         y2="409.08264"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lxxz2csn3"
+         x1="634.43298"
+         y1="352.90747"
+         x2="789.82123"
+         y2="330.2821"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lxyck75dq"
+         x1="634.43298"
+         y1="352.90747"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ly60kkyl6"
+         x1="367.26071"
+         y1="309.11292"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ly7gfgv9j"
+         x1="839.24933"
+         y1="381.79987"
+         x2="874.48279"
+         y2="426.22845"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ly89nz2gc"
+         x1="839.24933"
+         y1="381.79987"
+         x2="757.54706"
+         y2="376.35864"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Ly91bdpnv"
+         x1="839.24933"
+         y1="381.79987"
+         x2="728.45367"
+         y2="396.99414"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lybv4h0gp"
+         x1="352.16922"
+         y1="297.90839"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lycd85bg0"
+         x1="469.94693"
+         y1="213.50209"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lyhllxls5"
+         x1="421.5614"
+         y1="426.42596"
+         x2="445.65326"
+         y2="501.89972"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lyhwpz6bl"
+         x1="421.5614"
+         y1="426.42596"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lyjj3m6n7"
+         x1="421.5614"
+         y1="426.42596"
+         x2="401.27231"
+         y2="562.5343"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lym5y0vx8"
+         x1="402.71954"
+         y1="136.9617"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lymhthdvj"
+         x1="402.71954"
+         y1="136.9617"
+         x2="371.49673"
+         y2="24.160177"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lyrfpkhh0"
+         x1="163.14706"
+         y1="85.170174"
+         x2="176.31143"
+         y2="178.48389"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lytj4ztzx"
+         x1="163.14706"
+         y1="85.170174"
+         x2="247.79449"
+         y2="119.07309"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lyx6stylw"
+         x1="163.14706"
+         y1="85.170174"
+         x2="137.34355"
+         y2="206.06721"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lyynm9794"
+         x1="163.14706"
+         y1="85.170174"
+         x2="137.77663"
+         y2="236.14603"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lyz6lkqbq"
+         x1="163.14706"
+         y1="85.170174"
+         x2="220.96898"
+         y2="145.48662"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lyzkwn42j"
+         x1="163.14706"
+         y1="85.170174"
+         x2="78.595604"
+         y2="132.02037"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lyzrd7wzw"
+         x1="163.14706"
+         y1="85.170174"
+         x2="110.7887"
+         y2="147.67758"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lz00j8n44"
+         x1="163.14706"
+         y1="85.170174"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lz1hm3rm0"
+         x1="163.14706"
+         y1="85.170174"
+         x2="168.62256"
+         y2="4.146596"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lz2cyjnmx"
+         x1="163.14706"
+         y1="85.170174"
+         x2="127.51521"
+         y2="10.078547"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lz2rgfthd"
+         x1="163.14706"
+         y1="85.170174"
+         x2="131.36375"
+         y2="54.523098"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lz3qdgm5h"
+         x1="163.14706"
+         y1="85.170174"
+         x2="210.94327"
+         y2="47.108952"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lz4g6bgrl"
+         x1="163.14706"
+         y1="85.170174"
+         x2="119.55118"
+         y2="122.75558"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lz5csj9qr"
+         x1="163.14706"
+         y1="85.170174"
+         x2="96.014854"
+         y2="45.780174"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lz5r23zk7"
+         x1="163.14706"
+         y1="85.170174"
+         x2="82.304581"
+         y2="62.045967"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lz5ww5y4s"
+         x1="163.14706"
+         y1="85.170174"
+         x2="78.790154"
+         y2="40.61095"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lz6fmxyn8"
+         x1="163.14706"
+         y1="85.170174"
+         x2="147.28558"
+         y2="3.0153086"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lz9h3t5rc"
+         x1="141.01865"
+         y1="298.10223"
+         x2="127.75015"
+         y2="392.40649"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzb64tbf6"
+         x1="141.01865"
+         y1="298.10223"
+         x2="176.31143"
+         y2="178.48389"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzbcj75ly"
+         x1="141.01865"
+         y1="298.10223"
+         x2="158.11501"
+         y2="481.10535"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzbfkplbd"
+         x1="141.01865"
+         y1="298.10223"
+         x2="203.90248"
+         y2="271.79068"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzbxyc3tb"
+         x1="141.01865"
+         y1="298.10223"
+         x2="137.34355"
+         y2="206.06721"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzcpfc7sj"
+         x1="141.01865"
+         y1="298.10223"
+         x2="137.77663"
+         y2="236.14603"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzdn6dxt6"
+         x1="141.01865"
+         y1="298.10223"
+         x2="175.75276"
+         y2="364.71359"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzdxdbr98"
+         x1="141.01865"
+         y1="298.10223"
+         x2="78.595604"
+         y2="132.02037"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzf6sdrjr"
+         x1="141.01865"
+         y1="298.10223"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzh8qz7pn"
+         x1="78.595604"
+         y1="132.02037"
+         x2="176.31143"
+         y2="178.48389"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzhcw52r0"
+         x1="78.595604"
+         y1="132.02037"
+         x2="137.34355"
+         y2="206.06721"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzjyvy68x"
+         x1="78.595604"
+         y1="132.02037"
+         x2="163.14706"
+         y2="85.170174"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link BORDER"
+         id="Lzkch30fg"
+         x1="78.595604"
+         y1="132.02037"
+         x2="141.01865"
+         y2="298.10223"
+         style="opacity:0.3;stroke:#222222;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzl5lq9b7"
+         x1="78.595604"
+         y1="132.02037"
+         x2="39.495071"
+         y2="54.338173"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzm4ybdl5"
+         x1="78.595604"
+         y1="132.02037"
+         x2="424.21759"
+         y2="265.99561"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lznc17q2q"
+         x1="78.595604"
+         y1="132.02037"
+         x2="5.0711541"
+         y2="113.27916"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzpr21bfy"
+         x1="78.595604"
+         y1="132.02037"
+         x2="34.994083"
+         y2="69.069336"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzqlzffwf"
+         x1="78.595604"
+         y1="132.02037"
+         x2="8.2536335"
+         y2="151.55081"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzrgwssm2"
+         x1="78.595604"
+         y1="132.02037"
+         x2="1.2647963"
+         y2="130.93301"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzrkzl4fw"
+         x1="78.595604"
+         y1="132.02037"
+         x2="111.78918"
+         y2="209.55876"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzs1czsw9"
+         x1="78.595604"
+         y1="132.02037"
+         x2="28.267168"
+         y2="90.5158"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzs8w1v1h"
+         x1="78.595604"
+         y1="132.02037"
+         x2="131.36375"
+         y2="54.523098"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzt25g79v"
+         x1="78.595604"
+         y1="132.02037"
+         x2="7.6027889"
+         y2="97.769524"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzv079txf"
+         x1="78.595604"
+         y1="132.02037"
+         x2="119.55118"
+         y2="122.75558"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzwg71vyq"
+         x1="78.595604"
+         y1="132.02037"
+         x2="96.014854"
+         y2="45.780174"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzx7y1qtw"
+         x1="78.595604"
+         y1="132.02037"
+         x2="82.304581"
+         y2="62.045967"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzxm9k2h7"
+         x1="78.595604"
+         y1="132.02037"
+         x2="78.790154"
+         y2="40.61095"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+      <line
+         class="nc-default-link LANG"
+         id="Lzycssf8c"
+         x1="78.595604"
+         y1="132.02037"
+         x2="17.752943"
+         y2="76.208549"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:4" />
+    </g>
+    <g
+       class="nodes"
+       cursor="default"
+       id="g489">
+      <use
+         xlink:href="#LANGUAGE"
+         id="V03z8yzcj"
+         class="nc-default-node LANGUAGE"
+         x="687.07043"
+         y="444.50876"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V08xdhppn"
+         class="nc-default-node LANGUAGE"
+         x="678.24713"
+         y="313.164"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V09ss979q"
+         class="nc-default-node COUNTRY"
+         x="680.47424"
+         y="-205.9713"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V0qlgts86"
+         class="nc-default-node COUNTRY"
+         x="127.75015"
+         y="392.40649"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V1cwsd5cf"
+         class="nc-default-node COUNTRY"
+         x="375.73489"
+         y="212.85516"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V1d2zzb04"
+         class="nc-default-node LANGUAGE nc-node-center"
+         x="424.21759"
+         y="265.99561"
+         style="fill:#9d6381;stroke:#000000;stroke-width:4;stroke-dasharray:5, 3"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V2386k3rp"
+         class="nc-default-node LANGUAGE"
+         x="148.13602"
+         y="596.18103"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V2br9nqrb"
+         class="nc-default-node LANGUAGE"
+         x="728.45367"
+         y="396.99414"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V2nbvq4g4"
+         class="nc-default-node COUNTRY"
+         x="382.98438"
+         y="133.77284"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V2r0c45br"
+         class="nc-default-node LANGUAGE"
+         x="371.49673"
+         y="24.160177"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V30fl22dl"
+         class="nc-default-node LANGUAGE"
+         x="401.27231"
+         y="562.5343"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V36wnt6fx"
+         class="nc-default-node COUNTRY"
+         x="484.88358"
+         y="240.40109"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V37t209w8"
+         class="nc-default-node COUNTRY"
+         x="360.52026"
+         y="228.05762"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V3p81r5lx"
+         class="nc-default-node COUNTRY"
+         x="238.71608"
+         y="483.59799"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V3yksbqd3"
+         class="nc-default-node LANGUAGE"
+         x="75.909065"
+         y="191.7186"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V3z292qh4"
+         class="nc-default-node COUNTRY"
+         x="435.71341"
+         y="689.18488"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V40tb56cj"
+         class="nc-default-node COUNTRY"
+         x="495.76959"
+         y="692.35327"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V41gtvw5w"
+         class="nc-default-node COUNTRY"
+         x="720.86401"
+         y="-199.95828"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V4gyggmlh"
+         class="nc-default-node COUNTRY"
+         x="481.4563"
+         y="299.60828"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V4rks3vky"
+         class="nc-default-node COUNTRY"
+         x="742.86853"
+         y="270.34625"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V4w8rqrlp"
+         class="nc-default-node LANGUAGE"
+         x="815.96747"
+         y="233.22064"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V4xfdsrmn"
+         class="nc-default-node COUNTRY"
+         x="376.19812"
+         y="325.05637"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V5dhlt2rm"
+         class="nc-default-node COUNTRY"
+         x="874.48279"
+         y="426.22845"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V5dk21392"
+         class="nc-default-node COUNTRY"
+         x="483.93021"
+         y="220.53183"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V5f8xhyx0"
+         class="nc-default-node COUNTRY"
+         x="425.77908"
+         y="-208.56241"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V5p8bq3tc"
+         class="nc-default-node LANGUAGE"
+         x="499.64722"
+         y="-155.34579"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V5qzv5jxq"
+         class="nc-default-node COUNTRY"
+         x="746.79266"
+         y="-183.26459"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V5vbnm0zr"
+         class="nc-default-node COUNTRY"
+         x="176.31143"
+         y="178.48389"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V5xzxbzn5"
+         class="nc-default-node LANGUAGE"
+         x="119.55118"
+         y="122.75558"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V60sjzqqj"
+         class="nc-default-node COUNTRY"
+         x="238.93439"
+         y="585.83795"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V66djtr9x"
+         class="nc-default-node COUNTRY"
+         x="516.94415"
+         y="409.08264"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V6c6tvcfc"
+         class="nc-default-node COUNTRY"
+         x="345.83994"
+         y="263.08356"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V6y6dhv8c"
+         class="nc-default-node COUNTRY"
+         x="680.41449"
+         y="-149.46924"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V747fbdj4"
+         class="nc-default-node LANGUAGE"
+         x="647.04169"
+         y="-81.221115"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V78l6vln6"
+         class="nc-default-node COUNTRY"
+         x="560.10956"
+         y="627.37042"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V7clglydm"
+         class="nc-default-node COUNTRY"
+         x="334.34735"
+         y="563.72345"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V7g724tb1"
+         class="nc-default-node COUNTRY"
+         x="158.11501"
+         y="481.10535"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V7rvzb4sh"
+         class="nc-default-node LANGUAGE"
+         x="99.159599"
+         y="417.76917"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V7whqhpbh"
+         class="nc-default-node COUNTRY"
+         x="248.64034"
+         y="540.08575"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V7wzzsfvw"
+         class="nc-default-node COUNTRY"
+         x="316.18762"
+         y="233.27959"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V7x394z8v"
+         class="nc-default-node LANGUAGE"
+         x="245.80908"
+         y="202.65762"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V8n3lr1bh"
+         class="nc-default-node COUNTRY"
+         x="588.98853"
+         y="328.44162"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V8qcbz5yr"
+         class="nc-default-node COUNTRY"
+         x="417.97745"
+         y="195.36284"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V8vht42fn"
+         class="nc-default-node COUNTRY"
+         x="448.92566"
+         y="340.29453"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V90p136p1"
+         class="nc-default-node COUNTRY"
+         x="592.96503"
+         y="56.936951"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V9ldc2tsg"
+         class="nc-default-node COUNTRY"
+         x="170.83589"
+         y="546.69061"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="V9lxbt8k2"
+         class="nc-default-node COUNTRY"
+         x="464.90088"
+         y="317.84152"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vb05p1mqm"
+         class="nc-default-node COUNTRY"
+         x="167.08601"
+         y="635.6026"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vb1f2c9tx"
+         class="nc-default-node COUNTRY"
+         x="193.17442"
+         y="466.29449"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vb3n3v8rc"
+         class="nc-default-node LANGUAGE"
+         x="118.04269"
+         y="479.39008"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vbd19h4w1"
+         class="nc-default-node COUNTRY"
+         x="711.3089"
+         y="334.16965"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vbjm295k4"
+         class="nc-default-node COUNTRY"
+         x="113.005"
+         y="535.3548"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vbsbn37wy"
+         class="nc-default-node COUNTRY"
+         x="343.75787"
+         y="105.71236"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vbt62j3d0"
+         class="nc-default-node LANGUAGE"
+         x="297.07394"
+         y="23.713545"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vbygr0d4v"
+         class="nc-default-node LANGUAGE"
+         x="318.50339"
+         y="11.897827"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vbzpn3g6s"
+         class="nc-default-node COUNTRY"
+         x="455.31503"
+         y="328.35654"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vc9grcrcc"
+         class="nc-default-node COUNTRY"
+         x="455.10101"
+         y="205.64922"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vcffvgsct"
+         class="nc-default-node COUNTRY"
+         x="350.82965"
+         y="619.69702"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vcggrfxjg"
+         class="nc-default-node COUNTRY"
+         x="530.77875"
+         y="126.23708"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vcmgg3n8k"
+         class="nc-default-node COUNTRY"
+         x="406.64441"
+         y="441.00424"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vcmn990j7"
+         class="nc-default-node LANGUAGE"
+         x="405.79984"
+         y="519.86627"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vcp3hb8gf"
+         class="nc-default-node COUNTRY"
+         x="533.40198"
+         y="562.02795"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vcqyd87cy"
+         class="nc-default-node COUNTRY"
+         x="591.79993"
+         y="300.13065"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vcr4964y9"
+         class="nc-default-node COUNTRY"
+         x="584.01654"
+         y="570.28082"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vcswswjjj"
+         class="nc-default-node COUNTRY"
+         x="487.1123"
+         y="441.57211"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vcz6qmdpd"
+         class="nc-default-node COUNTRY"
+         x="461.89438"
+         y="576.29065"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vd3wz70zh"
+         class="nc-default-node COUNTRY"
+         x="487.03833"
+         y="271.4826"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vdbk0j0sw"
+         class="nc-default-node COUNTRY"
+         x="831.96149"
+         y="294.95743"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vdjmvtc73"
+         class="nc-default-node COUNTRY"
+         x="619.01825"
+         y="314.97781"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vdnqny1wp"
+         class="nc-default-node LANGUAGE"
+         x="704.57916"
+         y="266.78314"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vdqh43zs9"
+         class="nc-default-node COUNTRY"
+         x="757.54706"
+         y="376.35864"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vdsvnsxgw"
+         class="nc-default-node COUNTRY"
+         x="601.74976"
+         y="-7.4156961"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vdy014f37"
+         class="nc-default-node COUNTRY"
+         x="438.61877"
+         y="196.89656"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vfw9p8d9l"
+         class="nc-default-node COUNTRY"
+         x="454.71509"
+         y="-165.83505"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vg4qh71jq"
+         class="nc-default-node COUNTRY"
+         x="480.48804"
+         y="168.7933"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vg6jtg1rr"
+         class="nc-default-node LANGUAGE"
+         x="511.77289"
+         y="83.445892"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vghz14kpq"
+         class="nc-default-node COUNTRY"
+         x="697.39935"
+         y="-110.16399"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vgk2x49z8"
+         class="nc-default-node LANGUAGE"
+         x="768.29059"
+         y="-137.15717"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vglwzn09s"
+         class="nc-default-node LANGUAGE"
+         x="707.50336"
+         y="-52.695793"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vgxvwzhm4"
+         class="nc-default-node COUNTRY"
+         x="354.52972"
+         y="279.66779"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vgyln3f79"
+         class="nc-default-node COUNTRY"
+         x="576.80048"
+         y="168.67421"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vh1b2mxby"
+         class="nc-default-node LANGUAGE"
+         x="658.80487"
+         y="119.41593"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vh5w7njbg"
+         class="nc-default-node COUNTRY"
+         x="617.09021"
+         y="-207.2213"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vj98r5hx5"
+         class="nc-default-node COUNTRY"
+         x="544.03845"
+         y="275.71429"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vjb54xz9m"
+         class="nc-default-node LANGUAGE"
+         x="638.82147"
+         y="263.25269"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vjgymxgzb"
+         class="nc-default-node COUNTRY"
+         x="441.35168"
+         y="437.4194"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vjjddhx6h"
+         class="nc-default-node LANGUAGE"
+         x="490.09418"
+         y="503.46561"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vk3npklt6"
+         class="nc-default-node COUNTRY"
+         x="146.92746"
+         y="440.34174"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vkfqhwqtn"
+         class="nc-default-node COUNTRY"
+         x="507.77731"
+         y="181.58754"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vkgv5c8c5"
+         class="nc-default-node LANGUAGE"
+         x="576.3941"
+         y="114.03573"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vkscrsxhp"
+         class="nc-default-node COUNTRY"
+         x="393.98639"
+         y="331.19324"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vlg608z3s"
+         class="nc-default-node COUNTRY"
+         x="571.15643"
+         y="505.93243"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vlgtvjml0"
+         class="nc-default-node COUNTRY"
+         x="231.09595"
+         y="664.94427"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vllr58lbm"
+         class="nc-default-node COUNTRY"
+         x="485.42331"
+         y="318.23099"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vlr28d4nr"
+         class="nc-default-node COUNTRY"
+         x="775.84711"
+         y="-103.43228"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vlsgctgf6"
+         class="nc-default-node COUNTRY"
+         x="247.79449"
+         y="119.07309"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vlt27qq8m"
+         class="nc-default-node LANGUAGE"
+         x="131.36375"
+         y="54.523098"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vm7tylxt9"
+         class="nc-default-node COUNTRY"
+         x="501.62012"
+         y="555.16339"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vmvg29jyt"
+         class="nc-default-node COUNTRY"
+         x="789.82123"
+         y="330.2821"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vmwn3fv16"
+         class="nc-default-node COUNTRY"
+         x="542.67529"
+         y="223.10231"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vmxjx3ghb"
+         class="nc-default-node LANGUAGE"
+         x="633.44489"
+         y="184.54845"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vn28gsw5n"
+         class="nc-default-node COUNTRY"
+         x="529.7453"
+         y="197.80595"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vn51yl2k7"
+         class="nc-default-node LANGUAGE"
+         x="612.67719"
+         y="144.32314"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vn95zdctt"
+         class="nc-default-node COUNTRY"
+         x="650.29889"
+         y="-218.36766"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vnp3ngj7y"
+         class="nc-default-node COUNTRY"
+         x="599.72711"
+         y="257.13721"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vnrfy5gh5"
+         class="nc-default-node LANGUAGE"
+         x="692.19501"
+         y="231.56508"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vntsjppq2"
+         class="nc-default-node COUNTRY"
+         x="137.34355"
+         y="206.06721"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vnyf1zt13"
+         class="nc-default-node COUNTRY"
+         x="500.34656"
+         y="257.94672"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vp6t2x6fk"
+         class="nc-default-node COUNTRY"
+         x="377.53406"
+         y="433.20425"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vp90s8knt"
+         class="nc-default-node LANGUAGE"
+         x="351.34875"
+         y="502.51471"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vp90xnljp"
+         class="nc-default-node COUNTRY"
+         x="203.90248"
+         y="271.79068"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vp92dysfl"
+         class="nc-default-node LANGUAGE"
+         x="111.78918"
+         y="209.55876"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vpfxfw9vw"
+         class="nc-default-node COUNTRY"
+         x="429.27658"
+         y="-114.59279"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vpm98k5fz"
+         class="nc-default-node COUNTRY"
+         x="137.77663"
+         y="236.14603"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vpmb2lqjw"
+         class="nc-default-node LANGUAGE"
+         x="110.7887"
+         y="147.67758"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vpmsmbz0g"
+         class="nc-default-node LANGUAGE"
+         x="62.24329"
+         y="264.3255"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vprq4ggmh"
+         class="nc-default-node LANGUAGE"
+         x="56.349419"
+         y="229.62885"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vpwmvnmfb"
+         class="nc-default-node LANGUAGE"
+         x="74.482269"
+         y="280.74893"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vq1g2y92k"
+         class="nc-default-node LANGUAGE"
+         x="56.836678"
+         y="247.11937"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vq3g6f2mq"
+         class="nc-default-node LANGUAGE"
+         x="61.96043"
+         y="211.29366"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vql1zwk6r"
+         class="nc-default-node COUNTRY"
+         x="364.64542"
+         y="686.18372"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vqly2j1cm"
+         class="nc-default-node COUNTRY"
+         x="464.32471"
+         y="147.00197"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vqnrjf1q5"
+         class="nc-default-node LANGUAGE"
+         x="488.84601"
+         y="54.058399"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vqqlx99z4"
+         class="nc-default-node COUNTRY"
+         x="384.01389"
+         y="579.61176"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vqsb71zdv"
+         class="nc-default-node COUNTRY"
+         x="337.50397"
+         y="190.35748"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vqx0sx43l"
+         class="nc-default-node LANGUAGE"
+         x="291.52594"
+         y="118.03316"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vr2y8qjn4"
+         class="nc-default-node COUNTRY"
+         x="758.55267"
+         y="-163.42229"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vrdtk64hr"
+         class="nc-default-node COUNTRY"
+         x="547.66156"
+         y="246.59584"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vrfl2j909"
+         class="nc-default-node LANGUAGE"
+         x="639.79425"
+         y="222.02536"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vrhskcqgx"
+         class="nc-default-node COUNTRY"
+         x="457.09232"
+         y="93.755859"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vrhw863n8"
+         class="nc-default-node LANGUAGE"
+         x="477.29251"
+         y="8.1152859"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vrm3l38fd"
+         class="nc-default-node LANGUAGE"
+         x="457.772"
+         y="1.3957816"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vrnhtr1pf"
+         class="nc-default-node COUNTRY"
+         x="613.19598"
+         y="-104.4453"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vrnq799qz"
+         class="nc-default-node LANGUAGE"
+         x="613.51074"
+         y="-174.45044"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vrv92c8wp"
+         class="nc-default-node COUNTRY"
+         x="395.52213"
+         y="204.53957"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vrw98gdxs"
+         class="nc-default-node COUNTRY"
+         x="356.89609"
+         y="164.89723"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vs1fwk8ww"
+         class="nc-default-node LANGUAGE"
+         x="315.85355"
+         y="81.871582"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vs24v42h7"
+         class="nc-default-node COUNTRY"
+         x="499.3302"
+         y="156.34302"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vs298vhk1"
+         class="nc-default-node LANGUAGE"
+         x="548.26892"
+         y="73.569809"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vs3pghdj6"
+         class="nc-default-node COUNTRY"
+         x="458.38571"
+         y="-30.187344"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vs61936rt"
+         class="nc-default-node LANGUAGE"
+         x="475.98102"
+         y="-106.46427"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vsbnxlm6r"
+         class="nc-default-node LANGUAGE"
+         x="442.50903"
+         y="-105.04186"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vsd2h0pwg"
+         class="nc-default-node COUNTRY"
+         x="579.42786"
+         y="344.72385"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vt6zbkjh5"
+         class="nc-default-node COUNTRY"
+         x="260.25015"
+         y="431.71924"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vtbrzg9rb"
+         class="nc-default-node LANGUAGE"
+         x="229.17157"
+         y="501.49857"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vtdz3bych"
+         class="nc-default-node COUNTRY"
+         x="209.63168"
+         y="541.9043"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vtjjchfrp"
+         class="nc-default-node COUNTRY"
+         x="509.42108"
+         y="568.33887"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vtkfkb2d1"
+         class="nc-default-node COUNTRY"
+         x="553.42419"
+         y="12.193947"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vtkl089yp"
+         class="nc-default-node COUNTRY"
+         x="498.69781"
+         y="288.40125"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vtrsdpdq2"
+         class="nc-default-node COUNTRY"
+         x="357.04086"
+         y="248.08237"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vts8djzxc"
+         class="nc-default-node COUNTRY"
+         x="567.36267"
+         y="449.29398"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vtxhn0y2b"
+         class="nc-default-node COUNTRY"
+         x="63.448563"
+         y="533.08978"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vv4n6k9kc"
+         class="nc-default-node COUNTRY"
+         x="210.27371"
+         y="487.63824"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vv75q9b8s"
+         class="nc-default-node COUNTRY"
+         x="809.70624"
+         y="437.43597"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vvfspsnwx"
+         class="nc-default-node COUNTRY"
+         x="220.96898"
+         y="145.48662"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vvgthqtf0"
+         class="nc-default-node LANGUAGE"
+         x="210.94327"
+         y="47.108952"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vvk5vwgy0"
+         class="nc-default-node COUNTRY"
+         x="523.65631"
+         y="466.07864"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vvldm64ks"
+         class="nc-default-node COUNTRY"
+         x="389.75241"
+         y="420.86685"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vvn3hjryb"
+         class="nc-default-node LANGUAGE"
+         x="331.21213"
+         y="471.69098"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vvxkr42r8"
+         class="nc-default-node COUNTRY"
+         x="430.71756"
+         y="337.27502"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vvy5dskqy"
+         class="nc-default-node COUNTRY"
+         x="288.26849"
+         y="630.31586"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vvz7fqrbn"
+         class="nc-default-node COUNTRY"
+         x="514.76031"
+         y="653.59583"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vw12dgs30"
+         class="nc-default-node COUNTRY"
+         x="533.80902"
+         y="-204.86729"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vw7zq0btz"
+         class="nc-default-node COUNTRY"
+         x="403.06146"
+         y="98.156265"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vw9psj3kp"
+         class="nc-default-node LANGUAGE"
+         x="394.73349"
+         y="2.2012596"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vwjq5vf6t"
+         class="nc-default-node COUNTRY"
+         x="434.01337"
+         y="147.17516"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vwl76hrqk"
+         class="nc-default-node LANGUAGE"
+         x="438.66"
+         y="51.297802"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vwl8gr3q1"
+         class="nc-default-node COUNTRY"
+         x="494.63617"
+         y="234.16483"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vwny37vtv"
+         class="nc-default-node COUNTRY"
+         x="388.82709"
+         y="160.22394"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vwqndcpbg"
+         class="nc-default-node LANGUAGE"
+         x="363.69183"
+         y="71.915382"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vwtmc9plm"
+         class="nc-default-node COUNTRY"
+         x="175.75276"
+         y="364.71359"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vwtpw6h6v"
+         class="nc-default-node COUNTRY"
+         x="207.06046"
+         y="402.94543"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vwz5qglxp"
+         class="nc-default-node COUNTRY"
+         x="411.69278"
+         y="337.17432"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vx3b60yf4"
+         class="nc-default-node COUNTRY"
+         x="634.43298"
+         y="352.90747"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vxl5tcygs"
+         class="nc-default-node COUNTRY"
+         x="367.26071"
+         y="309.11292"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vxlnh80q1"
+         class="nc-default-node COUNTRY"
+         x="839.24933"
+         y="381.79987"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vxpqc4n6g"
+         class="nc-default-node COUNTRY"
+         x="352.16922"
+         y="297.90839"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vxpxpycgn"
+         class="nc-default-node COUNTRY"
+         x="469.94693"
+         y="213.50209"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vxxxhbvxf"
+         class="nc-default-node COUNTRY"
+         x="421.5614"
+         y="426.42596"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vy1f3k5ts"
+         class="nc-default-node LANGUAGE"
+         x="445.65326"
+         y="501.89972"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vyc2jgt70"
+         class="nc-default-node COUNTRY"
+         x="402.71954"
+         y="136.9617"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vyk21l6v8"
+         class="nc-default-node COUNTRY"
+         x="163.14706"
+         y="85.170174"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vyq005vdw"
+         class="nc-default-node LANGUAGE"
+         x="168.62256"
+         y="4.146596"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vyrtxbprb"
+         class="nc-default-node LANGUAGE"
+         x="127.51521"
+         y="10.078547"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vyv6yd1tq"
+         class="nc-default-node LANGUAGE"
+         x="96.014854"
+         y="45.780174"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vyztf0flc"
+         class="nc-default-node LANGUAGE"
+         x="82.304581"
+         y="62.045967"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vz0x9lxc7"
+         class="nc-default-node LANGUAGE"
+         x="78.790154"
+         y="40.61095"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vz57y4whb"
+         class="nc-default-node LANGUAGE"
+         x="147.28558"
+         y="3.0153086"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vz8jl6bwy"
+         class="nc-default-node COUNTRY"
+         x="141.01865"
+         y="298.10223"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vzgj4jzr2"
+         class="nc-default-node COUNTRY"
+         x="78.595604"
+         y="132.02037"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vzh5kfk73"
+         class="nc-default-node LANGUAGE"
+         x="39.495071"
+         y="54.338173"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vzhnpqbhn"
+         class="nc-default-node LANGUAGE"
+         x="5.0711541"
+         y="113.27916"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vzjlh8xz0"
+         class="nc-default-node LANGUAGE"
+         x="34.994083"
+         y="69.069336"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vzjv29c5l"
+         class="nc-default-node LANGUAGE"
+         x="8.2536335"
+         y="151.55081"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vzl0qcmcr"
+         class="nc-default-node LANGUAGE"
+         x="1.2647963"
+         y="130.93301"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vzp5yg0m6"
+         class="nc-default-node LANGUAGE"
+         x="28.267168"
+         y="90.5158"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vzwdqmz01"
+         class="nc-default-node LANGUAGE"
+         x="7.6027889"
+         y="97.769524"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="Vzz6fl3g4"
+         class="nc-default-node LANGUAGE"
+         x="17.752943"
+         y="76.208549"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480" />
+    </g>
+    <text
+       class="tooltip"
+       id="nc-svg-tooltip"
+       x="649.38531"
+       y="222.41537"
+       style="font-size:259.13391113%;text-anchor:start;display:none">nau</text>
+    <g
+       class="nodetext"
+       cursor="default"
+       id="g690" />
+  </g>
+  <text
+     style="font-size:11.98393917px;text-anchor:start;display:none"
+     y="-172.62566"
+     x="425.8363"
+     id="nc-svg-tooltip-1"
+     class="tooltip"
+     transform="matrix(0.8159482,0.57812502,-0.57812502,0.8159482,0,0)">nau</text>
+  <g
+     id="g690-5"
+     cursor="default"
+     class="nodetext"
+     transform="matrix(0.31458335,0.22289222,-0.22289222,0.31458335,292.54845,-109.37808)" />
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+     x="571.75592"
+     y="2.4262533"
+     id="text7097"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan7099"
+       x="573.69733"
+       y="2.4262533"
+       style="font-size:14px;fill:#ffffff;fill-opacity:1">Build a custom </tspan><tspan
+       sodipodi:role="line"
+       x="571.75592"
+       y="19.926254"
+       style="font-size:14px;fill:#ffffff;fill-opacity:1"
+       id="tspan11547">network</tspan></text>
+  <path
+     style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 520.56206,89.501194 14.29024,-16.67199 -7.54804,0 0,-21.4041 -13.51128,0 0,21.4041 -7.54803,0 14.31711,16.67198 z"
+     id="rect7136-2"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 639.05973,190.76481 -16.70632,-14.28954 -1e-5,7.54768 -21.44816,0 10e-6,13.51058 21.44816,0 -1e-5,7.54768 16.70632,-14.3164 z"
+     id="rect7136-2-7"
+     inkscape:connector-curvature="0" />
+  <text
+     style="font-size:11.9843626px;text-anchor:start;display:none"
+     y="160.93704"
+     x="1188.9132"
+     id="nc-svg-tooltip-3"
+     class="tooltip"
+     transform="matrix(0.87249141,0.48862945,-0.48862945,0.87249141,0,0)">nau</text>
+  <g
+     id="g690-6"
+     cursor="default"
+     class="nodetext"
+     transform="matrix(0.3363832,0.1883878,-0.1883878,0.3363832,782.13605,524.2012)" />
+  <g
+     id="g11648"
+     transform="translate(-74.012281,-53.198094)"
+     inkscape:export-filename="/scripts/NetworkCurator.github.io/misc/nc-g1.png"
+     inkscape:export-xdpi="92.250221"
+     inkscape:export-ydpi="92.250221">
+    <g
+       transform="matrix(2.6,0,0,2.6,-620.67946,-2201.7918)"
+       id="g11401">
+      <line
+         class="nc-default-link LANG"
+         id="L91v2nyc6-4-4"
+         x1="295.47043"
+         y1="909.91779"
+         x2="296.52249"
+         y2="893.0871"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:1.54217315" />
+      <line
+         class="nc-default-link LANG"
+         id="Lsbydkk7q-9-5"
+         x1="327.43369"
+         y1="886.41437"
+         x2="296.52249"
+         y2="893.0871"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:1.54217315" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V2386k3rp-1-1"
+         class="nc-default-node LANGUAGE"
+         x="148.13602"
+         y="596.18103"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480"
+         transform="matrix(0.3363832,0.1883878,-0.1883878,0.3363832,359.00527,664.63482)" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vb05p1mqm-9-2"
+         class="nc-default-node COUNTRY"
+         x="167.08601"
+         y="635.6026"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480"
+         transform="matrix(0.3363832,0.1883878,-0.1883878,0.3363832,359.00527,664.63482)" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vtdz3bych-6-9"
+         class="nc-default-node COUNTRY"
+         x="209.63168"
+         y="541.9043"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480"
+         transform="matrix(0.3363832,0.1883878,-0.1883878,0.3363832,359.00527,664.63482)" />
+    </g>
+  </g>
+  <path
+     style="fill:#aaaaaa;fill-opacity:1;stroke:#555555;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:5.72000044"
+     d="m 959.6219,79.754974 c 6.9729,-4.16532 105.4605,-4.45809 111.3432,0 5.8826,4.4581 4.3385,50.959466 0,55.490406 -4.3385,4.53088 -105.7715,6.07096 -111.3432,0 -5.5718,-6.071 -6.973,-51.325056 0,-55.490406 z"
+     id="rect11408-8"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="zzzzz" />
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+     x="1015.0526"
+     y="95.087234"
+     id="text7097-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="1015.0526"
+       y="95.087234"
+       style="font-size:14px;fill:#ffffff;fill-opacity:1"
+       id="tspan3727">Collaborate with</tspan><tspan
+       sodipodi:role="line"
+       x="1015.0526"
+       y="112.58723"
+       style="font-size:14px;fill:#ffffff;fill-opacity:1"
+       id="tspan3738">team members to</tspan><tspan
+       sodipodi:role="line"
+       x="1015.0526"
+       y="130.08723"
+       style="font-size:14px;fill:#ffffff;fill-opacity:1"
+       id="tspan3736">expand the graph</tspan></text>
+  <g
+     id="g3703"
+     transform="translate(72.386154,6.0221747e-4)">
+    <g
+       inkscape:export-ydpi="92.250221"
+       inkscape:export-xdpi="92.250221"
+       inkscape:export-filename="/scripts/NetworkCurator.github.io/misc/nc-g2.png"
+       transform="matrix(2.6,0,0,2.6,-692.77659,-2263.0467)"
+       id="g11346">
+      <line
+         class="nc-default-link BORDER"
+         id="L90g7qwqj-2"
+         x1="357.06097"
+         y1="913.01636"
+         x2="389.02423"
+         y2="889.51294"
+         style="opacity:0.3;stroke:#222222;stroke-width:1.54217315" />
+      <line
+         class="nc-default-link LANG"
+         id="L91v2nyc6-4"
+         x1="357.06097"
+         y1="913.01636"
+         x2="358.11304"
+         y2="896.18567"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:1.54217315" />
+      <line
+         class="nc-default-link BORDER"
+         id="Ls6w5dtxn-6"
+         x1="389.02423"
+         y1="889.51294"
+         x2="357.06097"
+         y2="913.01636"
+         style="opacity:0.3;stroke:#222222;stroke-width:1.54217315" />
+      <line
+         class="nc-default-link LANG"
+         id="Lsbydkk7q-9"
+         x1="389.02423"
+         y1="889.51294"
+         x2="358.11304"
+         y2="896.18567"
+         style="opacity:0.3;stroke:#ad6391;stroke-width:1.54217315" />
+      <use
+         xlink:href="#LANGUAGE"
+         id="V2386k3rp-1"
+         class="nc-default-node LANGUAGE"
+         x="148.13602"
+         y="596.18103"
+         style="fill:#9d6381;stroke:#222222;stroke-width:0.60000002"
+         width="812"
+         height="480"
+         transform="matrix(0.3363832,0.1883878,-0.1883878,0.3363832,420.59581,667.73336)" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vb05p1mqm-9"
+         class="nc-default-node COUNTRY"
+         x="167.08601"
+         y="635.6026"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480"
+         transform="matrix(0.3363832,0.1883878,-0.1883878,0.3363832,420.59581,667.73336)" />
+      <use
+         xlink:href="#COUNTRY"
+         id="Vtdz3bych-6"
+         class="nc-default-node COUNTRY"
+         x="209.63168"
+         y="541.9043"
+         style="fill:#f2f2f2;stroke:#222222;stroke-width:1.10000002"
+         width="812"
+         height="480"
+         transform="matrix(0.3363832,0.1883878,-0.1883878,0.3363832,420.59581,667.73336)" />
+    </g>
+    <path
+       inkscape:export-ydpi="92.250221"
+       inkscape:export-xdpi="92.250221"
+       inkscape:export-filename="/scripts/NetworkCurator.github.io/misc/nc-g2.png"
+       sodipodi:nodetypes="zzzssszz"
+       inkscape:connector-curvature="0"
+       id="rect11408-7"
+       d="m 294.81334,8.7443122 c -4.07076,-2.57611 -61.56709,-2.75717 -65.00133,0 -3.43424,2.7571798 -0.92997,33.2900398 0,34.3189298 0.92996,1.0289 8.11129,1.80843 18.74874,2.19713 1.03336,0.0378 -10.59365,19.78889 -9.52642,19.81915 1.14579,0.0325 18.98544,-19.6565 20.15805,-19.63298 17.11333,0.34325 33.8031,-0.28493 35.62096,-2.3833 1.81785,-2.09836 4.07075,-31.74282 0,-34.3189298 z"
+       style="fill:#dddddd;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:5.72000044" />
+    <path
+       inkscape:export-ydpi="92.250221"
+       inkscape:export-xdpi="92.250221"
+       inkscape:export-filename="/scripts/NetworkCurator.github.io/misc/nc-g2.png"
+       sodipodi:nodetypes="zzzssszz"
+       inkscape:connector-curvature="0"
+       id="rect11408-7-3"
+       d="m 333.13687,142.98513 c -4.07076,2.57611 -61.5671,2.75717 -65.00134,0 -3.43424,-2.75718 -0.92997,-33.29004 0,-34.31893 0.92996,-1.0289 3.07105,-1.98223 13.7085,-2.37093 1.03336,-0.0378 -14.24348,-19.267488 -13.17625,-19.297748 1.14579,-0.0325 22.11387,18.961298 23.28648,18.937778 17.11334,-0.34325 39.36475,0.63253 41.18261,2.7309 1.81785,2.09836 4.07075,31.74282 0,34.31893 z"
+       style="fill:#dddddd;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:5.72000044" />
+    <g
+       inkscape:export-ydpi="92.250221"
+       inkscape:export-xdpi="92.250221"
+       inkscape:export-filename="/scripts/NetworkCurator.github.io/misc/nc-g2.png"
+       transform="translate(220.73126,-152.90565)"
+       style="stroke:#555555;stroke-opacity:1"
+       id="g4516">
+      <path
+         style="fill:none;stroke:#555555;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 55.000769,270.66562 50.156821,0"
+         id="path4465"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#555555;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 55.000769,278.93891 50.156821,0"
+         id="path4465-3"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#555555;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 54.893167,287.2122 30.891859,0"
+         id="path4465-6"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       inkscape:export-ydpi="92.250221"
+       inkscape:export-xdpi="92.250221"
+       inkscape:export-filename="/scripts/NetworkCurator.github.io/misc/nc-g2.png"
+       transform="translate(220.73126,-152.90565)"
+       style="stroke:#555555;stroke-opacity:1"
+       id="g4521">
+      <path
+         style="fill:none;stroke:#555555;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 16.858925,170.35197 50.156821,0"
+         id="path4465-7"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#555555;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 16.858925,178.62526 50.156821,0"
+         id="path4465-3-5"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#555555;stroke-width:2.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 16.751323,186.89855 30.891859,0"
+         id="path4465-6-3"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
