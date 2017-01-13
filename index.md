@@ -36,4 +36,4 @@ through graph structures in a collaborative manner.
   </div>
 </div>
 
-Whether you want to learn how to use the app or how it works under the hood, this documentation covers a wide range of topics. Don't miss the [examples](user/examples.html) of NetworkCurator networks.
+Whether you want to learn [how to use](user/index.html) the app or [how it works](developer/index.html) under the hood, this documentation covers a wide range of topics. Don't miss the [examples](user/examples.html) of NetworkCurator networks.

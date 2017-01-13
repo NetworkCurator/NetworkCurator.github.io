@@ -5,7 +5,7 @@ title: Overview
 
 # User's guide
 
-NetworkCurator is web software that works along the lines of a [Wordpress blog](https://wordpress.org/). One person installs the software on a web server. Many other people can then view the resulting website.
+NetworkCurator works along the lines of a [Wordpress blog](https://wordpress.org/). One person installs the software on a web server. Many other people can then view the resulting website.
 
 The NetworkCurator couples a blog-like content management system with graph visualization tools. The site can manage a community of users who create, annotate, and curate network data collaboratively.
 

@@ -5,15 +5,16 @@ title: Data input
 
 # Data import
 
-Whereas the web interface provides tools for creating and editing individual graph objects, it is sometimes useful to make several changes at once. These actions can be performed through data imports. 
+The web interface provides tools for creating and editing individual graph objects, 
+but it is sometimes useful to make several changes at once. These actions can be performed through data imports. 
 
-On the navigation bar, select the 'Data' tab and look for the 'import data' section. 
+On the navigation bar, select the 'Data' tab. Then look for the 'import data' section. 
 
 ![Data import](img/import.jpg)
 
-Select a data file on your local computer, write in a short description for the upload, and click Submit. After a brief moment, you will see a summary of the changes performed or some error messages.
+You can use this form to select a data file on your computer, write in a short description for the upload, and send the data to the server. 
 
-You will have to prepare a network definition file in JSON format. The rest of this section explains the required format and describes some tools to help prepare such files. 
+To make this work, you will have to prepare a network definition file in JSON format. The rest of this section explains the required format and describes some tools to help prepare such files. 
 
 - [Network definition file format](#netjson)
 - [Preparing network definitions with R](#netr)
