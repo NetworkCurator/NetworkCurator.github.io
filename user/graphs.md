@@ -27,9 +27,17 @@ The graph toolbar at the top of the graph page provides access to several annota
 
 ![Toolbar on graph page](img/graph_toolbar.jpg)
 
+ - <a href="#edit">Select, New node, New link buttons</a>
+ - <a href="#view">View button</a>
+ - <a href="#settings">Settings button</a>
+ - <a href="#save">Save button</a>
+ - <a href="#search">Search box</a>
 
 
-### Editing 
+
+<a name="edit"></a>
+
+### Select, New node, New link buttons
 
 The first three buttons are dedicated to graph editing. 
 
@@ -40,44 +48,51 @@ The first three buttons are dedicated to graph editing.
 - The 'New link' button works in a similar fashion, but reveals a summary from the [link ontology](ontologies.html). To create a new (temporary) link within the network, mouse-down on a source node, drag toward the target node, and release. 
 
 {:.p-note}
-Note that new nodes and links appear with a dotted border and are only temporary. To commit a new object into the database, select the new node or link, edit the new node/link form, and press 'Create'. You need to have [editing permissions](permissions.html) to perform this action. 
+New nodes and links appear with a dotted border and are only temporary. 
+To commit a new object into the database, select the new node or link, edit the 
+new node/link form, and press 'Create'. You need 
+[editing permissions](permissions.html) to perform this action. 
 
 {:.p-warning}
-If you have editing or curating permissions, you can remove network objects as well as add them. Removed components are marked as inactive or deprecated; they are not actually deleted permanently. To 'undo' a remove action, display all inactive objects using the graph settings, click on the network component, and press 'Activate'.
+If you have editing or curating permissions, you can remove network objects from the graph. 
+Removed components are marked as inactive or deprecated; they are not actually deleted permanently. To 'undo' a remove action, display all inactive objects using the graph settings, click on the network component, and press 'Activate'.
 
 
 
-### View options
+<a name="view"></a>
+
+### View button
 
 The 'View' button displays a dropdown panel with several checkboxes associated with the node and link ontology classes.
 
 ![Graph toolbar view dropdown](img/graph_view.jpg)
 
-Uncheck the 'visible' boxes to hide some of the network components in the visualization. Focusing attention on a smaller subnetwork can help bring out distinct patterns in a sub-network. 
+ - Uncheck the 'visible' boxes to hide some of the network components in the visualization. Focusing attention on a smaller subnetwork can help bring out distinct patterns in a sub-network. 
+
+ - Check boxes in the 'Names' column to display text labels next to graph nodes.
 
 
 
-### Display settings
+<a name="settings"></a>
 
-The 'Settings' button displays another dropdown panel with graph visualization settings. Many of the preset values are arbitary and you can experiment to suit your needs.
+### Settings button
+
+The 'Settings' button displays a dropdown panel with graph visualization options. 
+Many of the preset values are arbitrary; experiment with other values to suit your needs.
 
 ![Graph toolbar view dropdown](img/graph_settings.jpg)
 
 {:.p-note}
 Toggling 'Inactive objects' reveals network objects that have been stored in the database, but later marked as inactive or deprecated. Use this option to track these old objects and change their status.
 
+{:.p-note}
+Settings under the 'Traversal' are coupled with the search box capabilities (see description below)
 
 
-### Local neighborhood views
 
-Local neighborhood views are useful to focus attention on a small sub-part of a larger network. They can also be used as a starting point for enrichment [analysis](analyses.html). 
+<a name="save"></a>
 
-To activate a local neighborhood view, double click on a node of interest. The node will become highlighted and its name will appear as a tag under the toolbar. The network visualization will reset to display only the graph neighborhood around the target.
-
-You can adjust the scope of the local neighborhood by adding or removing seed nodes. To do this, double-click nodes within the network visualization. Alternatively, use the search box to identify nodes.
-
-
-### Saving 
+### Save button
 
 The 'Save' button on the graph toolbar provides options to record the current visualization. 
 
@@ -89,4 +104,21 @@ The 'Save' button on the graph toolbar provides options to record the current vi
 For more options for saving network data, see the documentation on [data exports](dataexport.html).
 
 
+<a name="search"></a>
+
+### Search box
+
+Below the graph toolbar is a box labeled 'Search'. Type a node node name into the 
+search box and press 'Enter' or 'space'. The name will appear as a tag. The graph 
+will rearrange to display the desired node (outlined for emphasis) together with a small
+neighborhood.
+
+The search box can be used to highlight more than one node.
+
+{:.p-note}
+You can adjust the size of the neighborhood displayed around selected nodes via
+the graph settings under 'Neighborhood distance'.
+
+{:.p-note}
+Double clicking a node within the graph automatically adds that node into the search box.
 
