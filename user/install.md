@@ -162,22 +162,27 @@ This should open a blank area where you can type some text. Enter the following 
 
 ``` 
 <?php
+// settings for DB access
 define("DB_ROOT_PASSWD", "nc_admin0_password");
 define("DB_ADMIN_PASSWD", "nc_admin1_password");
+// settings for site administration
 define("NC_APP_ID", "sitename");
 define("SERVER", "sitename.org");
+define("NC_SITE_ADMIN_PASSWORD", "adminpassword");
+// settings for site web presence
 define("NC_PATH", "");
 define("NC_SITE_NAME", "sitename");
-define("NC_SITE_ADMIN_PASSWORD", "adminpassword");
+define("NC_SITE_URL", "https://www.sitename.org");
+define("NC_SITE_DOMAIN", "sitename.org");
 ?>
 ```
 
-Each line consists of a `define` statment, a name in uppercase letters, and a value in quotes. Adjust the values in quotes to suit your local installation. 
+The important lines are those that consist of a `define` statment, a name in uppercase letters, and a value in quotes. Adjust the values in quotes to suit your local installation. 
   
  - Make sure the two passwords at the top match what you used during database setup for users `nc_admin0` and `nc_admin1`, respectively.
  - Change `sitename` and `sitename.org` placeholders to your own site names
  - If your installation directory is `public_html`, you can leave the `NC_PATH` as is; if your installation directory is a subdirectory, adjust `NC_PATH` accordingly
- - Choose an adequate password for the site admin user 
+ - Choose an adequate password for the site admin user in the field for `NC_SITE_ADMIN_PASSWORD`
 
 After adjustements, save the file and exit (`Ctrl-X`, then `Y`, then `Enter`).
 

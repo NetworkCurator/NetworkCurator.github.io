@@ -16,7 +16,7 @@ The main code is located in github repository [NetworkCurator](https://github.co
     <td>Implements an [application programming interface](api.html) that provides access to the MySQL database.</td>
 </tr>
 <tr><td><code>nc-admin</code></td>
-    <td>Holds files and scripts relevant for server-side administration. Scripts in this folder is required for installation. Post installation, it holds some site configuration definitions that are used throughout the server-side code base.</td>
+    <td>Holds files and scripts relevant for server-side administration, e.g. installation. Post installation, the directory holds site configuration definitions that are used throughout the server-side code base.</td>
 </tr>
 <tr><td><code>nc-data</code></td>
     <td>Holds user-generated files from a local site. The directory is divided into subdirectories for `networks` and `users`. The first stores network-specific data files such as uploaded json network definitions. The latter stores user-specific data such as identicon images.</td>
