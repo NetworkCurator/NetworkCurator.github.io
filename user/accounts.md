@@ -11,4 +11,5 @@ To update personal details and change passwords for an existing account, log in 
 
 ![User account page](img/accounts.jpg)
 
-Once on the accounts page, use the form to change personal details. 
+Once on the accounts page, use the form to update the relevant fields.
+

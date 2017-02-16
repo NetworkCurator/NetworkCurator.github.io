@@ -5,7 +5,7 @@ title: Permissions
 
 # Permissions
 
-Permission configurations determine the extent to which individual users can interact with any particular network. The software supports several levels of interaction.
+Permission configurations determine the extent to which individual users can interact with any particular network. 
 
 <table class="table">
 <tr><th>Permission level</th><th>Browse</th><th>Comment</th><th>Create content<sup>2</sup></th><th>Adjust content<sup>3</sup></th><th>Manage network<sup>4</sup></th></tr>
@@ -24,6 +24,7 @@ Permission configurations determine the extent to which individual users can int
 <sup>4</sup> 'Manage network' includes abilities to adjust the network ontology and user permissions.
 
 
+
 ## New networks
 
 By default, new networks are private. Neither the guest user (anonymous visitor) or any of the registered users have 'View' permissions. New networks are only visible to the `admin` user. 
@@ -31,7 +32,7 @@ By default, new networks are private. Neither the guest user (anonymous visitor)
 
 ## Managing permissions
 
-Permission levels can be set individually for each network and for each user through the 'Permissions' page available through a tab in the navigation bar. The tab is only visible to the `admin` user and to users with curation permissions.
+Permission levels can be set for each network and for each user through the 'Permissions' page. This page is available through a tab in the navigation bar. The tab is only visible to the `admin` user and to users with curation permissions.
 
 On the permissions page, a form at the bottom provides a means to grant 'View' access to individual users. Once this permissions are granted to the user, a widget for that user should appear on the page.
 

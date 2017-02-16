@@ -5,12 +5,7 @@ title: Ontologies
 
 # Ontologies
 
-The graph ontology determines the types of the nodes and links that can be represented in a given network. The ontology page is editable by users with [curator privileges](permissions.html) and  provides tools to adjust the hierarchy of the ontology classes and their visual appearance on the graph page.
-
- - [Ontology class structure](#browsing) 
- - [Managing an ontology](#managing) 
- - [Styling ontology classes](#styling) 
-
+Graph ontologies determine the types of the nodes and links that can be represented in a given network. The ontology for a network is accessible via a tab on the toolbar.
 
 
 <a name="browsing"></a>
@@ -95,9 +90,7 @@ use.NODE_X {
  - The ontology class name **must** appear in `id` for the shape as well as the class for `use` elements. 
 
 {:.p-note}
-It is also possible to write style rules directly inside the shape definitions. 
-This can be useful for compound shape, but note that it can cause problems during 
-selections on the graph page. 
+It is also possible to write style rules directly inside the shape definitions. This can be useful for compound shape, but note that it can cause problems during selections on the graph page. 
 
 
 ### Styling links
